@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Telefonhalter 60°</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #F4F6F8; --surface: #FFFFFF; --paper: #FCFCFA;
+    --ink: #1B2430; --muted: #6B7684; --line: #CBD3DC; --grid: #E6EAEF;
+    --accent: #E4762A; --accent-tint: #FBE9DC;
+    --hw: #3F6E9E; --hw-tint: #DFE9F3;
+    --warn: #B4861B; --warn-tint: #F7EDD2;
+    --display: "Barlow Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+    --draw: "Barlow", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+    --body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    --mono: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #12171E; --surface: #1B222B; --paper: #1E262F;
+      --ink: #E7ECF2; --muted: #9AA6B4; --line: #2E3946; --grid: #222B35;
+      --accent: #F08A45; --accent-tint: #3A2617;
+      --hw: #6FA3D6; --hw-tint: #1A2B3C;
+      --warn: #D9A93A; --warn-tint: #3A2F14;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #12171E; --surface: #1B222B; --paper: #1E262F;
+    --ink: #E7ECF2; --muted: #9AA6B4; --line: #2E3946; --grid: #222B35;
+    --accent: #F08A45; --accent-tint: #3A2617;
+    --hw: #6FA3D6; --hw-tint: #1A2B3C;
+    --warn: #D9A93A; --warn-tint: #3A2F14;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5; }
+  main { max-width: 1440px; margin: 0 auto; padding: 28px 24px 56px; }
+  header { display: grid; grid-template-columns: 1fr auto; gap: 16px 32px; align-items: end; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+  .eyebrow { font-family: var(--display); font-weight: 600; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  h1 { font-family: var(--display); font-weight: 700; font-size: 44px; line-height: 1; margin: 6px 0 8px; text-wrap: balance; }
+  header p { margin: 0; max-width: 66ch; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { font-family: var(--mono); font-size: 12px; padding: 4px 9px; border: 1px solid var(--line); border-radius: 3px; color: var(--ink); background: var(--surface); }
+  .chip.status { border-color: var(--warn); background: var(--warn-tint); }
+  .keys { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0; margin: 0; padding: 0; border-bottom: 1px solid var(--line); }
+  .keys div { padding: 14px 16px 14px 0; border-right: 1px solid var(--line); margin-right: 16px; }
+  .keys div:last-child { border-right: 0; }
+  .keys dt { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-family: var(--display); font-weight: 600; }
+  .keys dd { margin: 2px 0 0; font-family: var(--mono); font-size: 20px; font-variant-numeric: tabular-nums; }
+  .keys dd small { font-size: 12px; color: var(--muted); font-family: var(--body); margin-left: 6px; }
+  .sheet { margin: 22px 0 8px; background: var(--surface); border: 1px solid var(--line); overflow-x: auto; box-shadow: 0 1px 0 var(--grid), 0 12px 32px -20px rgba(0,0,0,.35); }
+  .sheet svg { display: block; width: 100%; min-width: 900px; height: auto; }
+  .sheetnote { font-size: 13px; color: var(--muted); margin: 0 0 30px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .sheetnote code { font-family: var(--mono); font-size: 12px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px 40px; }
+  h2 { font-family: var(--display); font-weight: 600; font-size: 22px; margin: 0 0 8px; letter-spacing: .01em; }
+  section p, section li { max-width: 68ch; }
+  ul { margin: 0; padding-left: 18px; } li { margin: 4px 0; }
+  li b { font-weight: 500; }
+  .flag { border-left: 3px solid var(--warn); padding-left: 12px; }
+  .files { list-style: none; padding: 0; }
+  .files li { display: grid; grid-template-columns: 200px 1fr; gap: 12px; padding: 6px 0; border-bottom: 1px solid var(--grid); }
+  .files code { font-family: var(--mono); font-size: 13px; }
+  pre { background: var(--surface); border: 1px solid var(--line); padding: 10px 12px; overflow-x: auto; font-family: var(--mono); font-size: 12.5px; line-height: 1.5; margin: 8px 0; }
+  a { color: var(--hw); text-underline-offset: 2px; } a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  /* ---- Zeichnungsklassen (gleiche Namen wie im eigenständigen SVG) ---- */
+  .paper{fill:var(--paper)}
+  .frame{fill:none;stroke:var(--ink);stroke-width:.7}
+  .v{fill:none;stroke:var(--ink);stroke-width:.5;stroke-linejoin:round;stroke-linecap:round}
+  .t{fill:none;stroke:var(--ink);stroke-width:.25;stroke-linecap:round}
+  .h{fill:none;stroke:var(--ink);stroke-width:.25;stroke-dasharray:2 1}
+  .c{fill:none;stroke:var(--ink);stroke-width:.25;stroke-dasharray:6 1 1 1}
+  .cut{fill:none;stroke:var(--ink);stroke-width:.5;stroke-dasharray:8 1.5 1.5 1.5}
+  .tb{fill:none;stroke:var(--ink);stroke-width:.5}
+  .sec{stroke:var(--ink);stroke-width:.5;stroke-linejoin:round}
+  .hl{stroke:var(--ink);stroke-width:.2;opacity:.75}
+  .hl2{stroke:var(--muted);stroke-width:.15}
+  .fm{fill:none;stroke:var(--muted);stroke-width:.3}
+  .ph{fill:none;stroke:var(--hw);stroke-width:.35}
+  .phs{fill:var(--hw);fill-opacity:.14;stroke:var(--hw);stroke-width:.35}
+  .ph2{fill:none;stroke:var(--hw);stroke-width:.25;stroke-dasharray:3 1 .8 1;opacity:.75}
+  .strap{stroke:var(--hw);stroke-width:.9;stroke-dasharray:2 1.2;opacity:.8;stroke-linejoin:round}
+  .ax{fill:none;stroke:var(--accent);stroke-width:.5;stroke-dasharray:6 1.2 1.2 1.2 1.2 1.2}
+  .arx{fill:var(--accent);stroke:none}
+  .fov{fill:none;stroke:var(--accent);stroke-width:.25;stroke-dasharray:4 1 1 1 1 1;opacity:.85}
+  .ar{fill:var(--ink);stroke:none}
+  .dot{fill:var(--ink);stroke:none}
+  .sheet text{font-family:var(--draw);fill:var(--ink)}
+  .tx{fill:var(--ink)} .vt{fill:var(--ink);letter-spacing:.02em} .mut{fill:var(--muted)} .axt{fill:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <div class="eyebrow">Rebounder v3 · Hardware · Zeichnung RB3-HW-003</div>
+      <h1>Telefonhalter 60°</h1>
+      <p>Neigungshalter für das Smartphone auf dem KF10 MAX. Die Rückkamera schaut mit {{TILT}}° Elevation feldeinwärts, wie es die Simulation für den Ackermann-MVP verlangt. Starrer Keil, EVA-gedämpft, Telefon werkzeuglos entnehmbar; Anbindung ans Auto über eine Adapterplatte auf den Karosserie-Posts.</p>
+    </div>
+    <div class="chips">
+      <span class="chip status">Konzept · Rev B · nicht freigegeben</span>
+      <span class="chip">FreeCAD 1.1 · STL druckbereit</span>
+      <span class="chip">A3 quer · 1:1 · Methode 1</span>
+      <span class="chip">{{DATE}}</span>
+    </div>
+  </header>
+
+  <dl class="keys">
+    <div><dt>Kamera-Elevation</dt><dd>{{TILT}}°<small>Sim-Parameter tilt</small></dd></div>
+    <div><dt>Rampe zur Basis</dt><dd>{{ALPHA}}°<small>= 90° − tilt</small></dd></div>
+    <div><dt>Grundfläche</dt><dd>{{BASEX}} × {{BASEY}}<small>mm, Höhe {{RZ}}</small></dd></div>
+    <div><dt>Objektiv über Basis</dt><dd>≈ {{CAMH}}<small>mm, Beispielgerät</small></dd></div>
+    <div><dt>Telefon-Oberkante</dt><dd>≈ {{PHTOP}}<small>mm über Basis</small></dd></div>
+  </dl>
+
+  <div class="sheet">{{SVG}}</div>
+  <p class="sheetnote">
+    <span>Blatt erzeugt aus <code>drawing.py</code>; dieselben Parameter stehen in <code>halter-60.scad</code>. Druckversion: <code>halter-60.pdf</code> (A3, 1:1).</span>
+    <span>Blau = Fremdteile (Telefon, Strap), Orange = optische Achse und Sichtkegel, Strichpunkt = Mittel- und Schnittlinien.</span>
+  </p>
+
+  <div class="grid">
+    <section>
+      <h2>Was das Blatt festlegt</h2>
+      <ul>
+        <li><b>Lage des Telefons:</b> Display auf der 5-mm-EVA-Auflage, Rückseite mit Kamera nach vorn-oben. Lange Seite quer zum Fahrzeug, Kameramodul auf der Fahrzeug-linken Seite (+X).</li>
+        <li><b>Winkel:</b> Rampe {{ALPHA}}° zur Basis ergibt die geforderte Kamera-Elevation von {{TILT}}°. Der Sichtkegel (vFOV 53°) reicht von {{FOVLO}}° bis {{FOVHI}}° Elevation; darunter liegen nur Deck und Lippe, beides außerhalb des Bildes.</li>
+        <li><b>Halten:</b> Lippe 15 mm senkrecht zur Rampe fängt das Telefon unten, zwei Klett-Straps über die Rückseite halten es gegen Abheben und gegen das Hochrutschen beim Beschleunigen, Anschlagklötze auf einer M3-Lochreihe nehmen die Querkräfte. Strap-Enden durch die Schlitze fädeln und auf sich selbst zurückkletten, ein Durchlauf unter der Basis ist nicht nötig.</li>
+        <li><b>Lochreihe (Rev B):</b> Pitch 2,5 bei Ø 2,5 hätte null Wand zwischen den Bohrungen gelassen. Jede zweite Bohrung liegt jetzt 6 mm weiter oben auf der Rampe (Zickzack), die Wand zwischen Nachbarn ist 2,5 mm. Die Verstellung bleibt 2,5 mm je Seite.</li>
+        <li><b>Anbindung:</b> vier M4-Langlöcher 4,5 × 9 auf 156 × 92. Sie gehen nicht mehr ins Deck, sondern in die Adapterplatte (Abschnitt Montage). Gummidämpfer optional; erste Fahrt hart verschraubt.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Warum ein starrer Keil</h2>
+      <p>Die Simulation macht die Halterung zum ersten Engpass vor jeder Detektor-Kennzahl: flach 51 %, mit 60° Neigung 99 % Decke bei perfektem Detektor. Ein Gelenk oder Kugelkopf würde den Winkel verstellbar machen, aber Spiel in die Kamerapose bringen, die ARKit und der gewichtete Trajektorien-Fit auswerten. Der Winkel ist deshalb ein Druckparameter, kein Stellglied: für den holonomen Zielwert 75° dieselbe Datei mit <code>tilt = 75</code> drucken.</p>
+      <p>Der Keil ist im Modell massiv; Gewicht regelt der Slicer über Infill. Die geschätzten 120–160 g liegen tief auf dem Deck und senken wie das Telefon selbst den Schwerpunkt.</p>
+    </section>
+    <section class="flag">
+      <h2>Offene Geometrie-Checks</h2>
+      <ul>
+        <li><b>Netzboden:</b> Die Telefon-Oberkante liegt ≈ {{PHTOP}} mm über der Basis, plus 3 mm Dämpfer. Das Systemkonzept rechnet mit Netzboden 45 mm über Deck. Ringhöhe oder Netztiefe müssen nachziehen, sonst schlägt das Netz auf die Kamerakante.</li>
+        <li><b>Aufmaß der Stifte:</b> Die Adapterplatte braucht Lage, Durchmesser und Querloch-Höhe der vier Karosserie-Stifte sowie die Bügelhöhen (Blatt <code>aufmass-kf10.pdf</code>, Abschnitt Montage). Bis die Werte da sind, bleibt <code>POSTS = None</code> und das Skript erzeugt keinen Adapter.</li>
+        <li><b>RC-Plattform als Prüfmodell:</b> Der KF10 MAX kommt als Hüllkörper ins FreeCAD-Dokument (Chassis bis zum höchsten Hindernis, vier Bügelenden mit Stiften, Reifen voll eingefedert, Boden), Platzhalter <code>CHASSIS</code> im Skript. Damit prüft das Skript vor dem Druck Freigang zwischen Halter plus Adapter und Chassis oder Reifen, rechnet Füße und Buchsen der Platte und die Objektivhöhe über Boden.</li>
+        <li><b>Testgerät:</b> Gezeichnet ist das iPhone 16 mit {{PHONE}} ohne Hülle, im Protokoll Abschnitt 1 eingetragen. Mit Hülle wächst die Dicke auf etwa 10 mm, die Lippe von 15 mm deckt das ab. Am Gerät nachmessen: Anschlag-Position (Bohrung 78,5) und Kameraposition.</li>
+        <li><b>Tasten an der Lippe:</b> Mit dem Display nach unten liegt die Lautstärke- und Action-Tastenseite an der Lippe. 2 mm EVA auf die Lippeninnenseite kleben, damit Strap-Zug und Beschleunigung keine Taste drücken; beim Passtest prüfen.</li>
+        <li><b>Randtreffer (T4e):</b> Abnahme mit 20 gezielten Randtreffern aus 4 m bei montiertem Telefon, dazu Probefahrt mit Blick auf Verwacklung im Kamerabild.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Montage am KF10 MAX</h2>
+      <p>Der KF10 MAX ist der KFPLAN KF10, ein 1:10-Monster-Truck: 365 × 288 × 153 mm, 1,5 kg, Nylon-Wanne, Akkufach hinten mit Klettband, Karosserie auf vier kurzen Stiften mit Kugelkopf an den Enden eines Querbügels über jedem Dämpferturm, je ein Querloch für den Original-Clip (Fotos vom Auto, keine Lochreihe, Höhe nicht verstellbar). Ein ebenes Deck von 170 × 104 mm gibt es dort nicht, die direkte Deckverschraubung aus Rev A entfällt. Ein 3D-Modell des Autos ist nicht auffindbar, weder vom Hersteller noch auf Printables, Thingiverse oder GrabCAD.</p>
+      <ul>
+        <li><b>Konzept:</b> Eine Adapterplatte ersetzt die Karosserie. Sie wird wie diese über die vier Stifte gesteckt, liegt auf den Bügelenden und wird von den Original-Clips gehalten; oben trägt sie das Bohrbild 156 × 92 für den Halter. Kein Bohren am Chassis, vier Clips zum Abnehmen für den Akkuwechsel, und die Bügel sind für Crash-Lasten ausgelegt. Zwei Details rechnet das Skript aus dem Aufmaß: Buchsen um die Stifte bis knapp unter das Querloch, damit der Clip die Platte klemmt, und Füße je Achse, wenn die Bügel vorn und hinten ungleich hoch sind oder Dämpferkappen höher liegen (Mindestluft 8 mm). Die Fangkorb-Streben können auf dieselbe Platte.</li>
+        <li><b>Höhe:</b> Das Objektiv landet damit etwa 0,10 bis 0,15 m über dem Boden. Genau dort rechnet die Simulation seit dem Nachtrag zur Kamerahöhe, ein Mast ist nicht vorgesehen. Der Schwerpunkt steigt um wenige Millimeter; mit Füßen etwas mehr, das Skript gibt die Objektivhöhe aus.</li>
+        <li><b>Aufmaß am Auto:</b> Blatt <code>aufmass-kf10.pdf</code> (4 × A4: Draufsicht, Seiten-/Vorderansicht mit Stift-Detail, Messblatt, Papiermaßstab) zeigt jedes Maß ①…⑰ am schematischen KF10 MAX. Pflicht für den Adapter: Stiftabstände, Stift-Durchmesser, Querloch-Höhe und Stifthöhe, Bügelhöhen vorn und hinten, höchster Punkt dazwischen. Später für Hüllkörper und Simulation: Reifenmaße, Spur, Radstand, Bodenfreiheit normal und eingedrückt. Die Werte gehen als <code>POSTS</code> und <code>CHASSIS</code> in <code>halter60_freecad.py</code>, der Adapter kommt dann als STL mit heraus, Füße, Buchsen, Freigang und Objektivhöhe werden gerechnet.</li>
+        <li><b>Druckgröße:</b> Ist der Abstand der Stift-Paare größer als etwa 210 mm, passt die Platte nicht auf das 220-mm-Bett. Dann <code>split = True</code>: zwei Hälften mit Trennfuge unter dem Halter, der Halter verschraubt beide (dann ohne Dämpfer). Fallback ohne Druck: 4-mm-Sperrholz oder Alu, nach der Draufsicht gebohrt.</li>
+        <li><b>Statt CAD des Autos:</b> Für den Adapter reichen die Maße des Aufmaßblatts. Wer mehr will, scannt die Wanne per Photogrammetrie mit dem iPhone (Polycam, KIRI Engine oder RealityScan) und legt das Netz als Referenz in FreeCAD; Maßstab über eine bekannte Länge kalibrieren.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>3D-Modell und Druck</h2>
+      <img src="halter-60-iso.svg" alt="Isometrie der Baugruppe: Keil mit Lippe und Anschlägen, Telefon-Phantom, optische Achse" style="width:100%;max-width:560px;display:block;border:1px solid var(--line);background:#FCFCFA;margin:4px 0 10px">
+      <ul>
+        <li><b>Halter:</b> 170 × 104 × 44 mm, 310 cm³ Hüllvolumen, etwa 127 g PLA bei 15 % Infill und rund 10 h auf dem Ender-3 Pro. Basis auf dem Bett, keine Stützen: die Lippe hängt 30° über, die M3-Bohrungen stehen 30° schräg, beides druckt frei. Brim gegen Verzug der großen Grundfläche, 3 bis 4 Wände, 0,2 mm Schicht. PETG für den Betrieb, PLA für den ersten Passtest reicht.</li>
+        <li><b>Anschlag:</b> vier Stück, je unter 1 g, Fuß auf dem Bett, 30 % Infill.</li>
+        <li><b>Prüfungen im Skript:</b> Telefon-Phantom, Anschläge und optische Achse schneiden den Halter nicht, Spiel der Anschlagflächen 0,0 mm bei Bohrung 78,5, beide Netze wasserdicht und mannigfaltig, Bettmaß 220 × 220 eingehalten.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Dateien und Weiterverarbeitung</h2>
+      <ul class="files">
+        <li><code>halter-60.html</code><span>dieses Blatt mit Erläuterung</span></li>
+        <li><code>halter-60.svg</code> / <code>.pdf</code><span>eigenständiges Zeichnungsblatt, A3 quer, 1:1</span></li>
+        <li><code>halter60_freecad.py</code><span>FreeCAD-Skript: baut Halter, Anschlag, Adapter und Baugruppe, prüft Kollisionen, schreibt FCStd, STL und Isometrie</span></li>
+        <li><code>halter-60.FCStd</code><span>FreeCAD-Dokument zum Ansehen und Messen (Holder, Stop, Gruppe Assembly mit Telefon-Phantom)</span></li>
+        <li><code>halter-60-holder.stl</code> / <code>-stop.stl</code><span>Druckdateien für Cura, Halter 1×, Anschlag 4×</span></li>
+        <li><code>halter-60-iso.svg</code><span>Isometrie der Baugruppe, aus dem Skript</span></li>
+        <li><code>halter-60.scad</code><span>dasselbe Modell in OpenSCAD (nicht installiert, Referenz)</span></li>
+        <li><code>drawing.py</code><span>Generator für SVG und HTML, nur Standardbibliothek</span></li>
+      </ul>
+      <pre>/Applications/FreeCAD.app/Contents/Resources/bin/freecadcmd halter60_freecad.py
+python3 drawing.py
+rsvg-convert -f pdf -o halter-60.pdf halter-60.svg</pre>
+      <p>Parameter nur an einer Stelle ändern (identischer Block in <code>drawing.py</code>, <code>halter60_freecad.py</code>, <code>halter-60.scad</code>), dann beide Generatoren laufen lassen. In der FreeCAD-Oberfläche: Makro › Makros… › <code>halter60_freecad.py</code> ausführen, das Dokument öffnet sich mit Baugruppe.</p>
+    </section>
+  </div>
+</main>
+</body>
+</html>

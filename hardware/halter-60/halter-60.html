@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Telefonhalter 60°</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #F4F6F8; --surface: #FFFFFF; --paper: #FCFCFA;
+    --ink: #1B2430; --muted: #6B7684; --line: #CBD3DC; --grid: #E6EAEF;
+    --accent: #E4762A; --accent-tint: #FBE9DC;
+    --hw: #3F6E9E; --hw-tint: #DFE9F3;
+    --warn: #B4861B; --warn-tint: #F7EDD2;
+    --display: "Barlow Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+    --draw: "Barlow", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+    --body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    --mono: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #12171E; --surface: #1B222B; --paper: #1E262F;
+      --ink: #E7ECF2; --muted: #9AA6B4; --line: #2E3946; --grid: #222B35;
+      --accent: #F08A45; --accent-tint: #3A2617;
+      --hw: #6FA3D6; --hw-tint: #1A2B3C;
+      --warn: #D9A93A; --warn-tint: #3A2F14;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #12171E; --surface: #1B222B; --paper: #1E262F;
+    --ink: #E7ECF2; --muted: #9AA6B4; --line: #2E3946; --grid: #222B35;
+    --accent: #F08A45; --accent-tint: #3A2617;
+    --hw: #6FA3D6; --hw-tint: #1A2B3C;
+    --warn: #D9A93A; --warn-tint: #3A2F14;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5; }
+  main { max-width: 1440px; margin: 0 auto; padding: 28px 24px 56px; }
+  header { display: grid; grid-template-columns: 1fr auto; gap: 16px 32px; align-items: end; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+  .eyebrow { font-family: var(--display); font-weight: 600; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  h1 { font-family: var(--display); font-weight: 700; font-size: 44px; line-height: 1; margin: 6px 0 8px; text-wrap: balance; }
+  header p { margin: 0; max-width: 66ch; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { font-family: var(--mono); font-size: 12px; padding: 4px 9px; border: 1px solid var(--line); border-radius: 3px; color: var(--ink); background: var(--surface); }
+  .chip.status { border-color: var(--warn); background: var(--warn-tint); }
+  .keys { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0; margin: 0; padding: 0; border-bottom: 1px solid var(--line); }
+  .keys div { padding: 14px 16px 14px 0; border-right: 1px solid var(--line); margin-right: 16px; }
+  .keys div:last-child { border-right: 0; }
+  .keys dt { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-family: var(--display); font-weight: 600; }
+  .keys dd { margin: 2px 0 0; font-family: var(--mono); font-size: 20px; font-variant-numeric: tabular-nums; }
+  .keys dd small { font-size: 12px; color: var(--muted); font-family: var(--body); margin-left: 6px; }
+  .sheet { margin: 22px 0 8px; background: var(--surface); border: 1px solid var(--line); overflow-x: auto; box-shadow: 0 1px 0 var(--grid), 0 12px 32px -20px rgba(0,0,0,.35); }
+  .sheet svg { display: block; width: 100%; min-width: 900px; height: auto; }
+  .sheetnote { font-size: 13px; color: var(--muted); margin: 0 0 30px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .sheetnote code { font-family: var(--mono); font-size: 12px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px 40px; }
+  h2 { font-family: var(--display); font-weight: 600; font-size: 22px; margin: 0 0 8px; letter-spacing: .01em; }
+  section p, section li { max-width: 68ch; }
+  ul { margin: 0; padding-left: 18px; } li { margin: 4px 0; }
+  li b { font-weight: 500; }
+  .flag { border-left: 3px solid var(--warn); padding-left: 12px; }
+  .files { list-style: none; padding: 0; }
+  .files li { display: grid; grid-template-columns: 200px 1fr; gap: 12px; padding: 6px 0; border-bottom: 1px solid var(--grid); }
+  .files code { font-family: var(--mono); font-size: 13px; }
+  pre { background: var(--surface); border: 1px solid var(--line); padding: 10px 12px; overflow-x: auto; font-family: var(--mono); font-size: 12.5px; line-height: 1.5; margin: 8px 0; }
+  a { color: var(--hw); text-underline-offset: 2px; } a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  /* ---- Zeichnungsklassen (gleiche Namen wie im eigenständigen SVG) ---- */
+  .paper{fill:var(--paper)}
+  .frame{fill:none;stroke:var(--ink);stroke-width:.7}
+  .v{fill:none;stroke:var(--ink);stroke-width:.5;stroke-linejoin:round;stroke-linecap:round}
+  .t{fill:none;stroke:var(--ink);stroke-width:.25;stroke-linecap:round}
+  .h{fill:none;stroke:var(--ink);stroke-width:.25;stroke-dasharray:2 1}
+  .c{fill:none;stroke:var(--ink);stroke-width:.25;stroke-dasharray:6 1 1 1}
+  .cut{fill:none;stroke:var(--ink);stroke-width:.5;stroke-dasharray:8 1.5 1.5 1.5}
+  .tb{fill:none;stroke:var(--ink);stroke-width:.5}
+  .sec{stroke:var(--ink);stroke-width:.5;stroke-linejoin:round}
+  .hl{stroke:var(--ink);stroke-width:.2;opacity:.75}
+  .hl2{stroke:var(--muted);stroke-width:.15}
+  .fm{fill:none;stroke:var(--muted);stroke-width:.3}
+  .ph{fill:none;stroke:var(--hw);stroke-width:.35}
+  .phs{fill:var(--hw);fill-opacity:.14;stroke:var(--hw);stroke-width:.35}
+  .ph2{fill:none;stroke:var(--hw);stroke-width:.25;stroke-dasharray:3 1 .8 1;opacity:.75}
+  .strap{stroke:var(--hw);stroke-width:.9;stroke-dasharray:2 1.2;opacity:.8;stroke-linejoin:round}
+  .ax{fill:none;stroke:var(--accent);stroke-width:.5;stroke-dasharray:6 1.2 1.2 1.2 1.2 1.2}
+  .arx{fill:var(--accent);stroke:none}
+  .fov{fill:none;stroke:var(--accent);stroke-width:.25;stroke-dasharray:4 1 1 1 1 1;opacity:.85}
+  .ar{fill:var(--ink);stroke:none}
+  .dot{fill:var(--ink);stroke:none}
+  .sheet text{font-family:var(--draw);fill:var(--ink)}
+  .tx{fill:var(--ink)} .vt{fill:var(--ink);letter-spacing:.02em} .mut{fill:var(--muted)} .axt{fill:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <div class="eyebrow">Rebounder v3 · Hardware · Zeichnung RB3-HW-003</div>
+      <h1>Telefonhalter 60°</h1>
+      <p>Neigungshalter für das Smartphone auf dem KF10 MAX. Die Rückkamera schaut mit 60° Elevation feldeinwärts, wie es die Simulation für den Ackermann-MVP verlangt. Starrer Keil, EVA-gedämpft, Telefon werkzeuglos entnehmbar; Anbindung ans Auto über eine Adapterplatte auf den Karosserie-Posts.</p>
+    </div>
+    <div class="chips">
+      <span class="chip status">Konzept · Rev B · nicht freigegeben</span>
+      <span class="chip">FreeCAD 1.1 · STL druckbereit</span>
+      <span class="chip">A3 quer · 1:1 · Methode 1</span>
+      <span class="chip">2026-09-06</span>
+    </div>
+  </header>
+
+  <dl class="keys">
+    <div><dt>Kamera-Elevation</dt><dd>60°<small>Sim-Parameter tilt</small></dd></div>
+    <div><dt>Rampe zur Basis</dt><dd>30°<small>= 90° − tilt</small></dd></div>
+    <div><dt>Grundfläche</dt><dd>170 × 104<small>mm, Höhe 44</small></dd></div>
+    <div><dt>Objektiv über Basis</dt><dd>≈ 44<small>mm, Beispielgerät</small></dd></div>
+    <div><dt>Telefon-Oberkante</dt><dd>≈ 51<small>mm über Basis</small></dd></div>
+  </dl>
+
+  <div class="sheet"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420.0 297.0" role="img" aria-label="Zeichnungsblatt Telefonhalter 60°: Ansicht von vorn, Draufsicht, Schnitt A-A mit optischer Achse 60°, Parameter, Stückliste, Schriftfeld">
+<defs>
+<pattern id="hatch" patternUnits="userSpaceOnUse" width="2.4" height="2.4" patternTransform="rotate(45)"><line class="hl" x1="0" y1="0" x2="0" y2="2.4"/></pattern>
+<pattern id="hatch2" patternUnits="userSpaceOnUse" width="1.4" height="1.4" patternTransform="rotate(-45)"><line class="hl2" x1="0" y1="0" x2="0" y2="1.4"/></pattern>
+</defs>
+<rect class="paper" x="0" y="0" width="420.0" height="297.0"/>
+<rect class="frame" x="20.00" y="10.00" width="390.00" height="277.00"/>
+<line class="t" x1="85.00" y1="10.00" x2="85.00" y2="13.00"/>
+<line class="t" x1="85.00" y1="284.00" x2="85.00" y2="287.00"/>
+<line class="t" x1="150.00" y1="10.00" x2="150.00" y2="13.00"/>
+<line class="t" x1="150.00" y1="284.00" x2="150.00" y2="287.00"/>
+<line class="t" x1="215.00" y1="10.00" x2="215.00" y2="13.00"/>
+<line class="t" x1="215.00" y1="284.00" x2="215.00" y2="287.00"/>
+<line class="t" x1="280.00" y1="10.00" x2="280.00" y2="13.00"/>
+<line class="t" x1="280.00" y1="284.00" x2="280.00" y2="287.00"/>
+<line class="t" x1="345.00" y1="10.00" x2="345.00" y2="13.00"/>
+<line class="t" x1="345.00" y1="284.00" x2="345.00" y2="287.00"/>
+<text class="vt" x="140.00" y="20.00" font-size="5" text-anchor="middle">Ansicht von vorn</text>
+<rect class="v" x="55.00" y="92.00" width="170.00" height="4.00"/>
+<rect class="v" x="55.00" y="80.51" width="170.00" height="11.49"/>
+<line class="v" x1="55.00" y1="79.01" x2="225.00" y2="79.01"/>
+<line class="v" x1="55.00" y1="52.00" x2="66.00" y2="52.00"/>
+<line class="v" x1="214.00" y1="52.00" x2="225.00" y2="52.00"/>
+<line class="v" x1="55.00" y1="79.01" x2="55.00" y2="52.00"/>
+<line class="v" x1="225.00" y1="79.01" x2="225.00" y2="52.00"/>
+<rect class="ph" x="66.00" y="44.74" width="148.00" height="34.27"/>
+<rect class="h" x="174.00" y="48.74" width="32.00" height="7.00"/>
+<ellipse class="ph" cx="198.00" cy="52.24" rx="6.00" ry="3.00"/>
+<circle class="dot" cx="198.00" cy="52.24" r="0.50"/>
+<rect class="v" x="63.00" y="69.61" width="3.00" height="9.40"/>
+<rect class="v" x="59.00" y="77.40" width="4.00" height="1.61"/>
+<rect class="v" x="63.00" y="54.61" width="3.00" height="14.39"/>
+<rect class="v" x="59.00" y="62.40" width="4.00" height="6.60"/>
+<rect class="v" x="214.00" y="69.61" width="3.00" height="9.40"/>
+<rect class="v" x="217.00" y="77.40" width="4.00" height="1.61"/>
+<rect class="v" x="214.00" y="54.61" width="3.00" height="14.39"/>
+<rect class="v" x="217.00" y="62.40" width="4.00" height="6.60"/>
+<line class="ph2" x1="74.00" y1="80.51" x2="74.00" y2="44.74"/>
+<line class="ph2" x1="96.00" y1="80.51" x2="96.00" y2="44.74"/>
+<line class="ph2" x1="149.00" y1="80.51" x2="149.00" y2="44.74"/>
+<line class="ph2" x1="171.00" y1="80.51" x2="171.00" y2="44.74"/>
+<line class="t" x1="55.00" y1="97.00" x2="55.00" y2="107.00"/>
+<line class="t" x1="225.00" y1="97.00" x2="225.00" y2="107.00"/>
+<line class="t" x1="55.00" y1="105.00" x2="225.00" y2="105.00"/>
+<polygon class="ar" points="55.00,105.00 58.00,104.40 58.00,105.60"/>
+<polygon class="ar" points="225.00,105.00 222.00,105.60 222.00,104.40"/>
+<text class="tx" x="140.00" y="104.10" font-size="3.5" text-anchor="middle">170</text>
+<line class="t" x1="66.00" y1="43.74" x2="66.00" y2="38.74"/>
+<line class="t" x1="214.00" y1="43.74" x2="214.00" y2="38.74"/>
+<line class="t" x1="66.00" y1="40.74" x2="214.00" y2="40.74"/>
+<polygon class="ar" points="66.00,40.74 69.00,40.14 69.00,41.34"/>
+<polygon class="ar" points="214.00,40.74 211.00,41.34 211.00,40.14"/>
+<text class="tx" x="140.00" y="39.84" font-size="3.5" text-anchor="middle">(148)</text>
+<line class="t" x1="54.00" y1="96.00" x2="46.00" y2="96.00"/>
+<line class="t" x1="54.00" y1="92.00" x2="46.00" y2="92.00"/>
+<line class="t" x1="48.00" y1="101.00" x2="48.00" y2="87.00"/>
+<polygon class="ar" points="48.00,96.00 48.60,99.00 47.40,99.00"/>
+<polygon class="ar" points="48.00,92.00 47.40,89.00 48.60,89.00"/>
+<text class="tx" x="47.10" y="94.00" font-size="3.5" text-anchor="middle" transform="rotate(-90.0 47.10 94.00)">4</text>
+<line class="t" x1="54.00" y1="96.00" x2="38.00" y2="96.00"/>
+<line class="t" x1="54.00" y1="79.01" x2="38.00" y2="79.01"/>
+<line class="t" x1="40.00" y1="96.00" x2="40.00" y2="79.01"/>
+<polygon class="ar" points="40.00,96.00 39.40,93.00 40.60,93.00"/>
+<polygon class="ar" points="40.00,79.01 40.60,82.01 39.40,82.01"/>
+<text class="tx" x="39.10" y="87.50" font-size="3.5" text-anchor="middle" transform="rotate(-90.0 39.10 87.50)">17</text>
+<line class="t" x1="54.00" y1="96.00" x2="30.00" y2="96.00"/>
+<line class="t" x1="54.00" y1="52.00" x2="30.00" y2="52.00"/>
+<line class="t" x1="32.00" y1="96.00" x2="32.00" y2="52.00"/>
+<polygon class="ar" points="32.00,96.00 31.40,93.00 32.60,93.00"/>
+<polygon class="ar" points="32.00,52.00 32.60,55.00 31.40,55.00"/>
+<text class="tx" x="31.10" y="74.00" font-size="3.5" text-anchor="middle" transform="rotate(-90.0 31.10 74.00)">44</text>
+<line class="t" x1="226.00" y1="96.00" x2="235.00" y2="96.00"/>
+<line class="t" x1="226.00" y1="44.74" x2="235.00" y2="44.74"/>
+<line class="t" x1="233.00" y1="96.00" x2="233.00" y2="44.74"/>
+<polygon class="ar" points="233.00,96.00 232.40,93.00 233.60,93.00"/>
+<polygon class="ar" points="233.00,44.74 233.60,47.74 232.40,47.74"/>
+<text class="tx" x="232.10" y="70.37" font-size="3.5" text-anchor="middle" transform="rotate(-90.0 232.10 70.37)">(51)</text>
+<line class="t" x1="193.80" y1="50.14" x2="201.80" y2="34.14"/>
+<polygon class="ar" points="193.80,50.14 194.47,47.68 195.37,48.13"/>
+<line class="t" x1="201.80" y1="34.14" x2="207.80" y2="34.14"/>
+<text class="tx" x="202.80" y="33.24" font-size="3.0" text-anchor="start">Hauptobjektiv, Kameraseite +X</text>
+<line class="t" x1="75.00" y1="50.74" x2="61.00" y2="42.74"/>
+<polygon class="ar" points="75.00,50.74 72.58,49.94 73.08,49.07"/>
+<line class="t" x1="61.00" y1="42.74" x2="55.00" y2="42.74"/>
+<text class="tx" x="60.00" y="41.84" font-size="3.0" text-anchor="end">Klett-Strap 20 (2×)</text>
+<line class="t" x1="217.00" y1="61.80" x2="225.00" y2="41.80"/>
+<polygon class="ar" points="217.00,61.80 217.46,59.30 218.39,59.67"/>
+<line class="t" x1="225.00" y1="41.80" x2="231.00" y2="41.80"/>
+<text class="tx" x="226.00" y="40.90" font-size="3.0" text-anchor="start">Anschlag (2× je Seite)</text>
+<text class="vt" x="57.00" y="124.00" font-size="5" text-anchor="start">Draufsicht</text>
+<rect class="v" x="55.00" y="128.00" width="170.00" height="104.00"/>
+<line class="v" x1="55.00" y1="140.00" x2="225.00" y2="140.00"/>
+<line class="v" x1="55.00" y1="216.78" x2="225.00" y2="216.78"/>
+<line class="v" x1="55.00" y1="219.38" x2="225.00" y2="219.38"/>
+<line class="h" x1="55.00" y1="212.75" x2="225.00" y2="212.75"/>
+<rect class="fm" x="66.00" y="141.73" width="148.00" height="2.50"/>
+<line class="fm" x1="66.00" y1="144.23" x2="66.00" y2="149.43"/>
+<line class="fm" x1="214.00" y1="144.23" x2="214.00" y2="149.43"/>
+<rect class="ph" x="66.00" y="149.43" width="148.00" height="4.00"/>
+<rect class="ph" x="66.00" y="153.43" width="148.00" height="62.35"/>
+<rect class="h" x="174.00" y="160.36" width="32.00" height="12.12"/>
+<ellipse class="ph" cx="198.00" cy="166.42" rx="6.00" ry="5.20"/>
+<circle class="dot" cx="198.00" cy="166.42" r="0.50"/>
+<text class="pht" x="118.00" y="180.00" font-size="3" text-anchor="middle">Telefon 148×72 (iPhone 16)</text>
+<text class="pht" x="118.00" y="185.00" font-size="2.6" text-anchor="middle">Display liegt auf EVA, Rückseite oben</text>
+<rect class="v" x="59.75" y="129.50" width="4.50" height="9.00" rx="2.25"/>
+<line class="c" x1="57.00" y1="134.00" x2="67.00" y2="134.00"/>
+<line class="c" x1="62.00" y1="127.00" x2="62.00" y2="141.00"/>
+<rect class="v" x="59.75" y="221.50" width="4.50" height="9.00" rx="2.25"/>
+<line class="c" x1="57.00" y1="226.00" x2="67.00" y2="226.00"/>
+<line class="c" x1="62.00" y1="219.00" x2="62.00" y2="233.00"/>
+<rect class="v" x="215.75" y="129.50" width="4.50" height="9.00" rx="2.25"/>
+<line class="c" x1="213.00" y1="134.00" x2="223.00" y2="134.00"/>
+<line class="c" x1="218.00" y1="127.00" x2="218.00" y2="141.00"/>
+<rect class="v" x="215.75" y="221.50" width="4.50" height="9.00" rx="2.25"/>
+<line class="c" x1="213.00" y1="226.00" x2="223.00" y2="226.00"/>
+<line class="c" x1="218.00" y1="219.00" x2="218.00" y2="233.00"/>
+<rect class="v" x="74.00" y="131.50" width="22.00" height="5.00" rx="2.5"/>
+<rect class="v" x="74.00" y="223.50" width="22.00" height="5.00" rx="2.5"/>
+<line class="ph2" x1="74.00" y1="136.50" x2="74.00" y2="223.50"/>
+<line class="ph2" x1="96.00" y1="136.50" x2="96.00" y2="223.50"/>
+<rect class="v" x="149.00" y="131.50" width="22.00" height="5.00" rx="2.5"/>
+<rect class="v" x="149.00" y="223.50" width="22.00" height="5.00" rx="2.5"/>
+<line class="ph2" x1="149.00" y1="136.50" x2="149.00" y2="223.50"/>
+<line class="ph2" x1="171.00" y1="136.50" x2="171.00" y2="223.50"/>
+<circle class="v" cx="66.50" cy="191.96" r="1.25"/>
+<circle class="v" cx="64.00" cy="186.77" r="1.25"/>
+<circle class="v" cx="59.00" cy="186.77" r="1.25"/>
+<rect class="v" x="59.00" y="188.50" width="7.00" height="6.93"/>
+<line class="v" x1="63.00" y1="188.50" x2="63.00" y2="195.43"/>
+<circle class="h" cx="61.50" cy="191.96" r="1.60"/>
+<circle class="v" cx="66.50" cy="165.98" r="1.25"/>
+<circle class="v" cx="64.00" cy="160.78" r="1.25"/>
+<circle class="v" cx="59.00" cy="160.78" r="1.25"/>
+<rect class="v" x="59.00" y="162.52" width="7.00" height="6.93"/>
+<line class="v" x1="63.00" y1="162.52" x2="63.00" y2="169.44"/>
+<circle class="h" cx="61.50" cy="165.98" r="1.60"/>
+<circle class="v" cx="213.50" cy="191.96" r="1.25"/>
+<circle class="v" cx="216.00" cy="186.77" r="1.25"/>
+<circle class="v" cx="221.00" cy="186.77" r="1.25"/>
+<rect class="v" x="214.00" y="188.50" width="7.00" height="6.93"/>
+<line class="v" x1="217.00" y1="188.50" x2="217.00" y2="195.43"/>
+<circle class="h" cx="218.50" cy="191.96" r="1.60"/>
+<circle class="v" cx="213.50" cy="165.98" r="1.25"/>
+<circle class="v" cx="216.00" cy="160.78" r="1.25"/>
+<circle class="v" cx="221.00" cy="160.78" r="1.25"/>
+<rect class="v" x="214.00" y="162.52" width="7.00" height="6.93"/>
+<line class="v" x1="217.00" y1="162.52" x2="217.00" y2="169.44"/>
+<circle class="h" cx="218.50" cy="165.98" r="1.60"/>
+<line class="c" x1="140.00" y1="124.00" x2="140.00" y2="236.00"/>
+<line class="cut" x1="160.00" y1="120.00" x2="160.00" y2="237.00"/>
+<line class="t" x1="160.00" y1="120.00" x2="154.00" y2="120.00"/>
+<polygon class="ar" points="154.00,120.00 157.00,119.20 157.00,120.80"/>
+<text class="tx" x="152.00" y="121.60" font-size="5" text-anchor="end" font-weight="600">A</text>
+<line class="t" x1="160.00" y1="237.00" x2="154.00" y2="237.00"/>
+<polygon class="ar" points="154.00,237.00 157.00,236.20 157.00,237.80"/>
+<text class="tx" x="152.00" y="238.60" font-size="5" text-anchor="end" font-weight="600">A</text>
+<line class="t" x1="55.00" y1="233.00" x2="55.00" y2="246.00"/>
+<line class="t" x1="62.00" y1="233.00" x2="62.00" y2="246.00"/>
+<line class="t" x1="50.00" y1="244.00" x2="67.00" y2="244.00"/>
+<polygon class="ar" points="55.00,244.00 52.00,244.60 52.00,243.40"/>
+<polygon class="ar" points="62.00,244.00 65.00,243.40 65.00,244.60"/>
+<text class="tx" x="58.50" y="243.10" font-size="3.5" text-anchor="middle">7</text>
+<line class="t" x1="62.00" y1="233.00" x2="62.00" y2="246.00"/>
+<line class="t" x1="85.00" y1="233.00" x2="85.00" y2="246.00"/>
+<line class="t" x1="62.00" y1="244.00" x2="85.00" y2="244.00"/>
+<polygon class="ar" points="62.00,244.00 65.00,243.40 65.00,244.60"/>
+<polygon class="ar" points="85.00,244.00 82.00,244.60 82.00,243.40"/>
+<text class="tx" x="73.50" y="243.10" font-size="3.5" text-anchor="middle">23</text>
+<line class="t" x1="85.00" y1="233.00" x2="85.00" y2="246.00"/>
+<line class="t" x1="160.00" y1="233.00" x2="160.00" y2="246.00"/>
+<line class="t" x1="85.00" y1="244.00" x2="160.00" y2="244.00"/>
+<polygon class="ar" points="85.00,244.00 88.00,243.40 88.00,244.60"/>
+<polygon class="ar" points="160.00,244.00 157.00,244.60 157.00,243.40"/>
+<text class="tx" x="122.50" y="243.10" font-size="3.5" text-anchor="middle">75</text>
+<line class="t" x1="160.00" y1="233.00" x2="160.00" y2="246.00"/>
+<line class="t" x1="218.00" y1="233.00" x2="218.00" y2="246.00"/>
+<line class="t" x1="160.00" y1="244.00" x2="218.00" y2="244.00"/>
+<polygon class="ar" points="160.00,244.00 163.00,243.40 163.00,244.60"/>
+<polygon class="ar" points="218.00,244.00 215.00,244.60 215.00,243.40"/>
+<text class="tx" x="189.00" y="243.10" font-size="3.5" text-anchor="middle">58</text>
+<line class="t" x1="218.00" y1="233.00" x2="218.00" y2="246.00"/>
+<line class="t" x1="225.00" y1="233.00" x2="225.00" y2="246.00"/>
+<line class="t" x1="213.00" y1="244.00" x2="230.00" y2="244.00"/>
+<polygon class="ar" points="218.00,244.00 215.00,244.60 215.00,243.40"/>
+<polygon class="ar" points="225.00,244.00 228.00,243.40 228.00,244.60"/>
+<text class="tx" x="221.50" y="243.10" font-size="3.5" text-anchor="middle">7</text>
+<line class="t" x1="226.00" y1="128.00" x2="235.00" y2="128.00"/>
+<line class="t" x1="226.00" y1="134.00" x2="235.00" y2="134.00"/>
+<line class="t" x1="233.00" y1="123.00" x2="233.00" y2="139.00"/>
+<polygon class="ar" points="233.00,128.00 232.40,125.00 233.60,125.00"/>
+<polygon class="ar" points="233.00,134.00 233.60,137.00 232.40,137.00"/>
+<text class="tx" x="232.10" y="131.00" font-size="3.5" text-anchor="middle" transform="rotate(-90.0 232.10 131.00)">6</text>
+<line class="t" x1="226.00" y1="134.00" x2="235.00" y2="134.00"/>
+<line class="t" x1="226.00" y1="226.00" x2="235.00" y2="226.00"/>
+<line class="t" x1="233.00" y1="134.00" x2="233.00" y2="226.00"/>
+<polygon class="ar" points="233.00,134.00 233.60,137.00 232.40,137.00"/>
+<polygon class="ar" points="233.00,226.00 232.40,223.00 233.60,223.00"/>
+<text class="tx" x="232.10" y="180.00" font-size="3.5" text-anchor="middle" transform="rotate(-90.0 232.10 180.00)">92</text>
+<line class="t" x1="226.00" y1="226.00" x2="235.00" y2="226.00"/>
+<line class="t" x1="226.00" y1="232.00" x2="235.00" y2="232.00"/>
+<line class="t" x1="233.00" y1="221.00" x2="233.00" y2="237.00"/>
+<polygon class="ar" points="233.00,226.00 232.40,223.00 233.60,223.00"/>
+<polygon class="ar" points="233.00,232.00 233.60,235.00 232.40,235.00"/>
+<text class="tx" x="232.10" y="229.00" font-size="3.5" text-anchor="middle" transform="rotate(-90.0 232.10 229.00)">6</text>
+<line class="t" x1="226.00" y1="128.00" x2="243.00" y2="128.00"/>
+<line class="t" x1="226.00" y1="191.96" x2="243.00" y2="191.96"/>
+<line class="t" x1="241.00" y1="128.00" x2="241.00" y2="191.96"/>
+<polygon class="ar" points="241.00,128.00 241.60,131.00 240.40,131.00"/>
+<polygon class="ar" points="241.00,191.96 240.40,188.96 241.60,188.96"/>
+<text class="tx" x="240.10" y="159.98" font-size="3.5" text-anchor="middle" transform="rotate(-90.0 240.10 159.98)">64</text>
+<line class="t" x1="226.00" y1="128.00" x2="251.00" y2="128.00"/>
+<line class="t" x1="226.00" y1="165.98" x2="251.00" y2="165.98"/>
+<line class="t" x1="249.00" y1="128.00" x2="249.00" y2="165.98"/>
+<polygon class="ar" points="249.00,128.00 249.60,131.00 248.40,131.00"/>
+<polygon class="ar" points="249.00,165.98 248.40,162.98 249.60,162.98"/>
+<text class="tx" x="248.10" y="146.99" font-size="3.5" text-anchor="middle" transform="rotate(-90.0 248.10 146.99)">38</text>
+<line class="t" x1="220.25" y1="134.00" x2="227.25" y2="125.00"/>
+<polygon class="ar" points="220.25,134.00 221.39,131.72 222.18,132.33"/>
+<line class="t" x1="227.25" y1="125.00" x2="233.25" y2="125.00"/>
+<text class="tx" x="228.25" y="124.10" font-size="3.0" text-anchor="start">4× Langloch 4,5×9 (M4)</text>
+<line class="t" x1="85.00" y1="228.50" x2="75.00" y2="236.50"/>
+<polygon class="ar" points="85.00,228.50 83.36,230.45 82.74,229.67"/>
+<line class="t" x1="75.00" y1="236.50" x2="69.00" y2="236.50"/>
+<text class="tx" x="74.00" y="235.60" font-size="3.0" text-anchor="end">4× Schlitz 22×5 (Strap)</text>
+<line class="t" x1="65.25" y1="165.98" x2="59.25" y2="160.98"/>
+<polygon class="ar" points="65.25,165.98 63.01,164.76 63.65,164.00"/>
+<line class="t" x1="59.25" y1="160.98" x2="53.25" y2="160.98"/>
+<text class="tx" x="58.25" y="160.08" font-size="3.0" text-anchor="end">16× Ø2,5 (M3)</text>
+<line class="t" x1="140.00" y1="145.43" x2="170.00" y2="139.43"/>
+<circle class="dot" cx="140.00" cy="145.43" r="0.50"/>
+<line class="t" x1="170.00" y1="139.43" x2="176.00" y2="139.43"/>
+<text class="tx" x="171.00" y="138.53" font-size="3.0" text-anchor="start">EVA 5 (unter Telefon)</text>
+<text class="tx" x="55.00" y="253.00" font-size="2.6" text-anchor="start">Lochreihen: 16× Ø2,5 selbstschneidend M3, Pitch 2,5 in X, im Zickzack (jede 2. Bohrung +6 entlang der Rampe, Wand ≥ 2,5).</text>
+<text class="tx" x="55.00" y="256.40" font-size="2.6" text-anchor="start">Schraube 4,5 außerhalb der Anschlagfläche — Anschlagfläche ±74 für Telefon 148.</text>
+<text class="vt" x="270.00" y="17.50" font-size="5" text-anchor="start">Schnitt A-A (von links)</text>
+<polygon class="sec" points="357.50,96.00 270.50,96.00 270.50,92.00 281.25,92.00 274.62,80.51 277.22,79.01 284.72,92.00 354.00,52.00 354.00,92.00 357.50,92.00" fill="url(#hatch)"/>
+<polygon class="sec" points="265.50,96.00 262.00,96.00 262.00,92.00 265.50,92.00" fill="url(#hatch)"/>
+<polygon class="sec" points="366.00,96.00 362.50,96.00 362.50,92.00 366.00,92.00" fill="url(#hatch)"/>
+<polygon class="secf" points="284.72,92.00 352.27,53.00 349.77,48.67 282.22,87.67" fill="url(#hatch2)"/>
+<polygon class="phs" points="282.22,87.67 344.57,51.67 340.57,44.74 278.22,80.74"/>
+<polygon class="secf" points="374.00,99.00 254.00,99.00 254.00,101.00 374.00,101.00" fill="url(#hatch2)"/>
+<rect class="h" x="355.50" y="92.00" width="9.00" height="4.00"/>
+<rect class="h" x="357.00" y="96.00" width="6.00" height="3.00"/>
+<line class="c" x1="360.00" y1="105.00" x2="360.00" y2="86.00"/>
+<rect class="h" x="263.50" y="92.00" width="9.00" height="4.00"/>
+<rect class="h" x="265.00" y="96.00" width="6.00" height="3.00"/>
+<line class="c" x1="268.00" y1="105.00" x2="268.00" y2="86.00"/>
+<polyline class="strap" fill="none" points="268.00,96.00 268.00,92.00 274.62,80.51 278.22,80.74 340.57,44.74 354.00,52.00 354.00,92.00 360.00,92.00 360.00,96.00"/>
+<circle class="ax" cx="327.58" cy="52.24" r="1.00"/>
+<circle class="dot" cx="327.58" cy="52.24" r="0.35"/>
+<line class="ax" x1="327.58" y1="52.24" x2="317.58" y2="34.92"/>
+<polygon class="arx" points="317.58,34.92 320.02,37.55 318.64,38.35"/>
+<line class="fov" x1="327.58" y1="52.24" x2="294.23" y2="30.16"/>
+<line class="fov" x1="327.58" y1="52.24" x2="325.14" y2="12.32"/>
+<line class="c" x1="327.58" y1="52.24" x2="297.58" y2="52.24"/>
+<path class="t" fill="none" d="M 313.58 52.24 A 14 14 0 0 1 320.58 40.12"/>
+<polygon class="ar" points="313.58,52.24 312.96,49.25 314.16,49.24"/>
+<polygon class="ar" points="320.58,40.12 318.27,42.12 317.67,41.07"/>
+<text class="tx" x="311.80" y="49.80" font-size="4.5" text-anchor="middle">60°</text>
+<path class="t" fill="none" d="M 299.23 33.48 A 34 34 0 0 1 325.51 18.31"/>
+<polygon class="ar" points="299.23,33.48 300.36,30.63 301.37,31.29"/>
+<polygon class="ar" points="325.51,18.31 322.54,19.06 322.48,17.86"/>
+<text class="tx" x="309.48" y="22.09" font-size="3" text-anchor="middle">vFOV 53°</text>
+<path class="t" fill="none" d="M 301.17 82.50 A 19 19 0 0 1 303.72 92.00"/>
+<polygon class="ar" points="301.17,82.50 303.21,84.78 302.18,85.39"/>
+<polygon class="ar" points="303.72,92.00 303.14,88.99 304.34,89.01"/>
+<text class="tx" x="305.20" y="87.71" font-size="4" text-anchor="middle">30°</text>
+<line class="t" x1="366.00" y1="97.00" x2="366.00" y2="120.00"/>
+<line class="t" x1="262.00" y1="97.00" x2="262.00" y2="120.00"/>
+<line class="t" x1="366.00" y1="118.00" x2="262.00" y2="118.00"/>
+<polygon class="ar" points="366.00,118.00 363.00,118.60 363.00,117.40"/>
+<polygon class="ar" points="262.00,118.00 265.00,117.40 265.00,118.60"/>
+<text class="tx" x="314.00" y="117.10" font-size="3.5" text-anchor="middle">104</text>
+<line class="t" x1="366.00" y1="97.00" x2="366.00" y2="113.00"/>
+<line class="t" x1="360.00" y1="97.00" x2="360.00" y2="113.00"/>
+<line class="t" x1="371.00" y1="111.00" x2="355.00" y2="111.00"/>
+<polygon class="ar" points="366.00,111.00 369.00,110.40 369.00,111.60"/>
+<polygon class="ar" points="360.00,111.00 357.00,111.60 357.00,110.40"/>
+<text class="tx" x="363.00" y="110.10" font-size="3.5" text-anchor="middle">6</text>
+<line class="t" x1="360.00" y1="97.00" x2="360.00" y2="113.00"/>
+<line class="t" x1="268.00" y1="97.00" x2="268.00" y2="113.00"/>
+<line class="t" x1="360.00" y1="111.00" x2="268.00" y2="111.00"/>
+<polygon class="ar" points="360.00,111.00 357.00,111.60 357.00,110.40"/>
+<polygon class="ar" points="268.00,111.00 271.00,110.40 271.00,111.60"/>
+<text class="tx" x="314.00" y="110.10" font-size="3.5" text-anchor="middle">92</text>
+<line class="t" x1="268.00" y1="97.00" x2="268.00" y2="113.00"/>
+<line class="t" x1="262.00" y1="97.00" x2="262.00" y2="113.00"/>
+<line class="t" x1="273.00" y1="111.00" x2="257.00" y2="111.00"/>
+<polygon class="ar" points="268.00,111.00 271.00,110.40 271.00,111.60"/>
+<polygon class="ar" points="262.00,111.00 259.00,111.60 259.00,110.40"/>
+<text class="tx" x="265.00" y="110.10" font-size="3.5" text-anchor="middle">6</text>
+<line class="t" x1="367.00" y1="96.00" x2="375.00" y2="96.00"/>
+<line class="t" x1="367.00" y1="92.00" x2="375.00" y2="92.00"/>
+<line class="t" x1="373.00" y1="101.00" x2="373.00" y2="87.00"/>
+<polygon class="ar" points="373.00,96.00 373.60,99.00 372.40,99.00"/>
+<polygon class="ar" points="373.00,92.00 372.40,89.00 373.60,89.00"/>
+<text class="tx" x="372.10" y="94.00" font-size="3.5" text-anchor="middle" transform="rotate(-90.0 372.10 94.00)">4</text>
+<line class="t" x1="367.00" y1="96.00" x2="383.00" y2="96.00"/>
+<line class="t" x1="367.00" y1="52.00" x2="383.00" y2="52.00"/>
+<line class="t" x1="381.00" y1="96.00" x2="381.00" y2="52.00"/>
+<polygon class="ar" points="381.00,96.00 380.40,93.00 381.60,93.00"/>
+<polygon class="ar" points="381.00,52.00 381.60,55.00 380.40,55.00"/>
+<text class="tx" x="380.10" y="74.00" font-size="3.5" text-anchor="middle" transform="rotate(-90.0 380.10 74.00)">44</text>
+<line class="t" x1="367.00" y1="96.00" x2="391.00" y2="96.00"/>
+<line class="t" x1="367.00" y1="52.24" x2="391.00" y2="52.24"/>
+<line class="t" x1="389.00" y1="96.00" x2="389.00" y2="52.24"/>
+<polygon class="ar" points="389.00,96.00 388.40,93.00 389.60,93.00"/>
+<polygon class="ar" points="389.00,52.24 389.60,55.24 388.40,55.24"/>
+<text class="tx" x="388.10" y="74.12" font-size="3.5" text-anchor="middle" transform="rotate(-90.0 388.10 74.12)">(≈44)</text>
+<line class="t" x1="367.00" y1="96.00" x2="399.00" y2="96.00"/>
+<line class="t" x1="367.00" y1="44.74" x2="399.00" y2="44.74"/>
+<line class="t" x1="397.00" y1="96.00" x2="397.00" y2="44.74"/>
+<polygon class="ar" points="397.00,96.00 396.40,93.00 397.60,93.00"/>
+<polygon class="ar" points="397.00,44.74 397.60,47.74 396.40,47.74"/>
+<text class="tx" x="396.10" y="70.37" font-size="3.5" text-anchor="middle" transform="rotate(-90.0 396.10 70.37)">(51)</text>
+<line class="t" x1="283.85" y1="92.50" x2="275.19" y2="97.50"/>
+<line class="t" x1="276.35" y1="79.51" x2="267.69" y2="84.51"/>
+<line class="t" x1="276.92" y1="96.50" x2="269.42" y2="83.51"/>
+<polygon class="ar" points="276.92,96.50 274.90,94.20 275.94,93.60"/>
+<polygon class="ar" points="269.42,83.51 271.44,85.81 270.40,86.41"/>
+<text class="tx" x="273.95" y="89.55" font-size="3.5" text-anchor="middle" transform="rotate(60.0 273.95 89.55)">15</text>
+<line class="fov" x1="322.58" y1="43.58" x2="292.58" y2="25.58"/>
+<circle class="dot" cx="322.58" cy="43.58" r="0.50"/>
+<line class="fov" x1="292.58" y1="25.58" x2="286.58" y2="25.58"/>
+<text class="tx" x="291.58" y="24.68" font-size="3.0" text-anchor="end">optische Achse</text>
+<line class="t" x1="339.57" y1="48.21" x2="347.57" y2="40.21"/>
+<circle class="dot" cx="339.57" cy="48.21" r="0.50"/>
+<line class="t" x1="347.57" y1="40.21" x2="353.57" y2="40.21"/>
+<text class="tx" x="348.57" y="39.31" font-size="3.0" text-anchor="start">Telefon (iPhone 16), Display auf EVA</text>
+<line class="t" x1="351.02" y1="50.83" x2="361.02" y2="47.83"/>
+<circle class="dot" cx="351.02" cy="50.83" r="0.50"/>
+<line class="t" x1="361.02" y1="47.83" x2="367.02" y2="47.83"/>
+<text class="tx" x="362.02" y="46.93" font-size="3.0" text-anchor="start">EVA 5</text>
+<line class="t" x1="274.62" y1="80.51" x2="270.62" y2="68.51"/>
+<circle class="dot" cx="274.62" cy="80.51" r="0.50"/>
+<line class="t" x1="270.62" y1="68.51" x2="264.62" y2="68.51"/>
+<text class="tx" x="269.62" y="67.61" font-size="3.0" text-anchor="end">Lippe 3, ⊥ Rampe</text>
+<line class="t" x1="272.00" y1="100.50" x2="278.00" y2="106.50"/>
+<circle class="dot" cx="272.00" cy="100.50" r="0.50"/>
+<line class="t" x1="278.00" y1="106.50" x2="284.00" y2="106.50"/>
+<text class="tx" x="279.00" y="105.60" font-size="3.0" text-anchor="start">M4×16 + Mutter (Dämpfer 3 optional)</text>
+<line class="t" x1="256.00" y1="100.00" x2="252.00" y2="112.00"/>
+<circle class="dot" cx="256.00" cy="100.00" r="0.50"/>
+<line class="t" x1="252.00" y1="112.00" x2="246.00" y2="112.00"/>
+<text class="tx" x="251.00" y="111.10" font-size="3.0" text-anchor="end">Adapterplatte auf Karosserie-Stiften (Aufmaß)</text>
+<line class="t" x1="295.39" y1="70.74" x2="275.39" y2="64.74"/>
+<circle class="dot" cx="295.39" cy="70.74" r="0.50"/>
+<line class="t" x1="275.39" y1="64.74" x2="269.39" y2="64.74"/>
+<text class="tx" x="274.39" y="63.84" font-size="3.0" text-anchor="end">Klett-Strap (im Schnitt)</text>
+<text class="mut" x="266.00" y="103.50" font-size="3" text-anchor="start">vorn</text>
+<text class="mut" x="362.00" y="103.50" font-size="3" text-anchor="end">hinten</text>
+<text class="vt" x="255.00" y="132.50" font-size="4" text-anchor="start" font-weight="600">Parameter (Quelle: drawing.py = halter60_freecad.py = halter-60.scad)</text>
+<rect class="tb" x="255.00" y="134.00" width="155.00" height="39.60"/>
+<line class="v" x1="255.00" y1="138.40" x2="410.00" y2="138.40"/>
+<line class="t" x1="301.00" y1="134.00" x2="301.00" y2="173.60"/>
+<line class="t" x1="331.00" y1="134.00" x2="331.00" y2="173.60"/>
+<line class="t" x1="255.00" y1="142.80" x2="410.00" y2="142.80"/>
+<line class="t" x1="255.00" y1="147.20" x2="410.00" y2="147.20"/>
+<line class="t" x1="255.00" y1="151.60" x2="410.00" y2="151.60"/>
+<line class="t" x1="255.00" y1="156.00" x2="410.00" y2="156.00"/>
+<line class="t" x1="255.00" y1="160.40" x2="410.00" y2="160.40"/>
+<line class="t" x1="255.00" y1="164.80" x2="410.00" y2="164.80"/>
+<line class="t" x1="255.00" y1="169.20" x2="410.00" y2="169.20"/>
+<text class="tx" x="256.20" y="137.10" font-size="2.6" text-anchor="start" font-weight="600">Parameter</text>
+<text class="tx" x="302.20" y="137.10" font-size="2.6" text-anchor="start" font-weight="600">Wert</text>
+<text class="tx" x="332.20" y="137.10" font-size="2.6" text-anchor="start" font-weight="600">Bemerkung</text>
+<text class="tx" x="256.20" y="141.50" font-size="2.6" text-anchor="start">Kamera-Elevation (tilt)</text>
+<text class="tx" x="302.20" y="141.50" font-size="2.6" text-anchor="start">60°</text>
+<text class="tx" x="332.20" y="141.50" font-size="2.6" text-anchor="start">Ackermann-MVP; 75° (holonom) = gleiche Datei, tilt=75</text>
+<text class="tx" x="256.20" y="145.90" font-size="2.6" text-anchor="start">Rampenwinkel α = 90° − tilt</text>
+<text class="tx" x="302.20" y="145.90" font-size="2.6" text-anchor="start">30°</text>
+<text class="tx" x="332.20" y="145.90" font-size="2.6" text-anchor="start">Telefonebene zur Basis</text>
+<text class="tx" x="256.20" y="150.30" font-size="2.6" text-anchor="start">Rampenlänge entlang u</text>
+<text class="tx" x="302.20" y="150.30" font-size="2.6" text-anchor="start">80</text>
+<text class="tx" x="332.20" y="150.30" font-size="2.6" text-anchor="start">Auflage für kurze Seite ≤ 78; Keil massiv, Infill regelt Masse</text>
+<text class="tx" x="256.20" y="154.70" font-size="2.6" text-anchor="start">Telefon-Hüllmaß L×B×T</text>
+<text class="tx" x="302.20" y="154.70" font-size="2.6" text-anchor="start">138–153 × 67–78 × ≤12</text>
+<text class="tx" x="332.20" y="154.70" font-size="2.6" text-anchor="start">SE 2/3 … 17 Pro; Länge über Anschläge (Pitch 2,5)</text>
+<text class="tx" x="256.20" y="159.10" font-size="2.6" text-anchor="start">Gezeichnetes Testgerät</text>
+<text class="tx" x="302.20" y="159.10" font-size="2.6" text-anchor="start">148 × 72 × 8</text>
+<text class="tx" x="332.20" y="159.10" font-size="2.6" text-anchor="start">iPhone 16: 147,6 × 71,6 × 7,8 ohne Hülle → PROTOCOL.md §1</text>
+<text class="tx" x="256.20" y="163.50" font-size="2.6" text-anchor="start">Objektivhöhe über Basisunterseite</text>
+<text class="tx" x="302.20" y="163.50" font-size="2.6" text-anchor="start">≈ 44</text>
+<text class="tx" x="332.20" y="163.50" font-size="2.6" text-anchor="start">+3 Dämpfer + Deckhöhe ⇒ Ziel 0,10–0,15 m über Boden</text>
+<text class="tx" x="256.20" y="167.90" font-size="2.6" text-anchor="start">Bohrbild Adapter (Langlöcher)</text>
+<text class="tx" x="302.20" y="167.90" font-size="2.6" text-anchor="start">156 × 92</text>
+<text class="tx" x="332.20" y="167.90" font-size="2.6" text-anchor="start">auf Adapterplatte (Karosserie-Stifte, Aufmaß), ±4,5 in Y einstellbar</text>
+<text class="tx" x="256.20" y="172.30" font-size="2.6" text-anchor="start">Masse Halter (FreeCAD, 310 cm³ Hülle)</text>
+<text class="tx" x="302.20" y="172.30" font-size="2.6" text-anchor="start">≈ 127 g</text>
+<text class="tx" x="332.20" y="172.30" font-size="2.6" text-anchor="start">PLA, 3 Wände, 15 % Infill; Telefon ≈ 170 g</text>
+<text class="vt" x="255.00" y="181.10" font-size="4" text-anchor="start" font-weight="600">Stückliste</text>
+<rect class="tb" x="255.00" y="182.60" width="155.00" height="35.20"/>
+<line class="v" x1="255.00" y1="187.00" x2="410.00" y2="187.00"/>
+<line class="t" x1="265.00" y1="182.60" x2="265.00" y2="217.80"/>
+<line class="t" x1="277.00" y1="182.60" x2="277.00" y2="217.80"/>
+<line class="t" x1="255.00" y1="191.40" x2="410.00" y2="191.40"/>
+<line class="t" x1="255.00" y1="195.80" x2="410.00" y2="195.80"/>
+<line class="t" x1="255.00" y1="200.20" x2="410.00" y2="200.20"/>
+<line class="t" x1="255.00" y1="204.60" x2="410.00" y2="204.60"/>
+<line class="t" x1="255.00" y1="209.00" x2="410.00" y2="209.00"/>
+<line class="t" x1="255.00" y1="213.40" x2="410.00" y2="213.40"/>
+<text class="tx" x="256.20" y="185.70" font-size="2.6" text-anchor="start" font-weight="600">Pos</text>
+<text class="tx" x="266.20" y="185.70" font-size="2.6" text-anchor="start" font-weight="600">Stk</text>
+<text class="tx" x="278.20" y="185.70" font-size="2.6" text-anchor="start" font-weight="600">Bezeichnung</text>
+<text class="tx" x="256.20" y="190.10" font-size="2.6" text-anchor="start">1</text>
+<text class="tx" x="266.20" y="190.10" font-size="2.6" text-anchor="start">1</text>
+<text class="tx" x="278.20" y="190.10" font-size="2.6" text-anchor="start">Halter 60°, Druckteil PETG (halter-60-holder.stl aus halter60_freecad.py)</text>
+<text class="tx" x="256.20" y="194.50" font-size="2.6" text-anchor="start">2</text>
+<text class="tx" x="266.20" y="194.50" font-size="2.6" text-anchor="start">4</text>
+<text class="tx" x="278.20" y="194.50" font-size="2.6" text-anchor="start">Anschlagklotz, Druckteil (halter-60-stop.stl), Fuß 7 × Wand 3</text>
+<text class="tx" x="256.20" y="198.90" font-size="2.6" text-anchor="start">3</text>
+<text class="tx" x="266.20" y="198.90" font-size="2.6" text-anchor="start">1</text>
+<text class="tx" x="278.20" y="198.90" font-size="2.6" text-anchor="start">EVA-Moosgummi 5 mm, 148 × 78, aufgeklebt</text>
+<text class="tx" x="256.20" y="203.30" font-size="2.6" text-anchor="start">4</text>
+<text class="tx" x="266.20" y="203.30" font-size="2.6" text-anchor="start">2</text>
+<text class="tx" x="278.20" y="203.30" font-size="2.6" text-anchor="start">Klett-Strap 20 mm, Länge ≥ 300</text>
+<text class="tx" x="256.20" y="207.70" font-size="2.6" text-anchor="start">5</text>
+<text class="tx" x="266.20" y="207.70" font-size="2.6" text-anchor="start">4</text>
+<text class="tx" x="278.20" y="207.70" font-size="2.6" text-anchor="start">M4×16 + Mutter (Halter → Adapterplatte; Dämpfer optional)</text>
+<text class="tx" x="256.20" y="212.10" font-size="2.6" text-anchor="start">6</text>
+<text class="tx" x="266.20" y="212.10" font-size="2.6" text-anchor="start">4</text>
+<text class="tx" x="278.20" y="212.10" font-size="2.6" text-anchor="start">M3×8, selbstschneidend in Ø 2,5 (Anschläge)</text>
+<text class="tx" x="256.20" y="216.50" font-size="2.6" text-anchor="start">7</text>
+<text class="tx" x="266.20" y="216.50" font-size="2.6" text-anchor="start">1</text>
+<text class="tx" x="278.20" y="216.50" font-size="2.6" text-anchor="start">Adapterplatte Karosserie-Stifte (halter-60-adapter.stl, nach Aufmaß) + 4 Original-Karosserieclips</text>
+<text class="vt" x="30.00" y="257.80" font-size="4" text-anchor="start" font-weight="600">Hinweise</text>
+<text class="tx" x="30.00" y="262.40" font-size="2.6" text-anchor="start">1  Display liegt auf der EVA-Auflage, Rückkamera zeigt nach vorn-oben. Kameraseite = +X (links in Fahrtrichtung). Kein Sichtfenster — Debug per Spiegelung.</text>
+<text class="tx" x="30.00" y="266.10" font-size="2.6" text-anchor="start">2  Kamera-Elevation 60° ⇔ Rampe 30°. Sichtkegel vFOV 53° (33,5°–86,5°) bleibt frei; Ringstreben und Netz vorn unter 20° Elevation (Bildecken) halten.</text>
+<text class="tx" x="30.00" y="269.80" font-size="2.6" text-anchor="start">3  Fangkorb-Check: Telefon-Oberkante ≈ 51 über Basis + 3 Dämpfer ⇒ Netzboden ≥ 60 über Deck statt 45 (Systemkonzept). Ringhöhe oder Netztiefe nachziehen.</text>
+<text class="tx" x="30.00" y="273.50" font-size="2.6" text-anchor="start">4  Straps tragen beim Beschleunigen (≤ 1,5 g, Telefon rutscht die Rampe hoch, ≈ 2 N). Querkräfte: Anschläge auf Lochreihe Pitch 2,5 (Zickzack, Rev B) ⇒ ≤ 1,25 Spiel je Seite.</text>
+<text class="tx" x="30.00" y="277.20" font-size="2.6" text-anchor="start">5  Anbindung (Bohrbild 156 × 92, Langlöcher 4,5 × 9) auf Adapterplatte, die wie die Karosserie über die vier Stifte des KF10 MAX gesteckt und mit den Original-Clips gehalten wird (Buchsen bis unter das Querloch, Füße bei ungleichen Bügelhöhen); Lage nach Aufmaß aufmass-kf10.pdf in halter60_freecad.py (POSTS, CHASSIS).</text>
+<text class="tx" x="30.00" y="280.90" font-size="2.6" text-anchor="start">6  Abnahme: Probefahrt, Kamerabild auf Verwacklung prüfen (Bauanleitung 3.4); 20 Randtreffer aus 4 m mit Telefon (T4e). Druck: Basis auf dem Bett, keine Stützen.</text>
+<rect class="tb" x="230.00" y="232.00" width="180.00" height="55.00"/>
+<line class="v" x1="230.00" y1="244.00" x2="410.00" y2="244.00"/>
+<line class="v" x1="230.00" y1="266.00" x2="410.00" y2="266.00"/>
+<line class="v" x1="338.00" y1="232.00" x2="338.00" y2="266.00"/>
+<text class="mut" x="233.00" y="237.00" font-size="2.4" text-anchor="start">Projekt</text>
+<text class="tx" x="233.00" y="241.80" font-size="3.4" text-anchor="start" font-weight="500">Rebounder v3 — Fangroboter (ballistic-catch-sim)</text>
+<text class="mut" x="233.00" y="249.00" font-size="2.4" text-anchor="start">Benennung</text>
+<text class="vt" x="233.00" y="257.00" font-size="7" text-anchor="start" font-weight="700">Telefonhalter 60°</text>
+<text class="tx" x="233.00" y="262.80" font-size="3" text-anchor="start">Neigungshalter Smartphone, Kamera-Elevation 60°, Montage über Adapterplatte</text>
+<text class="mut" x="340.00" y="246.80" font-size="2.3" text-anchor="start">Zeichnungs-Nr.</text>
+<text class="tx" x="362.00" y="246.80" font-size="2.6" text-anchor="start">RB3-HW-003</text>
+<text class="mut" x="340.00" y="250.40" font-size="2.3" text-anchor="start">Blatt</text>
+<text class="tx" x="362.00" y="250.40" font-size="2.6" text-anchor="start">1 / 1</text>
+<text class="mut" x="340.00" y="254.00" font-size="2.3" text-anchor="start">Maßstab</text>
+<text class="tx" x="362.00" y="254.00" font-size="2.6" text-anchor="start">1:1  (A3 quer)</text>
+<text class="mut" x="340.00" y="257.60" font-size="2.3" text-anchor="start">Datum</text>
+<text class="tx" x="362.00" y="257.60" font-size="2.6" text-anchor="start">2026-09-06</text>
+<text class="mut" x="340.00" y="261.20" font-size="2.3" text-anchor="start">Status</text>
+<text class="tx" x="362.00" y="261.20" font-size="2.6" text-anchor="start">Konzept, Rev B — nicht freigegeben</text>
+<text class="mut" x="340.00" y="264.80" font-size="2.3" text-anchor="start">Gezeichnet</text>
+<text class="tx" x="362.00" y="264.80" font-size="2.6" text-anchor="start">Claude (Entwurf) für M. Mouroum</text>
+<text class="mut" x="233.00" y="271.00" font-size="2.4" text-anchor="start">Werkstoff / Verfahren</text>
+<text class="tx" x="233.00" y="275.50" font-size="3" text-anchor="start">PETG, FDM 0,2 mm, 4 Wände, 20 % Infill</text>
+<text class="mut" x="233.00" y="280.50" font-size="2.4" text-anchor="start">Allgemeintoleranz</text>
+<text class="tx" x="233.00" y="285.00" font-size="3" text-anchor="start">ISO 2768-m · Maße in mm · druckroh</text>
+<text class="mut" x="300.00" y="271.00" font-size="2.4" text-anchor="start">Bezüge</text>
+<text class="tx" x="300.00" y="275.50" font-size="2.4" text-anchor="start">.okf/simulation/path-to-80-percent.md (Nachtrag)</text>
+<text class="tx" x="300.00" y="279.30" font-size="2.4" text-anchor="start">ml/data/PROTOCOL.md §1 · build-guide.md Abschn. 3</text>
+<text class="tx" x="300.00" y="283.10" font-size="2.4" text-anchor="start">.okf/business/open-questions.md (T4e)</text>
+<text class="mut" x="386.00" y="272.50" font-size="2.4" text-anchor="start">Projektionsmethode 1</text>
+<polygon class="v" points="386.00,276.50 392.00,275.00 392.00,284.00 386.00,282.50"/>
+<circle class="v" cx="401.00" cy="279.50" r="4.50"/>
+<circle class="v" cx="401.00" cy="279.50" r="3.00"/>
+<line class="c" x1="401.00" y1="273.50" x2="401.00" y2="285.50"/>
+<line class="c" x1="384.00" y1="279.50" x2="407.00" y2="279.50"/>
+</svg></div>
+  <p class="sheetnote">
+    <span>Blatt erzeugt aus <code>drawing.py</code>; dieselben Parameter stehen in <code>halter-60.scad</code>. Druckversion: <code>halter-60.pdf</code> (A3, 1:1).</span>
+    <span>Blau = Fremdteile (Telefon, Strap), Orange = optische Achse und Sichtkegel, Strichpunkt = Mittel- und Schnittlinien.</span>
+  </p>
+
+  <div class="grid">
+    <section>
+      <h2>Was das Blatt festlegt</h2>
+      <ul>
+        <li><b>Lage des Telefons:</b> Display auf der 5-mm-EVA-Auflage, Rückseite mit Kamera nach vorn-oben. Lange Seite quer zum Fahrzeug, Kameramodul auf der Fahrzeug-linken Seite (+X).</li>
+        <li><b>Winkel:</b> Rampe 30° zur Basis ergibt die geforderte Kamera-Elevation von 60°. Der Sichtkegel (vFOV 53°) reicht von 33,5° bis 86,5° Elevation; darunter liegen nur Deck und Lippe, beides außerhalb des Bildes.</li>
+        <li><b>Halten:</b> Lippe 15 mm senkrecht zur Rampe fängt das Telefon unten, zwei Klett-Straps über die Rückseite halten es gegen Abheben und gegen das Hochrutschen beim Beschleunigen, Anschlagklötze auf einer M3-Lochreihe nehmen die Querkräfte. Strap-Enden durch die Schlitze fädeln und auf sich selbst zurückkletten, ein Durchlauf unter der Basis ist nicht nötig.</li>
+        <li><b>Lochreihe (Rev B):</b> Pitch 2,5 bei Ø 2,5 hätte null Wand zwischen den Bohrungen gelassen. Jede zweite Bohrung liegt jetzt 6 mm weiter oben auf der Rampe (Zickzack), die Wand zwischen Nachbarn ist 2,5 mm. Die Verstellung bleibt 2,5 mm je Seite.</li>
+        <li><b>Anbindung:</b> vier M4-Langlöcher 4,5 × 9 auf 156 × 92. Sie gehen nicht mehr ins Deck, sondern in die Adapterplatte (Abschnitt Montage). Gummidämpfer optional; erste Fahrt hart verschraubt.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Warum ein starrer Keil</h2>
+      <p>Die Simulation macht die Halterung zum ersten Engpass vor jeder Detektor-Kennzahl: flach 51 %, mit 60° Neigung 99 % Decke bei perfektem Detektor. Ein Gelenk oder Kugelkopf würde den Winkel verstellbar machen, aber Spiel in die Kamerapose bringen, die ARKit und der gewichtete Trajektorien-Fit auswerten. Der Winkel ist deshalb ein Druckparameter, kein Stellglied: für den holonomen Zielwert 75° dieselbe Datei mit <code>tilt = 75</code> drucken.</p>
+      <p>Der Keil ist im Modell massiv; Gewicht regelt der Slicer über Infill. Die geschätzten 120–160 g liegen tief auf dem Deck und senken wie das Telefon selbst den Schwerpunkt.</p>
+    </section>
+    <section class="flag">
+      <h2>Offene Geometrie-Checks</h2>
+      <ul>
+        <li><b>Netzboden:</b> Die Telefon-Oberkante liegt ≈ 51 mm über der Basis, plus 3 mm Dämpfer. Das Systemkonzept rechnet mit Netzboden 45 mm über Deck. Ringhöhe oder Netztiefe müssen nachziehen, sonst schlägt das Netz auf die Kamerakante.</li>
+        <li><b>Aufmaß der Stifte:</b> Die Adapterplatte braucht Lage, Durchmesser und Querloch-Höhe der vier Karosserie-Stifte sowie die Bügelhöhen (Blatt <code>aufmass-kf10.pdf</code>, Abschnitt Montage). Bis die Werte da sind, bleibt <code>POSTS = None</code> und das Skript erzeugt keinen Adapter.</li>
+        <li><b>RC-Plattform als Prüfmodell:</b> Der KF10 MAX kommt als Hüllkörper ins FreeCAD-Dokument (Chassis bis zum höchsten Hindernis, vier Bügelenden mit Stiften, Reifen voll eingefedert, Boden), Platzhalter <code>CHASSIS</code> im Skript. Damit prüft das Skript vor dem Druck Freigang zwischen Halter plus Adapter und Chassis oder Reifen, rechnet Füße und Buchsen der Platte und die Objektivhöhe über Boden.</li>
+        <li><b>Testgerät:</b> Gezeichnet ist das iPhone 16 mit 148 × 72 × 8 mm ohne Hülle, im Protokoll Abschnitt 1 eingetragen. Mit Hülle wächst die Dicke auf etwa 10 mm, die Lippe von 15 mm deckt das ab. Am Gerät nachmessen: Anschlag-Position (Bohrung 78,5) und Kameraposition.</li>
+        <li><b>Tasten an der Lippe:</b> Mit dem Display nach unten liegt die Lautstärke- und Action-Tastenseite an der Lippe. 2 mm EVA auf die Lippeninnenseite kleben, damit Strap-Zug und Beschleunigung keine Taste drücken; beim Passtest prüfen.</li>
+        <li><b>Randtreffer (T4e):</b> Abnahme mit 20 gezielten Randtreffern aus 4 m bei montiertem Telefon, dazu Probefahrt mit Blick auf Verwacklung im Kamerabild.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Montage am KF10 MAX</h2>
+      <p>Der KF10 MAX ist der KFPLAN KF10, ein 1:10-Monster-Truck: 365 × 288 × 153 mm, 1,5 kg, Nylon-Wanne, Akkufach hinten mit Klettband, Karosserie auf vier kurzen Stiften mit Kugelkopf an den Enden eines Querbügels über jedem Dämpferturm, je ein Querloch für den Original-Clip (Fotos vom Auto, keine Lochreihe, Höhe nicht verstellbar). Ein ebenes Deck von 170 × 104 mm gibt es dort nicht, die direkte Deckverschraubung aus Rev A entfällt. Ein 3D-Modell des Autos ist nicht auffindbar, weder vom Hersteller noch auf Printables, Thingiverse oder GrabCAD.</p>
+      <ul>
+        <li><b>Konzept:</b> Eine Adapterplatte ersetzt die Karosserie. Sie wird wie diese über die vier Stifte gesteckt, liegt auf den Bügelenden und wird von den Original-Clips gehalten; oben trägt sie das Bohrbild 156 × 92 für den Halter. Kein Bohren am Chassis, vier Clips zum Abnehmen für den Akkuwechsel, und die Bügel sind für Crash-Lasten ausgelegt. Zwei Details rechnet das Skript aus dem Aufmaß: Buchsen um die Stifte bis knapp unter das Querloch, damit der Clip die Platte klemmt, und Füße je Achse, wenn die Bügel vorn und hinten ungleich hoch sind oder Dämpferkappen höher liegen (Mindestluft 8 mm). Die Fangkorb-Streben können auf dieselbe Platte.</li>
+        <li><b>Höhe:</b> Das Objektiv landet damit etwa 0,10 bis 0,15 m über dem Boden. Genau dort rechnet die Simulation seit dem Nachtrag zur Kamerahöhe, ein Mast ist nicht vorgesehen. Der Schwerpunkt steigt um wenige Millimeter; mit Füßen etwas mehr, das Skript gibt die Objektivhöhe aus.</li>
+        <li><b>Aufmaß am Auto:</b> Blatt <code>aufmass-kf10.pdf</code> (4 × A4: Draufsicht, Seiten-/Vorderansicht mit Stift-Detail, Messblatt, Papiermaßstab) zeigt jedes Maß ①…⑰ am schematischen KF10 MAX. Pflicht für den Adapter: Stiftabstände, Stift-Durchmesser, Querloch-Höhe und Stifthöhe, Bügelhöhen vorn und hinten, höchster Punkt dazwischen. Später für Hüllkörper und Simulation: Reifenmaße, Spur, Radstand, Bodenfreiheit normal und eingedrückt. Die Werte gehen als <code>POSTS</code> und <code>CHASSIS</code> in <code>halter60_freecad.py</code>, der Adapter kommt dann als STL mit heraus, Füße, Buchsen, Freigang und Objektivhöhe werden gerechnet.</li>
+        <li><b>Druckgröße:</b> Ist der Abstand der Stift-Paare größer als etwa 210 mm, passt die Platte nicht auf das 220-mm-Bett. Dann <code>split = True</code>: zwei Hälften mit Trennfuge unter dem Halter, der Halter verschraubt beide (dann ohne Dämpfer). Fallback ohne Druck: 4-mm-Sperrholz oder Alu, nach der Draufsicht gebohrt.</li>
+        <li><b>Statt CAD des Autos:</b> Für den Adapter reichen die Maße des Aufmaßblatts. Wer mehr will, scannt die Wanne per Photogrammetrie mit dem iPhone (Polycam, KIRI Engine oder RealityScan) und legt das Netz als Referenz in FreeCAD; Maßstab über eine bekannte Länge kalibrieren.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>3D-Modell und Druck</h2>
+      <img src="halter-60-iso.svg" alt="Isometrie der Baugruppe: Keil mit Lippe und Anschlägen, Telefon-Phantom, optische Achse" style="width:100%;max-width:560px;display:block;border:1px solid var(--line);background:#FCFCFA;margin:4px 0 10px">
+      <ul>
+        <li><b>Halter:</b> 170 × 104 × 44 mm, 310 cm³ Hüllvolumen, etwa 127 g PLA bei 15 % Infill und rund 10 h auf dem Ender-3 Pro. Basis auf dem Bett, keine Stützen: die Lippe hängt 30° über, die M3-Bohrungen stehen 30° schräg, beides druckt frei. Brim gegen Verzug der großen Grundfläche, 3 bis 4 Wände, 0,2 mm Schicht. PETG für den Betrieb, PLA für den ersten Passtest reicht.</li>
+        <li><b>Anschlag:</b> vier Stück, je unter 1 g, Fuß auf dem Bett, 30 % Infill.</li>
+        <li><b>Prüfungen im Skript:</b> Telefon-Phantom, Anschläge und optische Achse schneiden den Halter nicht, Spiel der Anschlagflächen 0,0 mm bei Bohrung 78,5, beide Netze wasserdicht und mannigfaltig, Bettmaß 220 × 220 eingehalten.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Dateien und Weiterverarbeitung</h2>
+      <ul class="files">
+        <li><code>halter-60.html</code><span>dieses Blatt mit Erläuterung</span></li>
+        <li><code>halter-60.svg</code> / <code>.pdf</code><span>eigenständiges Zeichnungsblatt, A3 quer, 1:1</span></li>
+        <li><code>halter60_freecad.py</code><span>FreeCAD-Skript: baut Halter, Anschlag, Adapter und Baugruppe, prüft Kollisionen, schreibt FCStd, STL und Isometrie</span></li>
+        <li><code>halter-60.FCStd</code><span>FreeCAD-Dokument zum Ansehen und Messen (Holder, Stop, Gruppe Assembly mit Telefon-Phantom)</span></li>
+        <li><code>halter-60-holder.stl</code> / <code>-stop.stl</code><span>Druckdateien für Cura, Halter 1×, Anschlag 4×</span></li>
+        <li><code>halter-60-iso.svg</code><span>Isometrie der Baugruppe, aus dem Skript</span></li>
+        <li><code>halter-60.scad</code><span>dasselbe Modell in OpenSCAD (nicht installiert, Referenz)</span></li>
+        <li><code>drawing.py</code><span>Generator für SVG und HTML, nur Standardbibliothek</span></li>
+      </ul>
+      <pre>/Applications/FreeCAD.app/Contents/Resources/bin/freecadcmd halter60_freecad.py
+python3 drawing.py
+rsvg-convert -f pdf -o halter-60.pdf halter-60.svg</pre>
+      <p>Parameter nur an einer Stelle ändern (identischer Block in <code>drawing.py</code>, <code>halter60_freecad.py</code>, <code>halter-60.scad</code>), dann beide Generatoren laufen lassen. In der FreeCAD-Oberfläche: Makro › Makros… › <code>halter60_freecad.py</code> ausführen, das Dokument öffnet sich mit Baugruppe.</p>
+    </section>
+  </div>
+</main>
+</body>
+</html>

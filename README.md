@@ -38,6 +38,32 @@ camera ──► ball detection ──► trajectory estimation ──► catch-
 - **Hardware** — custom mounting parts constructed in **FreeCAD with LLM-assisted
   sketches** (AI-generated geometry → parametric CAD → 3D print)
 
+
+## Repo contents (public preview)
+
+| Path | What it is |
+|---|---|
+| `src/engine.js` | Pure math engine (no DOM, runs in Node & browser): least-squares state estimation, crossing prediction, residual gate (maneuver detection), catch planning with bounce anticipation, a/v-limited actuator controller |
+| `src/sensor.js` | Camera sensor model: FOV with tilt/pan, anisotropic noise, dropouts, false measurements, detection latency |
+| `src/sim.js` | Simulation: ballistics, scenarios (normal/bounce/spring/float), sensor emulation, canvas rendering |
+| `tools/sweep-basket.js` | Headless Monte-Carlo sweep: catch-rate over parameter configurations |
+| `tools/golden-dart-*.js` | Golden-shot analysis tools: weighted fit, residual gate, catch planner, measurement covariance, ack travel time |
+| `test/` | Node tests (`node --test`, zero dependencies), deterministic seeded RNG |
+| `firmware/esp32-bridge/` | ESP32 radio bridge (Arduino): WiFi-AP + UDP → 2× 50 Hz RC-PWM, arming + failsafe |
+| `hardware/halter-60/` | Parametric FreeCAD construction of a mounting part incl. technical drawing generator — constructed with LLM-assisted sketches |
+
+Not public (yet): detector training, labeled datasets, app internals, build logs.
+
+## Run it
+
+```bash
+# simulation in the browser
+python3 -m http.server 8642   # open http://127.0.0.1:8642
+
+# tests (Node >= 18, no dependencies)
+node --test test/
+```
+
 ## Status
 
 Ongoing private build — this page is the public preview. Detailed build logs,
