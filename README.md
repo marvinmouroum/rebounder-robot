@@ -50,7 +50,7 @@ camera ──► ball detection ──► trajectory estimation ──► catch-
 | `tools/golden-dart-*.js` | Golden-shot analysis tools: weighted fit, residual gate, catch planner, measurement covariance, ack travel time |
 | `test/` | Node tests (`node --test`, zero dependencies), deterministic seeded RNG |
 | `firmware/esp32-bridge/` | ESP32 radio bridge (Arduino): WiFi-AP + UDP → 2× 50 Hz RC-PWM, arming + failsafe |
-| `hardware/halter-60/` | Parametric FreeCAD construction of a mounting part incl. technical drawing generator — constructed with LLM-assisted sketches |
+| `hardware/halter-60/` | 📐 Full engineering documentation of a camera-phone mount: FreeCAD parametric script (`halter60_freecad.py`) + native CAD file (`.FCStd`) + **print-ready STLs** (holder 170×104×44 mm, stop ×4) + **dimensioned A3 technical drawing** (`halter-60.pdf`, 1:1 scale, ISO projection) + isometric view + 1:1 drilling template (`bohrschablone-adapter.pdf`) + measurement sheet for the RC chassis (`aufmass-kf10.pdf`) — sketches and construction done with **LLM-assisted design**, verified and printed |
 
 Not public (yet): detector training, labeled datasets, app internals, build logs.
 

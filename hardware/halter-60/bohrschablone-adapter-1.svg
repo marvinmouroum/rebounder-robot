@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210.0mm" height="297.0mm" viewBox="0 0 210.0 297.0">
+<style>
+text{font-family:Helvetica,Arial,"Liberation Sans",sans-serif;fill:#111}
+.fr{fill:#fff;stroke:#222;stroke-width:0.4}
+.v{fill:none;stroke:#111;stroke-width:0.35;stroke-linejoin:round}
+.o{fill:none;stroke:#111;stroke-width:0.5;stroke-linejoin:round}
+.g{fill:none;stroke:#8a8a8a;stroke-width:0.3;stroke-dasharray:2 1.2}
+.c{fill:none;stroke:#555;stroke-width:0.22;stroke-dasharray:6 1.2 1.2 1.2}
+.x{fill:none;stroke:#111;stroke-width:0.22}
+.e{fill:none;stroke-width:0.18}
+.d{fill:none;stroke-width:0.32}
+.ar{stroke:none}
+.bd{stroke-width:0.4}
+.tb{fill:none;stroke:#333;stroke-width:0.25}
+.th{fill:#e9eef7;stroke:#333;stroke-width:0.25}
+.ts{fill:#f4f4f4;stroke:#333;stroke-width:0.25}
+.k{fill:none;stroke:#111;stroke-width:0.5}
+</style>
+<rect class="fr" x="0.000" y="0.000" width="210.000" height="297.000" rx="0.0" style="stroke:#fff"/>
+<polygon class="o" points="155.500,10.500 54.500,10.500 54.500,34.500 83.000,34.500 83.000,96.500 20.000,96.500 20.000,200.500 83.000,200.500 83.000,262.500 49.000,262.500 49.000,286.500 161.000,286.500 161.000,262.500 127.000,262.500 127.000,200.500 190.000,200.500 190.000,96.500 127.000,96.500 127.000,34.500 155.500,34.500"/>
+<rect class="g" x="20.000" y="10.500" width="170.000" height="276.000" rx="3"/>
+<rect class="x" x="20.000" y="96.500" width="170.000" height="104.000" rx="0.0" style="stroke-dasharray:1 1"/>
+<line class="c" x1="14.000" y1="148.500" x2="196.000" y2="148.500"/>
+<line class="c" x1="105.000" y1="4.500" x2="105.000" y2="292.500"/>
+<circle class="v" cx="105.000" cy="148.500" r="1.200"/>
+<circle class="v" cx="105.000" cy="148.500" r="0.350" style="fill:#111"/>
+<text x="107.200" y="146.300" text-anchor="start" style="font-size:2.2px;fill:#555">Ursprung = Mitte Stiftbild</text>
+<line class="k" x1="100.000" y1="48.500" x2="110.000" y2="48.500"/>
+<line class="k" x1="100.000" y1="248.500" x2="110.000" y2="248.500"/>
+<text x="111.500" y="49.500" text-anchor="start" style="font-size:2.4px;fill:#b91c1c">Kontrolle: Strich zu Strich 200,0 mm (±0,3)</text>
+<line class="k" x1="55.000" y1="165.500" x2="55.000" y2="175.500"/>
+<line class="k" x1="155.000" y1="165.500" x2="155.000" y2="175.500"/>
+<text x="105.000" y="164.300" text-anchor="middle" style="font-size:2.4px;fill:#b91c1c">Kontrolle: Strich zu Strich 100,0 mm (±0,3)</text>
+<text x="105.000" y="179.000" text-anchor="middle" style="font-size:2.1px;fill:#b91c1c">stimmt eine Strecke nicht: Druck auf 100 % / „tatsächliche Größe“ stellen, neu drucken</text>
+<line class="x" x1="59.500" y1="22.500" x2="77.500" y2="22.500"/>
+<line class="x" x1="68.500" y1="13.500" x2="68.500" y2="31.500"/>
+<circle class="v" cx="68.500" cy="22.500" r="3.000" style="stroke:#1d4ed8"/>
+<rect class="g" x="65.500" y="20.500" width="6.000" height="4.000" rx="0.0" style="stroke:#1d4ed8"/>
+<path class="g" style="stroke:#1d4ed8" d="M 65.500 20.500 A 3.000 3.000 0 0 0 71.500 20.500"/>
+<path class="g" style="stroke:#1d4ed8" d="M 65.500 24.500 A 3.000 3.000 0 0 1 71.500 24.500"/>
+<circle class="v" cx="68.500" cy="22.500" r="0.350" style="fill:#111"/>
+<text x="58.000" y="18.300" text-anchor="end" style="font-size:2.3px;fill:#1d4ed8;font-weight:bold">Stift</text>
+<text x="58.000" y="21.600" text-anchor="end" style="font-size:2.1px;fill:#1d4ed8">Ø = ④ + 0,5</text>
+<text x="58.000" y="24.700" text-anchor="end" style="font-size:1.9px;fill:#1d4ed8">Langloch +4 längs</text>
+<line class="x" x1="132.500" y1="22.500" x2="150.500" y2="22.500"/>
+<line class="x" x1="141.500" y1="13.500" x2="141.500" y2="31.500"/>
+<circle class="v" cx="141.500" cy="22.500" r="3.000" style="stroke:#1d4ed8"/>
+<rect class="g" x="138.500" y="20.500" width="6.000" height="4.000" rx="0.0" style="stroke:#1d4ed8"/>
+<path class="g" style="stroke:#1d4ed8" d="M 138.500 20.500 A 3.000 3.000 0 0 0 144.500 20.500"/>
+<path class="g" style="stroke:#1d4ed8" d="M 138.500 24.500 A 3.000 3.000 0 0 1 144.500 24.500"/>
+<circle class="v" cx="141.500" cy="22.500" r="0.350" style="fill:#111"/>
+<text x="152.000" y="18.300" text-anchor="start" style="font-size:2.3px;fill:#1d4ed8;font-weight:bold">Stift</text>
+<text x="152.000" y="21.600" text-anchor="start" style="font-size:2.1px;fill:#1d4ed8">Ø = ④ + 0,5</text>
+<text x="152.000" y="24.700" text-anchor="start" style="font-size:1.9px;fill:#1d4ed8">Langloch +4 längs</text>
+<line class="x" x1="54.000" y1="274.500" x2="72.000" y2="274.500"/>
+<line class="x" x1="63.000" y1="265.500" x2="63.000" y2="283.500"/>
+<circle class="v" cx="63.000" cy="274.500" r="3.000" style="stroke:#1d4ed8"/>
+<rect class="g" x="60.000" y="272.500" width="6.000" height="4.000" rx="0.0" style="stroke:#1d4ed8"/>
+<path class="g" style="stroke:#1d4ed8" d="M 60.000 272.500 A 3.000 3.000 0 0 0 66.000 272.500"/>
+<path class="g" style="stroke:#1d4ed8" d="M 60.000 276.500 A 3.000 3.000 0 0 1 66.000 276.500"/>
+<circle class="v" cx="63.000" cy="274.500" r="0.350" style="fill:#111"/>
+<text x="52.500" y="270.300" text-anchor="end" style="font-size:2.3px;fill:#1d4ed8;font-weight:bold">Stift</text>
+<text x="52.500" y="273.600" text-anchor="end" style="font-size:2.1px;fill:#1d4ed8">Ø = ④ + 0,5</text>
+<text x="52.500" y="276.700" text-anchor="end" style="font-size:1.9px;fill:#1d4ed8">Langloch +4 längs</text>
+<line class="x" x1="138.000" y1="274.500" x2="156.000" y2="274.500"/>
+<line class="x" x1="147.000" y1="265.500" x2="147.000" y2="283.500"/>
+<circle class="v" cx="147.000" cy="274.500" r="3.000" style="stroke:#1d4ed8"/>
+<rect class="g" x="144.000" y="272.500" width="6.000" height="4.000" rx="0.0" style="stroke:#1d4ed8"/>
+<path class="g" style="stroke:#1d4ed8" d="M 144.000 272.500 A 3.000 3.000 0 0 0 150.000 272.500"/>
+<path class="g" style="stroke:#1d4ed8" d="M 144.000 276.500 A 3.000 3.000 0 0 1 150.000 276.500"/>
+<circle class="v" cx="147.000" cy="274.500" r="0.350" style="fill:#111"/>
+<text x="157.500" y="270.300" text-anchor="start" style="font-size:2.3px;fill:#1d4ed8;font-weight:bold">Stift</text>
+<text x="157.500" y="273.600" text-anchor="start" style="font-size:2.1px;fill:#1d4ed8">Ø = ④ + 0,5</text>
+<text x="157.500" y="276.700" text-anchor="start" style="font-size:1.9px;fill:#1d4ed8">Langloch +4 längs</text>
+<line class="x" x1="20.000" y1="102.500" x2="34.000" y2="102.500"/>
+<line class="x" x1="27.000" y1="95.500" x2="27.000" y2="109.500"/>
+<circle class="v" cx="27.000" cy="102.500" r="2.250" style="stroke:#15803d"/>
+<circle class="v" cx="27.000" cy="102.500" r="0.350" style="fill:#111"/>
+<text x="35.500" y="103.400" text-anchor="start" style="font-size:2.2px;fill:#15803d;font-weight:bold">M4 Ø 4,5</text>
+<line class="x" x1="176.000" y1="102.500" x2="190.000" y2="102.500"/>
+<line class="x" x1="183.000" y1="95.500" x2="183.000" y2="109.500"/>
+<circle class="v" cx="183.000" cy="102.500" r="2.250" style="stroke:#15803d"/>
+<circle class="v" cx="183.000" cy="102.500" r="0.350" style="fill:#111"/>
+<text x="174.500" y="103.400" text-anchor="end" style="font-size:2.2px;fill:#15803d;font-weight:bold">M4 Ø 4,5</text>
+<line class="x" x1="20.000" y1="194.500" x2="34.000" y2="194.500"/>
+<line class="x" x1="27.000" y1="187.500" x2="27.000" y2="201.500"/>
+<circle class="v" cx="27.000" cy="194.500" r="2.250" style="stroke:#15803d"/>
+<circle class="v" cx="27.000" cy="194.500" r="0.350" style="fill:#111"/>
+<text x="35.500" y="195.400" text-anchor="start" style="font-size:2.2px;fill:#15803d;font-weight:bold">M4 Ø 4,5</text>
+<line class="x" x1="176.000" y1="194.500" x2="190.000" y2="194.500"/>
+<line class="x" x1="183.000" y1="187.500" x2="183.000" y2="201.500"/>
+<circle class="v" cx="183.000" cy="194.500" r="2.250" style="stroke:#15803d"/>
+<circle class="v" cx="183.000" cy="194.500" r="0.350" style="fill:#111"/>
+<text x="174.500" y="195.400" text-anchor="end" style="font-size:2.2px;fill:#15803d;font-weight:bold">M4 Ø 4,5</text>
+<line class="e" x1="68.500" y1="22.500" x2="68.500" y2="42.000" style="stroke:#1d4ed8"/>
+<line class="e" x1="141.500" y1="22.500" x2="141.500" y2="42.000" style="stroke:#1d4ed8"/>
+<line class="d" x1="68.500" y1="40.500" x2="141.500" y2="40.500" style="stroke:#1d4ed8"/>
+<polygon class="ar" points="68.500,40.500 70.900,39.800 70.900,41.200" style="fill:#1d4ed8"/>
+<polygon class="ar" points="141.500,40.500 139.100,41.200 139.100,39.800" style="fill:#1d4ed8"/>
+<text x="105.000" y="44.100" text-anchor="middle" style="font-size:2.8px;fill:#1d4ed8;font-weight:bold">① front_span 73</text>
+<line class="e" x1="63.000" y1="274.500" x2="63.000" y2="255.000" style="stroke:#1d4ed8"/>
+<line class="e" x1="147.000" y1="274.500" x2="147.000" y2="255.000" style="stroke:#1d4ed8"/>
+<line class="d" x1="63.000" y1="256.500" x2="147.000" y2="256.500" style="stroke:#1d4ed8"/>
+<polygon class="ar" points="63.000,256.500 65.400,255.800 65.400,257.200" style="fill:#1d4ed8"/>
+<polygon class="ar" points="147.000,256.500 144.600,257.200 144.600,255.800" style="fill:#1d4ed8"/>
+<text x="105.000" y="255.100" text-anchor="middle" style="font-size:2.8px;fill:#1d4ed8;font-weight:bold">② rear_span 84</text>
+<line class="e" x1="150.500" y1="22.500" x2="151.500" y2="22.500" style="stroke:#1d4ed8"/>
+<line class="e" x1="156.000" y1="274.500" x2="157.000" y2="274.500" style="stroke:#1d4ed8"/>
+<line class="e" x1="175.500" y1="22.500" x2="200.500" y2="22.500" style="stroke:#1d4ed8"/>
+<line class="e" x1="181.000" y1="274.500" x2="200.500" y2="274.500" style="stroke:#1d4ed8"/>
+<line class="d" x1="199.000" y1="22.500" x2="199.000" y2="274.500" style="stroke:#1d4ed8"/>
+<polygon class="ar" points="199.000,22.500 199.700,24.900 198.300,24.900" style="fill:#1d4ed8"/>
+<polygon class="ar" points="199.000,274.500 198.300,272.100 199.700,272.100" style="fill:#1d4ed8"/>
+<text x="200.400" y="148.500" text-anchor="middle" style="font-size:2.8px;fill:#1d4ed8;font-weight:bold" transform="rotate(-90.0 200.400 148.500)">③ pitch_y 252</text>
+<line class="e" x1="27.000" y1="102.500" x2="27.000" y2="94.500" style="stroke:#15803d"/>
+<line class="e" x1="183.000" y1="102.500" x2="183.000" y2="94.500" style="stroke:#15803d"/>
+<line class="d" x1="27.000" y1="96.000" x2="183.000" y2="96.000" style="stroke:#15803d"/>
+<polygon class="ar" points="27.000,96.000 29.400,95.300 29.400,96.700" style="fill:#15803d"/>
+<polygon class="ar" points="183.000,96.000 180.600,96.700 180.600,95.300" style="fill:#15803d"/>
+<text x="105.000" y="94.600" text-anchor="middle" style="font-size:2.8px;fill:#15803d;font-weight:bold">Halter-Lochbild 156</text>
+<line class="e" x1="27.000" y1="102.500" x2="9.500" y2="102.500" style="stroke:#15803d"/>
+<line class="e" x1="27.000" y1="194.500" x2="9.500" y2="194.500" style="stroke:#15803d"/>
+<line class="d" x1="11.000" y1="102.500" x2="11.000" y2="194.500" style="stroke:#15803d"/>
+<polygon class="ar" points="11.000,102.500 11.700,104.900 10.300,104.900" style="fill:#15803d"/>
+<polygon class="ar" points="11.000,194.500 10.300,192.100 11.700,192.100" style="fill:#15803d"/>
+<text x="9.600" y="148.500" text-anchor="middle" style="font-size:2.8px;fill:#15803d;font-weight:bold" transform="rotate(-90.0 9.600 148.500)">Halter-Lochbild 92</text>
+<line class="e" x1="68.500" y1="22.500" x2="147.000" y2="274.500" style="stroke:#6b7280"/>
+<line class="e" x1="141.500" y1="22.500" x2="63.000" y2="274.500" style="stroke:#6b7280"/>
+<text x="137.800" y="89.400" text-anchor="middle" style="font-size:2.1px;fill:#6b7280" transform="rotate(-72.7 137.800 89.400)">Diagonalen 263.9 mm, beide gleich</text>
+<text x="105.000" y="19.300" text-anchor="middle" style="font-size:3.0px;fill:#111;font-weight:bold">VORN (+Y)  ▲</text>
+<text x="23.200" y="148.500" text-anchor="middle" style="font-size:2.3px;fill:#333" transform="rotate(-90.0 23.200 148.500)">Fahrzeug-links (+X) · Kameraseite des Halters</text>
+<text x="186.800" y="148.500" text-anchor="middle" style="font-size:2.3px;fill:#333" transform="rotate(-90.0 186.800 148.500)">Fahrzeug-rechts</text>
+<line class="o" x1="45.000" y1="188.000" x2="55.000" y2="188.000"/>
+<text x="57.000" y="189.000" text-anchor="start" style="font-size:2.2px;fill:#111">I-Form wie Druckteil (Adapter aus FreeCAD)</text>
+<line class="g" x1="45.000" y1="192.200" x2="55.000" y2="192.200"/>
+<text x="57.000" y="193.200" text-anchor="start" style="font-size:2.2px;fill:#111">Rechteck 170 × 276 (Brett-Variante, reicht — Kontrolle A: Akkuwechsel)</text>
+<line class="x" x1="45.000" y1="196.400" x2="55.000" y2="196.400" style="stroke-dasharray:1 1"/>
+<text x="57.000" y="197.400" text-anchor="start" style="font-size:2.2px;fill:#111">Halter-Grundfläche 170 × 104</text>
+<text x="6.000" y="4.600" text-anchor="start" style="font-size:2.5px;fill:#111;font-weight:bold">Bohrschablone Adapterplatte · KF10 MAX · Maßstab 1:1 · DRUCK 100 % (tatsächliche Größe, keine Anpassung)</text>
+<text x="204.000" y="4.600" text-anchor="end" style="font-size:2.3px;fill:#444">RB3-HW-003 Rev B · 2026-09-10 · Blatt 1/2</text>
+<text x="6.000" y="294.600" text-anchor="start" style="font-size:2.2px;fill:#444">Blatt auf das Brett kleben, 8 Mittelpunkte durch das Papier ankörnen · Stiftlöcher erst nach Messung von ④ bohren · Anleitung Blatt 2</text>
+</svg>

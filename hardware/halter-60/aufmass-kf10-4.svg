@@ -1,0 +1,679 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297.0mm" height="210.0mm" viewBox="0 0 297.0 210.0">
+<style>
+text{font-family:Helvetica,Arial,"Liberation Sans",sans-serif;fill:#111}
+.fr{fill:#fff;stroke:#222;stroke-width:0.4}
+.v{fill:none;stroke:#111;stroke-width:0.35;stroke-linejoin:round}
+.f{fill:#f3f3f3;stroke:#111;stroke-width:0.35;stroke-linejoin:round}
+.m{fill:#e2e2e2;stroke:#111;stroke-width:0.35;stroke-linejoin:round}
+.p{fill:#3a3a3a;stroke:#111;stroke-width:0.3}
+.w{fill:#d6d6d6;stroke:#111;stroke-width:0.35}
+.w2{fill:#d6d6d6;fill-opacity:0.5;stroke:#111;stroke-width:0.35}
+.i{fill:none;stroke:#555;stroke-width:0.25}
+.h{fill:none;stroke:#333;stroke-width:0.25;stroke-dasharray:1.6 1}
+.g{fill:none;stroke:#8a8a8a;stroke-width:0.3;stroke-dasharray:1.4 0.9}
+.e{fill:none;stroke-width:0.18}
+.d{fill:none;stroke-width:0.32}
+.ar{stroke:none}
+.bd{stroke-width:0.4}
+.tb{fill:none;stroke:#333;stroke-width:0.25}
+.th{fill:#e9eef7;stroke:#333;stroke-width:0.25}
+.ts{fill:#f4f4f4;stroke:#333;stroke-width:0.25}
+.gr{fill:none;stroke:#333;stroke-width:0.5}
+</style>
+<rect class="fr" x="5.00" y="5.00" width="287.00" height="200.00" rx="0.0"/>
+<text x="8.00" y="10.20" text-anchor="start" style="font-size:4.2px;fill:#111;font-weight:bold">Blatt 4 — Papiermaßstab und Messen ohne Lineal</text>
+<text x="8.00" y="14.60" text-anchor="start" style="font-size:2.6px;fill:#444">Nur bei Druck in tatsächlicher Größe (100 %, keine Seitenanpassung) millimetergenau. Vor dem Gebrauch die Kontrollstrecke mit dem Messschieber prüfen.</text>
+<text x="289.00" y="10.20" text-anchor="end" style="font-size:3.0px;fill:#111">KF10 MAX · Aufmaß Adapterplatte · Blatt 4/4</text>
+<text x="289.00" y="14.60" text-anchor="end" style="font-size:2.4px;fill:#444">RB3-HW-003 Rev B · 2026-09-10 · nicht maßstäblich</text>
+<line class="gr" x1="4.00" y1="24.00" x2="291.00" y2="24.00"/>
+<line class="h" x1="4.00" y1="44.00" x2="291.00" y2="44.00"/>
+<line class="h" x1="10.00" y1="20.00" x2="10.00" y2="47.00"/>
+<line class="v" x1="10.00" y1="24.00" x2="10.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="10.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111;font-weight:bold">0</text>
+<line class="v" x1="11.00" y1="24.00" x2="11.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="12.00" y1="24.00" x2="12.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="13.00" y1="24.00" x2="13.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="14.00" y1="24.00" x2="14.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="15.00" y1="24.00" x2="15.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="16.00" y1="24.00" x2="16.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="17.00" y1="24.00" x2="17.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="18.00" y1="24.00" x2="18.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="19.00" y1="24.00" x2="19.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="20.00" y1="24.00" x2="20.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="20.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">10</text>
+<line class="v" x1="21.00" y1="24.00" x2="21.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="22.00" y1="24.00" x2="22.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="23.00" y1="24.00" x2="23.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="24.00" y1="24.00" x2="24.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="25.00" y1="24.00" x2="25.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="26.00" y1="24.00" x2="26.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="27.00" y1="24.00" x2="27.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="28.00" y1="24.00" x2="28.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="29.00" y1="24.00" x2="29.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="30.00" y1="24.00" x2="30.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="30.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">20</text>
+<line class="v" x1="31.00" y1="24.00" x2="31.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="32.00" y1="24.00" x2="32.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="33.00" y1="24.00" x2="33.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="34.00" y1="24.00" x2="34.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="35.00" y1="24.00" x2="35.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="36.00" y1="24.00" x2="36.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="37.00" y1="24.00" x2="37.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="38.00" y1="24.00" x2="38.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="39.00" y1="24.00" x2="39.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="40.00" y1="24.00" x2="40.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="40.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">30</text>
+<line class="v" x1="41.00" y1="24.00" x2="41.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="42.00" y1="24.00" x2="42.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="43.00" y1="24.00" x2="43.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="44.00" y1="24.00" x2="44.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="45.00" y1="24.00" x2="45.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="46.00" y1="24.00" x2="46.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="47.00" y1="24.00" x2="47.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="48.00" y1="24.00" x2="48.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="49.00" y1="24.00" x2="49.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="50.00" y1="24.00" x2="50.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="50.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">40</text>
+<line class="v" x1="51.00" y1="24.00" x2="51.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="52.00" y1="24.00" x2="52.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="53.00" y1="24.00" x2="53.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="54.00" y1="24.00" x2="54.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="55.00" y1="24.00" x2="55.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="56.00" y1="24.00" x2="56.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="57.00" y1="24.00" x2="57.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="58.00" y1="24.00" x2="58.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="59.00" y1="24.00" x2="59.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="60.00" y1="24.00" x2="60.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="60.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111;font-weight:bold">50</text>
+<line class="v" x1="61.00" y1="24.00" x2="61.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="62.00" y1="24.00" x2="62.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="63.00" y1="24.00" x2="63.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="64.00" y1="24.00" x2="64.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="65.00" y1="24.00" x2="65.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="66.00" y1="24.00" x2="66.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="67.00" y1="24.00" x2="67.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="68.00" y1="24.00" x2="68.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="69.00" y1="24.00" x2="69.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="70.00" y1="24.00" x2="70.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="70.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">60</text>
+<line class="v" x1="71.00" y1="24.00" x2="71.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="72.00" y1="24.00" x2="72.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="73.00" y1="24.00" x2="73.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="74.00" y1="24.00" x2="74.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="75.00" y1="24.00" x2="75.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="76.00" y1="24.00" x2="76.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="77.00" y1="24.00" x2="77.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="78.00" y1="24.00" x2="78.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="79.00" y1="24.00" x2="79.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="80.00" y1="24.00" x2="80.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="80.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">70</text>
+<line class="v" x1="81.00" y1="24.00" x2="81.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="82.00" y1="24.00" x2="82.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="83.00" y1="24.00" x2="83.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="84.00" y1="24.00" x2="84.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="85.00" y1="24.00" x2="85.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="86.00" y1="24.00" x2="86.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="87.00" y1="24.00" x2="87.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="88.00" y1="24.00" x2="88.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="89.00" y1="24.00" x2="89.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="90.00" y1="24.00" x2="90.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="90.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">80</text>
+<line class="v" x1="91.00" y1="24.00" x2="91.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="92.00" y1="24.00" x2="92.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="93.00" y1="24.00" x2="93.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="94.00" y1="24.00" x2="94.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="95.00" y1="24.00" x2="95.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="96.00" y1="24.00" x2="96.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="97.00" y1="24.00" x2="97.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="98.00" y1="24.00" x2="98.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="99.00" y1="24.00" x2="99.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="100.00" y1="24.00" x2="100.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="100.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">90</text>
+<line class="v" x1="101.00" y1="24.00" x2="101.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="102.00" y1="24.00" x2="102.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="103.00" y1="24.00" x2="103.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="104.00" y1="24.00" x2="104.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="105.00" y1="24.00" x2="105.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="106.00" y1="24.00" x2="106.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="107.00" y1="24.00" x2="107.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="108.00" y1="24.00" x2="108.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="109.00" y1="24.00" x2="109.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="110.00" y1="24.00" x2="110.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="110.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111;font-weight:bold">100</text>
+<line class="v" x1="111.00" y1="24.00" x2="111.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="112.00" y1="24.00" x2="112.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="113.00" y1="24.00" x2="113.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="114.00" y1="24.00" x2="114.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="115.00" y1="24.00" x2="115.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="116.00" y1="24.00" x2="116.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="117.00" y1="24.00" x2="117.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="118.00" y1="24.00" x2="118.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="119.00" y1="24.00" x2="119.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="120.00" y1="24.00" x2="120.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="120.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">110</text>
+<line class="v" x1="121.00" y1="24.00" x2="121.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="122.00" y1="24.00" x2="122.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="123.00" y1="24.00" x2="123.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="124.00" y1="24.00" x2="124.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="125.00" y1="24.00" x2="125.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="126.00" y1="24.00" x2="126.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="127.00" y1="24.00" x2="127.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="128.00" y1="24.00" x2="128.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="129.00" y1="24.00" x2="129.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="130.00" y1="24.00" x2="130.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="130.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">120</text>
+<line class="v" x1="131.00" y1="24.00" x2="131.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="132.00" y1="24.00" x2="132.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="133.00" y1="24.00" x2="133.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="134.00" y1="24.00" x2="134.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="135.00" y1="24.00" x2="135.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="136.00" y1="24.00" x2="136.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="137.00" y1="24.00" x2="137.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="138.00" y1="24.00" x2="138.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="139.00" y1="24.00" x2="139.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="140.00" y1="24.00" x2="140.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="140.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">130</text>
+<line class="v" x1="141.00" y1="24.00" x2="141.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="142.00" y1="24.00" x2="142.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="143.00" y1="24.00" x2="143.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="144.00" y1="24.00" x2="144.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="145.00" y1="24.00" x2="145.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="146.00" y1="24.00" x2="146.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="147.00" y1="24.00" x2="147.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="148.00" y1="24.00" x2="148.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="149.00" y1="24.00" x2="149.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="150.00" y1="24.00" x2="150.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="150.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">140</text>
+<line class="v" x1="151.00" y1="24.00" x2="151.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="152.00" y1="24.00" x2="152.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="153.00" y1="24.00" x2="153.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="154.00" y1="24.00" x2="154.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="155.00" y1="24.00" x2="155.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="156.00" y1="24.00" x2="156.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="157.00" y1="24.00" x2="157.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="158.00" y1="24.00" x2="158.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="159.00" y1="24.00" x2="159.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="160.00" y1="24.00" x2="160.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="160.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111;font-weight:bold">150</text>
+<line class="v" x1="161.00" y1="24.00" x2="161.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="162.00" y1="24.00" x2="162.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="163.00" y1="24.00" x2="163.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="164.00" y1="24.00" x2="164.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="165.00" y1="24.00" x2="165.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="166.00" y1="24.00" x2="166.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="167.00" y1="24.00" x2="167.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="168.00" y1="24.00" x2="168.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="169.00" y1="24.00" x2="169.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="170.00" y1="24.00" x2="170.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="170.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">160</text>
+<line class="v" x1="171.00" y1="24.00" x2="171.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="172.00" y1="24.00" x2="172.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="173.00" y1="24.00" x2="173.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="174.00" y1="24.00" x2="174.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="175.00" y1="24.00" x2="175.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="176.00" y1="24.00" x2="176.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="177.00" y1="24.00" x2="177.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="178.00" y1="24.00" x2="178.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="179.00" y1="24.00" x2="179.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="180.00" y1="24.00" x2="180.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="180.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">170</text>
+<line class="v" x1="181.00" y1="24.00" x2="181.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="182.00" y1="24.00" x2="182.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="183.00" y1="24.00" x2="183.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="184.00" y1="24.00" x2="184.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="185.00" y1="24.00" x2="185.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="186.00" y1="24.00" x2="186.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="187.00" y1="24.00" x2="187.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="188.00" y1="24.00" x2="188.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="189.00" y1="24.00" x2="189.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="190.00" y1="24.00" x2="190.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="190.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">180</text>
+<line class="v" x1="191.00" y1="24.00" x2="191.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="192.00" y1="24.00" x2="192.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="193.00" y1="24.00" x2="193.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="194.00" y1="24.00" x2="194.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="195.00" y1="24.00" x2="195.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="196.00" y1="24.00" x2="196.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="197.00" y1="24.00" x2="197.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="198.00" y1="24.00" x2="198.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="199.00" y1="24.00" x2="199.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="200.00" y1="24.00" x2="200.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="200.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">190</text>
+<line class="v" x1="201.00" y1="24.00" x2="201.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="202.00" y1="24.00" x2="202.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="203.00" y1="24.00" x2="203.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="204.00" y1="24.00" x2="204.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="205.00" y1="24.00" x2="205.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="206.00" y1="24.00" x2="206.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="207.00" y1="24.00" x2="207.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="208.00" y1="24.00" x2="208.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="209.00" y1="24.00" x2="209.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="210.00" y1="24.00" x2="210.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="210.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111;font-weight:bold">200</text>
+<line class="v" x1="211.00" y1="24.00" x2="211.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="212.00" y1="24.00" x2="212.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="213.00" y1="24.00" x2="213.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="214.00" y1="24.00" x2="214.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="215.00" y1="24.00" x2="215.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="216.00" y1="24.00" x2="216.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="217.00" y1="24.00" x2="217.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="218.00" y1="24.00" x2="218.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="219.00" y1="24.00" x2="219.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="220.00" y1="24.00" x2="220.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="220.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">210</text>
+<line class="v" x1="221.00" y1="24.00" x2="221.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="222.00" y1="24.00" x2="222.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="223.00" y1="24.00" x2="223.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="224.00" y1="24.00" x2="224.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="225.00" y1="24.00" x2="225.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="226.00" y1="24.00" x2="226.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="227.00" y1="24.00" x2="227.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="228.00" y1="24.00" x2="228.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="229.00" y1="24.00" x2="229.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="230.00" y1="24.00" x2="230.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="230.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">220</text>
+<line class="v" x1="231.00" y1="24.00" x2="231.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="232.00" y1="24.00" x2="232.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="233.00" y1="24.00" x2="233.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="234.00" y1="24.00" x2="234.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="235.00" y1="24.00" x2="235.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="236.00" y1="24.00" x2="236.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="237.00" y1="24.00" x2="237.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="238.00" y1="24.00" x2="238.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="239.00" y1="24.00" x2="239.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="240.00" y1="24.00" x2="240.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="240.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">230</text>
+<line class="v" x1="241.00" y1="24.00" x2="241.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="242.00" y1="24.00" x2="242.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="243.00" y1="24.00" x2="243.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="244.00" y1="24.00" x2="244.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="245.00" y1="24.00" x2="245.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="246.00" y1="24.00" x2="246.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="247.00" y1="24.00" x2="247.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="248.00" y1="24.00" x2="248.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="249.00" y1="24.00" x2="249.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="250.00" y1="24.00" x2="250.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="250.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">240</text>
+<line class="v" x1="251.00" y1="24.00" x2="251.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="252.00" y1="24.00" x2="252.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="253.00" y1="24.00" x2="253.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="254.00" y1="24.00" x2="254.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="255.00" y1="24.00" x2="255.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="256.00" y1="24.00" x2="256.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="257.00" y1="24.00" x2="257.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="258.00" y1="24.00" x2="258.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="259.00" y1="24.00" x2="259.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="260.00" y1="24.00" x2="260.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="260.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111;font-weight:bold">250</text>
+<line class="v" x1="261.00" y1="24.00" x2="261.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="262.00" y1="24.00" x2="262.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="263.00" y1="24.00" x2="263.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="264.00" y1="24.00" x2="264.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="265.00" y1="24.00" x2="265.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="266.00" y1="24.00" x2="266.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="267.00" y1="24.00" x2="267.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="268.00" y1="24.00" x2="268.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="269.00" y1="24.00" x2="269.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="270.00" y1="24.00" x2="270.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="270.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">260</text>
+<line class="v" x1="271.00" y1="24.00" x2="271.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="272.00" y1="24.00" x2="272.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="273.00" y1="24.00" x2="273.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="274.00" y1="24.00" x2="274.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="275.00" y1="24.00" x2="275.00" y2="28.00" style="stroke-width:0.18"/>
+<line class="v" x1="276.00" y1="24.00" x2="276.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="277.00" y1="24.00" x2="277.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="278.00" y1="24.00" x2="278.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="279.00" y1="24.00" x2="279.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="280.00" y1="24.00" x2="280.00" y2="30.00" style="stroke-width:0.3"/>
+<text x="280.00" y="33.20" text-anchor="middle" style="font-size:2.6px;fill:#111">270</text>
+<line class="v" x1="281.00" y1="24.00" x2="281.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="282.00" y1="24.00" x2="282.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="283.00" y1="24.00" x2="283.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="284.00" y1="24.00" x2="284.00" y2="26.20" style="stroke-width:0.18"/>
+<line class="v" x1="285.00" y1="24.00" x2="285.00" y2="28.00" style="stroke-width:0.18"/>
+<text x="288.00" y="33.20" text-anchor="start" style="font-size:2.4px;fill:#444">mm</text>
+<text x="9.00" y="22.80" text-anchor="start" style="font-size:2.0px;fill:#555">← an der 0 abschneiden, dann liegt 0 an der Kante</text>
+<text x="290.00" y="43.00" text-anchor="end" style="font-size:2.0px;fill:#555">Schnittlinie</text>
+<line class="gr" x1="4.00" y1="52.00" x2="291.00" y2="52.00"/>
+<line class="h" x1="4.00" y1="72.00" x2="291.00" y2="72.00"/>
+<line class="h" x1="10.00" y1="48.00" x2="10.00" y2="75.00"/>
+<line class="v" x1="10.00" y1="52.00" x2="10.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="10.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111;font-weight:bold">0</text>
+<line class="v" x1="11.00" y1="52.00" x2="11.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="12.00" y1="52.00" x2="12.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="13.00" y1="52.00" x2="13.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="14.00" y1="52.00" x2="14.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="15.00" y1="52.00" x2="15.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="16.00" y1="52.00" x2="16.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="17.00" y1="52.00" x2="17.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="18.00" y1="52.00" x2="18.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="19.00" y1="52.00" x2="19.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="20.00" y1="52.00" x2="20.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="20.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">10</text>
+<line class="v" x1="21.00" y1="52.00" x2="21.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="22.00" y1="52.00" x2="22.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="23.00" y1="52.00" x2="23.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="24.00" y1="52.00" x2="24.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="25.00" y1="52.00" x2="25.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="26.00" y1="52.00" x2="26.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="27.00" y1="52.00" x2="27.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="28.00" y1="52.00" x2="28.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="29.00" y1="52.00" x2="29.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="30.00" y1="52.00" x2="30.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="30.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">20</text>
+<line class="v" x1="31.00" y1="52.00" x2="31.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="32.00" y1="52.00" x2="32.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="33.00" y1="52.00" x2="33.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="34.00" y1="52.00" x2="34.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="35.00" y1="52.00" x2="35.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="36.00" y1="52.00" x2="36.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="37.00" y1="52.00" x2="37.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="38.00" y1="52.00" x2="38.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="39.00" y1="52.00" x2="39.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="40.00" y1="52.00" x2="40.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="40.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">30</text>
+<line class="v" x1="41.00" y1="52.00" x2="41.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="42.00" y1="52.00" x2="42.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="43.00" y1="52.00" x2="43.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="44.00" y1="52.00" x2="44.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="45.00" y1="52.00" x2="45.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="46.00" y1="52.00" x2="46.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="47.00" y1="52.00" x2="47.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="48.00" y1="52.00" x2="48.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="49.00" y1="52.00" x2="49.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="50.00" y1="52.00" x2="50.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="50.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">40</text>
+<line class="v" x1="51.00" y1="52.00" x2="51.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="52.00" y1="52.00" x2="52.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="53.00" y1="52.00" x2="53.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="54.00" y1="52.00" x2="54.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="55.00" y1="52.00" x2="55.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="56.00" y1="52.00" x2="56.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="57.00" y1="52.00" x2="57.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="58.00" y1="52.00" x2="58.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="59.00" y1="52.00" x2="59.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="60.00" y1="52.00" x2="60.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="60.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111;font-weight:bold">50</text>
+<line class="v" x1="61.00" y1="52.00" x2="61.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="62.00" y1="52.00" x2="62.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="63.00" y1="52.00" x2="63.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="64.00" y1="52.00" x2="64.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="65.00" y1="52.00" x2="65.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="66.00" y1="52.00" x2="66.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="67.00" y1="52.00" x2="67.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="68.00" y1="52.00" x2="68.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="69.00" y1="52.00" x2="69.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="70.00" y1="52.00" x2="70.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="70.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">60</text>
+<line class="v" x1="71.00" y1="52.00" x2="71.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="72.00" y1="52.00" x2="72.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="73.00" y1="52.00" x2="73.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="74.00" y1="52.00" x2="74.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="75.00" y1="52.00" x2="75.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="76.00" y1="52.00" x2="76.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="77.00" y1="52.00" x2="77.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="78.00" y1="52.00" x2="78.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="79.00" y1="52.00" x2="79.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="80.00" y1="52.00" x2="80.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="80.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">70</text>
+<line class="v" x1="81.00" y1="52.00" x2="81.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="82.00" y1="52.00" x2="82.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="83.00" y1="52.00" x2="83.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="84.00" y1="52.00" x2="84.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="85.00" y1="52.00" x2="85.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="86.00" y1="52.00" x2="86.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="87.00" y1="52.00" x2="87.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="88.00" y1="52.00" x2="88.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="89.00" y1="52.00" x2="89.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="90.00" y1="52.00" x2="90.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="90.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">80</text>
+<line class="v" x1="91.00" y1="52.00" x2="91.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="92.00" y1="52.00" x2="92.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="93.00" y1="52.00" x2="93.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="94.00" y1="52.00" x2="94.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="95.00" y1="52.00" x2="95.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="96.00" y1="52.00" x2="96.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="97.00" y1="52.00" x2="97.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="98.00" y1="52.00" x2="98.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="99.00" y1="52.00" x2="99.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="100.00" y1="52.00" x2="100.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="100.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">90</text>
+<line class="v" x1="101.00" y1="52.00" x2="101.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="102.00" y1="52.00" x2="102.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="103.00" y1="52.00" x2="103.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="104.00" y1="52.00" x2="104.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="105.00" y1="52.00" x2="105.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="106.00" y1="52.00" x2="106.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="107.00" y1="52.00" x2="107.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="108.00" y1="52.00" x2="108.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="109.00" y1="52.00" x2="109.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="110.00" y1="52.00" x2="110.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="110.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111;font-weight:bold">100</text>
+<line class="v" x1="111.00" y1="52.00" x2="111.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="112.00" y1="52.00" x2="112.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="113.00" y1="52.00" x2="113.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="114.00" y1="52.00" x2="114.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="115.00" y1="52.00" x2="115.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="116.00" y1="52.00" x2="116.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="117.00" y1="52.00" x2="117.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="118.00" y1="52.00" x2="118.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="119.00" y1="52.00" x2="119.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="120.00" y1="52.00" x2="120.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="120.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">110</text>
+<line class="v" x1="121.00" y1="52.00" x2="121.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="122.00" y1="52.00" x2="122.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="123.00" y1="52.00" x2="123.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="124.00" y1="52.00" x2="124.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="125.00" y1="52.00" x2="125.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="126.00" y1="52.00" x2="126.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="127.00" y1="52.00" x2="127.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="128.00" y1="52.00" x2="128.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="129.00" y1="52.00" x2="129.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="130.00" y1="52.00" x2="130.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="130.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">120</text>
+<line class="v" x1="131.00" y1="52.00" x2="131.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="132.00" y1="52.00" x2="132.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="133.00" y1="52.00" x2="133.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="134.00" y1="52.00" x2="134.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="135.00" y1="52.00" x2="135.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="136.00" y1="52.00" x2="136.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="137.00" y1="52.00" x2="137.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="138.00" y1="52.00" x2="138.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="139.00" y1="52.00" x2="139.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="140.00" y1="52.00" x2="140.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="140.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">130</text>
+<line class="v" x1="141.00" y1="52.00" x2="141.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="142.00" y1="52.00" x2="142.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="143.00" y1="52.00" x2="143.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="144.00" y1="52.00" x2="144.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="145.00" y1="52.00" x2="145.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="146.00" y1="52.00" x2="146.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="147.00" y1="52.00" x2="147.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="148.00" y1="52.00" x2="148.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="149.00" y1="52.00" x2="149.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="150.00" y1="52.00" x2="150.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="150.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">140</text>
+<line class="v" x1="151.00" y1="52.00" x2="151.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="152.00" y1="52.00" x2="152.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="153.00" y1="52.00" x2="153.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="154.00" y1="52.00" x2="154.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="155.00" y1="52.00" x2="155.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="156.00" y1="52.00" x2="156.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="157.00" y1="52.00" x2="157.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="158.00" y1="52.00" x2="158.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="159.00" y1="52.00" x2="159.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="160.00" y1="52.00" x2="160.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="160.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111;font-weight:bold">150</text>
+<line class="v" x1="161.00" y1="52.00" x2="161.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="162.00" y1="52.00" x2="162.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="163.00" y1="52.00" x2="163.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="164.00" y1="52.00" x2="164.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="165.00" y1="52.00" x2="165.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="166.00" y1="52.00" x2="166.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="167.00" y1="52.00" x2="167.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="168.00" y1="52.00" x2="168.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="169.00" y1="52.00" x2="169.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="170.00" y1="52.00" x2="170.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="170.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">160</text>
+<line class="v" x1="171.00" y1="52.00" x2="171.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="172.00" y1="52.00" x2="172.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="173.00" y1="52.00" x2="173.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="174.00" y1="52.00" x2="174.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="175.00" y1="52.00" x2="175.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="176.00" y1="52.00" x2="176.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="177.00" y1="52.00" x2="177.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="178.00" y1="52.00" x2="178.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="179.00" y1="52.00" x2="179.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="180.00" y1="52.00" x2="180.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="180.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">170</text>
+<line class="v" x1="181.00" y1="52.00" x2="181.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="182.00" y1="52.00" x2="182.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="183.00" y1="52.00" x2="183.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="184.00" y1="52.00" x2="184.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="185.00" y1="52.00" x2="185.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="186.00" y1="52.00" x2="186.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="187.00" y1="52.00" x2="187.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="188.00" y1="52.00" x2="188.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="189.00" y1="52.00" x2="189.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="190.00" y1="52.00" x2="190.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="190.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">180</text>
+<line class="v" x1="191.00" y1="52.00" x2="191.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="192.00" y1="52.00" x2="192.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="193.00" y1="52.00" x2="193.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="194.00" y1="52.00" x2="194.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="195.00" y1="52.00" x2="195.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="196.00" y1="52.00" x2="196.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="197.00" y1="52.00" x2="197.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="198.00" y1="52.00" x2="198.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="199.00" y1="52.00" x2="199.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="200.00" y1="52.00" x2="200.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="200.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">190</text>
+<line class="v" x1="201.00" y1="52.00" x2="201.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="202.00" y1="52.00" x2="202.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="203.00" y1="52.00" x2="203.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="204.00" y1="52.00" x2="204.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="205.00" y1="52.00" x2="205.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="206.00" y1="52.00" x2="206.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="207.00" y1="52.00" x2="207.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="208.00" y1="52.00" x2="208.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="209.00" y1="52.00" x2="209.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="210.00" y1="52.00" x2="210.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="210.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111;font-weight:bold">200</text>
+<line class="v" x1="211.00" y1="52.00" x2="211.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="212.00" y1="52.00" x2="212.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="213.00" y1="52.00" x2="213.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="214.00" y1="52.00" x2="214.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="215.00" y1="52.00" x2="215.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="216.00" y1="52.00" x2="216.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="217.00" y1="52.00" x2="217.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="218.00" y1="52.00" x2="218.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="219.00" y1="52.00" x2="219.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="220.00" y1="52.00" x2="220.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="220.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">210</text>
+<line class="v" x1="221.00" y1="52.00" x2="221.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="222.00" y1="52.00" x2="222.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="223.00" y1="52.00" x2="223.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="224.00" y1="52.00" x2="224.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="225.00" y1="52.00" x2="225.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="226.00" y1="52.00" x2="226.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="227.00" y1="52.00" x2="227.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="228.00" y1="52.00" x2="228.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="229.00" y1="52.00" x2="229.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="230.00" y1="52.00" x2="230.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="230.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">220</text>
+<line class="v" x1="231.00" y1="52.00" x2="231.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="232.00" y1="52.00" x2="232.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="233.00" y1="52.00" x2="233.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="234.00" y1="52.00" x2="234.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="235.00" y1="52.00" x2="235.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="236.00" y1="52.00" x2="236.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="237.00" y1="52.00" x2="237.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="238.00" y1="52.00" x2="238.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="239.00" y1="52.00" x2="239.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="240.00" y1="52.00" x2="240.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="240.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">230</text>
+<line class="v" x1="241.00" y1="52.00" x2="241.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="242.00" y1="52.00" x2="242.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="243.00" y1="52.00" x2="243.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="244.00" y1="52.00" x2="244.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="245.00" y1="52.00" x2="245.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="246.00" y1="52.00" x2="246.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="247.00" y1="52.00" x2="247.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="248.00" y1="52.00" x2="248.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="249.00" y1="52.00" x2="249.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="250.00" y1="52.00" x2="250.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="250.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">240</text>
+<line class="v" x1="251.00" y1="52.00" x2="251.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="252.00" y1="52.00" x2="252.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="253.00" y1="52.00" x2="253.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="254.00" y1="52.00" x2="254.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="255.00" y1="52.00" x2="255.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="256.00" y1="52.00" x2="256.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="257.00" y1="52.00" x2="257.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="258.00" y1="52.00" x2="258.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="259.00" y1="52.00" x2="259.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="260.00" y1="52.00" x2="260.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="260.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111;font-weight:bold">250</text>
+<line class="v" x1="261.00" y1="52.00" x2="261.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="262.00" y1="52.00" x2="262.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="263.00" y1="52.00" x2="263.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="264.00" y1="52.00" x2="264.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="265.00" y1="52.00" x2="265.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="266.00" y1="52.00" x2="266.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="267.00" y1="52.00" x2="267.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="268.00" y1="52.00" x2="268.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="269.00" y1="52.00" x2="269.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="270.00" y1="52.00" x2="270.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="270.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">260</text>
+<line class="v" x1="271.00" y1="52.00" x2="271.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="272.00" y1="52.00" x2="272.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="273.00" y1="52.00" x2="273.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="274.00" y1="52.00" x2="274.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="275.00" y1="52.00" x2="275.00" y2="56.00" style="stroke-width:0.18"/>
+<line class="v" x1="276.00" y1="52.00" x2="276.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="277.00" y1="52.00" x2="277.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="278.00" y1="52.00" x2="278.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="279.00" y1="52.00" x2="279.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="280.00" y1="52.00" x2="280.00" y2="58.00" style="stroke-width:0.3"/>
+<text x="280.00" y="61.20" text-anchor="middle" style="font-size:2.6px;fill:#111">270</text>
+<line class="v" x1="281.00" y1="52.00" x2="281.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="282.00" y1="52.00" x2="282.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="283.00" y1="52.00" x2="283.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="284.00" y1="52.00" x2="284.00" y2="54.20" style="stroke-width:0.18"/>
+<line class="v" x1="285.00" y1="52.00" x2="285.00" y2="56.00" style="stroke-width:0.18"/>
+<text x="288.00" y="61.20" text-anchor="start" style="font-size:2.4px;fill:#444">mm</text>
+<text x="9.00" y="50.80" text-anchor="start" style="font-size:2.0px;fill:#555">← an der 0 abschneiden, dann liegt 0 an der Kante</text>
+<text x="290.00" y="71.00" text-anchor="end" style="font-size:2.0px;fill:#555">Schnittlinie</text>
+<text x="8.00" y="20.20" text-anchor="start" style="font-size:2.6px;fill:#444">Zwei Streifen zum Ausschneiden (Messkante = dicke Linie oben; Striche 1 / 5 / 10 mm).</text>
+<text x="8.00" y="80.80" text-anchor="start" style="font-size:2.6px;fill:#444">Kontrollstrecke: Messschieber-Spitzen außen an die beiden Marken, Anzeige muss 100,0 ± 0,3 mm sein. Sonst Druck auf 100 % stellen und neu drucken.</text>
+<line class="v" x1="60.00" y1="84.00" x2="60.00" y2="92.00" style="stroke-width:0.3"/>
+<line class="v" x1="160.00" y1="84.00" x2="160.00" y2="92.00" style="stroke-width:0.3"/>
+<line class="d" x1="60.00" y1="88.00" x2="160.00" y2="88.00" style="stroke:#1d4ed8"/>
+<polygon class="ar" points="60.00,88.00 62.40,87.30 62.40,88.70" style="fill:#1d4ed8"/>
+<polygon class="ar" points="160.00,88.00 157.60,88.70 157.60,87.30" style="fill:#1d4ed8"/>
+<text x="110.00" y="86.60" text-anchor="middle" style="font-size:2.8px;fill:#1d4ed8;font-weight:bold">100,0 mm</text>
+<line class="v" x1="210.00" y1="84.00" x2="210.00" y2="92.00" style="stroke-width:0.3"/>
+<line class="d" x1="160.00" y1="88.00" x2="210.00" y2="88.00" style="stroke:#6b7280"/>
+<polygon class="ar" points="210.00,88.00 207.60,88.70 207.60,87.30" style="fill:#6b7280"/>
+<text x="185.00" y="86.60" text-anchor="middle" style="font-size:2.4px;fill:#6b7280">+50 = 150,0</text>
+<text x="8.00" y="104.00" text-anchor="start" style="font-size:3.4px;fill:#111;font-weight:bold">Ohne Drucker: Strecken über 150 mm mit dem Messschieber allein</text>
+<circle class="bd" cx="12.50" cy="111.70" r="2.40" style="stroke:#6b7280;fill:#fff"/>
+<text x="12.50" y="112.65" text-anchor="middle" style="font-size:2.6px;fill:#6b7280;font-weight:bold">A</text>
+<text x="17.50" y="112.70" text-anchor="start" style="font-size:2.7px;fill:#111;font-weight:bold">A4-Blatt als Endmaß (297,0 × 210,0 mm; Kopierpapier hält ± 0,5 mm).</text>
+<text x="17.50" y="116.90" text-anchor="start" style="font-size:2.5px;fill:#111">Blatt längs an die Stifte legen, kurze Kante bündig an die vordere Kante des vorderen Stifts. Die vordere Kante des</text>
+<text x="17.50" y="120.70" text-anchor="start" style="font-size:2.5px;fill:#111">hinteren Stifts auf dem Blattrand markieren. Rest von der Marke bis zum Blattende mit dem Messschieber messen: Maß = 297 − Rest.</text>
+<text x="17.50" y="124.50" text-anchor="start" style="font-size:2.5px;fill:#111">Genauso für Spur (⑪, außen–außen minus ⑩) und Radstand (⑫, gleiche Nabenkante); für Breiten die 210-mm-Kante nehmen.</text>
+<circle class="bd" cx="12.50" cy="132.70" r="2.40" style="stroke:#6b7280;fill:#fff"/>
+<text x="12.50" y="133.65" text-anchor="middle" style="font-size:2.6px;fill:#6b7280;font-weight:bold">B</text>
+<text x="17.50" y="133.70" text-anchor="start" style="font-size:2.7px;fill:#111;font-weight:bold">Malerkrepp als Maßband.</text>
+<text x="17.50" y="137.90" text-anchor="start" style="font-size:2.5px;fill:#111">Kreppstreifen längs auf das Chassis kleben, beide Stiftkanten (vorn und hinten, jeweils die vordere) mit spitzem Stift auf</text>
+<text x="17.50" y="141.70" text-anchor="start" style="font-size:2.5px;fill:#111">das Krepp übertragen, Streifen abziehen und flach auf den Tisch kleben. Messschieber auf genau 100,0 mm stellen, von der</text>
+<text x="17.50" y="145.50" text-anchor="start" style="font-size:2.5px;fill:#111">ersten Marke aus eine Zwischenmarke setzen, Rest zur zweiten Marke messen: Maß = 100 + Rest (bei &gt; 250 mm zweimal 100).</text>
+<circle class="bd" cx="12.50" cy="153.70" r="2.40" style="stroke:#6b7280;fill:#fff"/>
+<text x="12.50" y="154.65" text-anchor="middle" style="font-size:2.6px;fill:#6b7280;font-weight:bold">C</text>
+<text x="17.50" y="154.70" text-anchor="start" style="font-size:2.7px;fill:#111;font-weight:bold">Kontrolle unabhängig von der Länge: die beiden Diagonalen des Stiftbilds (vorn-links → hinten-rechts, vorn-rechts →</text>
+<text x="17.50" y="158.90" text-anchor="start" style="font-size:2.5px;fill:#111">hinten-links) mit Methode A oder B messen; sie müssen gleich sein. Mit ① = 73 und ② = 84 gilt außerdem</text>
+<text x="17.50" y="162.70" text-anchor="start" style="font-size:2.5px;fill:#111">③ = √(Diagonale² − 78,5²), das ist die Gegenprobe für pitch_y.</text>
+<text x="8.00" y="201.00" text-anchor="start" style="font-size:2.5px;fill:#444">Toleranzbudget: das Langloch in der Platte gibt ± 2 mm längs, das Stiftloch ± 0,25 mm quer. 1 mm Messfehler bei ③ ist unkritisch, bei ① ② ④ nicht.</text>
+</svg>

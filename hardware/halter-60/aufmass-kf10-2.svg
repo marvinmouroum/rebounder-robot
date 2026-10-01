@@ -1,0 +1,262 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297.0mm" height="210.0mm" viewBox="0 0 297.0 210.0">
+<style>
+text{font-family:Helvetica,Arial,"Liberation Sans",sans-serif;fill:#111}
+.fr{fill:#fff;stroke:#222;stroke-width:0.4}
+.v{fill:none;stroke:#111;stroke-width:0.35;stroke-linejoin:round}
+.f{fill:#f3f3f3;stroke:#111;stroke-width:0.35;stroke-linejoin:round}
+.m{fill:#e2e2e2;stroke:#111;stroke-width:0.35;stroke-linejoin:round}
+.p{fill:#3a3a3a;stroke:#111;stroke-width:0.3}
+.w{fill:#d6d6d6;stroke:#111;stroke-width:0.35}
+.w2{fill:#d6d6d6;fill-opacity:0.5;stroke:#111;stroke-width:0.35}
+.i{fill:none;stroke:#555;stroke-width:0.25}
+.h{fill:none;stroke:#333;stroke-width:0.25;stroke-dasharray:1.6 1}
+.g{fill:none;stroke:#8a8a8a;stroke-width:0.3;stroke-dasharray:1.4 0.9}
+.e{fill:none;stroke-width:0.18}
+.d{fill:none;stroke-width:0.32}
+.ar{stroke:none}
+.bd{stroke-width:0.4}
+.tb{fill:none;stroke:#333;stroke-width:0.25}
+.th{fill:#e9eef7;stroke:#333;stroke-width:0.25}
+.ts{fill:#f4f4f4;stroke:#333;stroke-width:0.25}
+.gr{fill:none;stroke:#333;stroke-width:0.5}
+</style>
+<rect class="fr" x="5.00" y="5.00" width="287.00" height="200.00" rx="0.0"/>
+<text x="8.00" y="10.20" text-anchor="start" style="font-size:4.2px;fill:#111;font-weight:bold">Blatt 2 — Seitenansicht, Vorderansicht, Stift-Detail</text>
+<text x="8.00" y="14.60" text-anchor="start" style="font-size:2.6px;fill:#444">Höhen ⑬ ⑭ ⑮ ⑯ immer von der Tischplatte aus messen (Messschieber senkrecht, Tiefenmaß). Normallage = Auto steht frei, Akku eingelegt. Grau gestrichelt = Adapter (Platte, Füße, Buchsen).</text>
+<text x="289.00" y="10.20" text-anchor="end" style="font-size:3.0px;fill:#111">KF10 MAX · Aufmaß Adapterplatte · Blatt 2/4</text>
+<text x="289.00" y="14.60" text-anchor="end" style="font-size:2.4px;fill:#444">RB3-HW-003 Rev B · 2026-09-10 · nicht maßstäblich</text>
+<rect class="bd" x="8.00" y="198.40" width="5.00" height="3.00" rx="0.0" style="stroke:#1d4ed8;fill:#1d4ed8"/>
+<text x="15.00" y="201.10" text-anchor="start" style="font-size:2.5px;fill:#333">POSTS (Stifte → Adapterplatte)</text>
+<rect class="bd" x="74.00" y="198.40" width="5.00" height="3.00" rx="0.0" style="stroke:#15803d;fill:#15803d"/>
+<text x="81.00" y="201.10" text-anchor="start" style="font-size:2.5px;fill:#333">CHASSIS (Hüllkörper, Freigang)</text>
+<rect class="bd" x="140.00" y="198.40" width="5.00" height="3.00" rx="0.0" style="stroke:#6b7280;fill:#6b7280"/>
+<text x="147.00" y="201.10" text-anchor="start" style="font-size:2.5px;fill:#333">Wahl / Info</text>
+<text x="8.00" y="22.00" text-anchor="start" style="font-size:3.2px;fill:#111;font-weight:bold">Seitenansicht</text>
+<line class="gr" x1="58.00" y1="88.00" x2="232.00" y2="88.00"/>
+<text x="58.00" y="91.20" text-anchor="start" style="font-size:2.3px;fill:#333">Tisch</text>
+<rect class="f" x="99.60" y="56.50" width="113.40" height="14.70" rx="0.0"/>
+<rect class="f" x="89.10" y="48.10" width="25.20" height="8.40" rx="0.0"/>
+<rect class="f" x="185.70" y="48.10" width="25.20" height="8.40" rx="0.0"/>
+<rect class="f" x="154.20" y="50.20" width="14.70" height="6.30" rx="0.0"/>
+<rect class="h" x="175.20" y="58.60" width="33.60" height="10.50" rx="0.0"/>
+<text x="192.00" y="64.06" text-anchor="middle" style="font-size:2.1px;fill:#555">Akku</text>
+<text x="161.55" y="53.77" text-anchor="middle" style="font-size:1.9px;fill:#555">Motor</text>
+<line class="h" x1="215.10" y1="81.70" x2="97.50" y2="81.70" style="stroke:#15803d"/>
+<text x="156.30" y="80.50" text-anchor="middle" style="font-size:2.1px;fill:#15803d">Chassis-Unterseite bei voll eingedrücktem Fahrwerk</text>
+<rect class="m" x="95.40" y="46.42" width="3.36" height="1.68" rx="0.0"/>
+<rect class="m" x="94.14" y="45.16" width="5.88" height="1.26" rx="0.0"/>
+<rect class="p" x="95.93" y="37.08" width="2.31" height="8.09" rx="0.0"/>
+<circle class="p" cx="97.08" cy="37.08" r="1.16"/>
+<circle class="v" cx="97.08" cy="38.02" r="0.55" style="fill:#fff"/>
+<rect class="f" x="100.86" y="42.64" width="4.20" height="5.46" rx="0.0"/>
+<rect class="m" x="201.24" y="43.06" width="3.36" height="5.04" rx="0.0"/>
+<rect class="m" x="199.98" y="41.80" width="5.88" height="1.26" rx="0.0"/>
+<rect class="p" x="201.76" y="33.72" width="2.31" height="8.09" rx="0.0"/>
+<circle class="p" cx="202.92" cy="33.72" r="1.16"/>
+<circle class="v" cx="202.92" cy="34.66" r="0.55" style="fill:#fff"/>
+<rect class="f" x="194.94" y="42.64" width="4.20" height="5.46" rx="0.0"/>
+<text x="199.56" y="47.05" text-anchor="start" style="font-size:1.9px;fill:#555">Dämpferkappe (⑭)</text>
+<rect class="g" x="93.30" y="39.28" width="7.56" height="5.88" rx="0.0"/>
+<line class="v" x1="100.02" y1="38.02" x2="94.14" y2="38.02" style="stroke-width:0.6"/>
+<circle class="v" cx="93.30" cy="38.02" r="1.20"/>
+<rect class="g" x="199.14" y="39.28" width="7.56" height="2.52" rx="0.0"/>
+<rect class="g" x="200.09" y="35.08" width="5.67" height="2.52" rx="0.0"/>
+<line class="v" x1="205.86" y1="34.66" x2="199.98" y2="34.66" style="stroke-width:0.6"/>
+<circle class="v" cx="199.14" cy="34.66" r="1.20"/>
+<rect class="g" x="92.46" y="37.60" width="115.08" height="1.68" rx="0.0"/>
+<text x="143.70" y="36.00" text-anchor="middle" style="font-size:2.1px;fill:#6b7280">Adapterplatte (Konzept), liegt auf Füßen / Bügeln</text>
+<line class="e" x1="93.30" y1="42.22" x2="84.48" y2="46.72" style="stroke:#6b7280"/>
+<circle class="bd" cx="93.30" cy="42.22" r="0.50" style="stroke:#6b7280;fill:#6b7280"/>
+<text x="84.06" y="47.52" text-anchor="end" style="font-size:2.1px;fill:#6b7280">Fuß vorn</text>
+<line class="e" x1="206.70" y1="34.66" x2="212.16" y2="30.46" style="stroke:#111"/>
+<circle class="bd" cx="206.70" cy="34.66" r="0.50" style="stroke:#111;fill:#111"/>
+<text x="212.58" y="31.26" text-anchor="start" style="font-size:2.1px;fill:#111">Clip auf Buchse</text>
+<line class="e" x1="94.14" y1="45.79" x2="86.16" y2="50.20" style="stroke:#555"/>
+<circle class="bd" cx="94.14" cy="45.79" r="0.50" style="stroke:#555;fill:#555"/>
+<text x="85.74" y="51.00" text-anchor="end" style="font-size:2.0px;fill:#555">Bügel</text>
+<circle class="w2" cx="92.25" cy="65.95" r="22.05"/>
+<circle class="v" cx="92.25" cy="65.95" r="2.20" style="fill:#fff"/>
+<line class="i" x1="89.05" y1="65.95" x2="95.45" y2="65.95"/>
+<line class="i" x1="92.25" y1="62.75" x2="92.25" y2="69.15"/>
+<circle class="w2" cx="207.75" cy="65.95" r="22.05"/>
+<circle class="v" cx="207.75" cy="65.95" r="2.20" style="fill:#fff"/>
+<line class="i" x1="204.55" y1="65.95" x2="210.95" y2="65.95"/>
+<line class="i" x1="207.75" y1="62.75" x2="207.75" y2="69.15"/>
+<text x="92.25" y="61.45" text-anchor="middle" style="font-size:2.1px;fill:#555">Achse</text>
+<line class="e" x1="92.25" y1="65.95" x2="92.25" y2="101.50" style="stroke:#15803d"/>
+<line class="e" x1="207.75" y1="65.95" x2="207.75" y2="101.50" style="stroke:#15803d"/>
+<line class="d" x1="92.25" y1="100.00" x2="207.75" y2="100.00" style="stroke:#15803d"/>
+<polygon class="ar" points="92.25,100.00 94.65,99.30 94.65,100.70" style="fill:#15803d"/>
+<polygon class="ar" points="207.75,100.00 205.35,100.70 205.35,99.30" style="fill:#15803d"/>
+<circle class="bd" cx="143.05" cy="102.70" r="2.30" style="stroke:#15803d;fill:#fff"/>
+<text x="143.05" y="103.65" text-anchor="middle" style="font-size:2.6px;fill:#15803d;font-weight:bold">12</text>
+<text x="146.15" y="103.70" text-anchor="start" style="font-size:2.8px;fill:#15803d">wheelbase</text>
+<line class="e" x1="70.20" y1="43.90" x2="60.50" y2="43.90" style="stroke:#15803d"/>
+<line class="d" x1="62.00" y1="43.90" x2="62.00" y2="88.00" style="stroke:#15803d"/>
+<polygon class="ar" points="62.00,43.90 62.70,46.30 61.30,46.30" style="fill:#15803d"/>
+<polygon class="ar" points="62.00,88.00 61.30,85.60 62.70,85.60" style="fill:#15803d"/>
+<circle class="bd" cx="46.51" cy="65.95" r="2.30" style="stroke:#15803d;fill:#fff"/>
+<text x="46.51" y="66.90" text-anchor="middle" style="font-size:2.6px;fill:#15803d;font-weight:bold">9</text>
+<text x="49.61" y="66.95" text-anchor="start" style="font-size:2.8px;fill:#15803d">wheel_d</text>
+<line class="e" x1="94.14" y1="45.16" x2="46.50" y2="45.16" style="stroke:#15803d"/>
+<line class="d" x1="48.00" y1="45.16" x2="48.00" y2="88.00" style="stroke:#15803d"/>
+<polygon class="ar" points="48.00,45.16 48.70,47.56 47.30,47.56" style="fill:#15803d"/>
+<polygon class="ar" points="48.00,88.00 47.30,85.60 48.70,85.60" style="fill:#15803d"/>
+<circle class="bd" cx="25.23" cy="41.96" r="2.30" style="stroke:#15803d;fill:#fff"/>
+<text x="25.23" y="42.91" text-anchor="middle" style="font-size:2.1px;fill:#15803d;font-weight:bold">13v</text>
+<text x="28.33" y="42.96" text-anchor="start" style="font-size:2.8px;fill:#15803d">H_Bügel vorn</text>
+<line class="e" x1="92.25" y1="65.95" x2="92.25" y2="19.50" style="stroke:#15803d"/>
+<line class="e" x1="97.08" y1="45.16" x2="97.08" y2="19.50" style="stroke:#15803d"/>
+<line class="d" x1="92.25" y1="21.00" x2="97.08" y2="21.00" style="stroke:#15803d"/>
+<polygon class="ar" points="92.25,21.00 89.85,21.70 89.85,20.30" style="fill:#15803d"/>
+<polygon class="ar" points="97.08,21.00 99.48,20.30 99.48,21.70" style="fill:#15803d"/>
+<line class="d" x1="87.25" y1="21.00" x2="92.25" y2="21.00" style="stroke:#15803d"/>
+<line class="d" x1="97.08" y1="21.00" x2="102.08" y2="21.00" style="stroke:#15803d"/>
+<circle class="bd" cx="75.98" cy="18.40" r="2.30" style="stroke:#15803d;fill:#fff"/>
+<text x="75.98" y="19.35" text-anchor="middle" style="font-size:2.6px;fill:#15803d;font-weight:bold">8</text>
+<text x="79.09" y="19.40" text-anchor="start" style="font-size:2.8px;fill:#15803d">e_f (opt.)</text>
+<line class="e" x1="194.94" y1="42.64" x2="239.50" y2="42.64" style="stroke:#15803d"/>
+<line class="d" x1="238.00" y1="42.64" x2="238.00" y2="88.00" style="stroke:#15803d"/>
+<polygon class="ar" points="238.00,42.64 238.70,45.04 237.30,45.04" style="fill:#15803d"/>
+<polygon class="ar" points="238.00,88.00 237.30,85.60 238.70,85.60" style="fill:#15803d"/>
+<circle class="bd" cx="242.50" cy="39.44" r="2.30" style="stroke:#15803d;fill:#fff"/>
+<text x="242.50" y="40.39" text-anchor="middle" style="font-size:2.6px;fill:#15803d;font-weight:bold">14</text>
+<text x="245.60" y="40.44" text-anchor="start" style="font-size:2.8px;fill:#15803d">H_Hind</text>
+<line class="e" x1="205.86" y1="41.80" x2="251.50" y2="41.80" style="stroke:#15803d"/>
+<line class="d" x1="250.00" y1="41.80" x2="250.00" y2="88.00" style="stroke:#15803d"/>
+<polygon class="ar" points="250.00,41.80 250.70,44.20 249.30,44.20" style="fill:#15803d"/>
+<polygon class="ar" points="250.00,88.00 249.30,85.60 250.70,85.60" style="fill:#15803d"/>
+<circle class="bd" cx="254.50" cy="46.40" r="2.30" style="stroke:#15803d;fill:#fff"/>
+<text x="254.50" y="47.35" text-anchor="middle" style="font-size:2.1px;fill:#15803d;font-weight:bold">13h</text>
+<text x="257.60" y="47.40" text-anchor="start" style="font-size:2.8px;fill:#15803d">H_Bügel hinten</text>
+<line class="e" x1="213.00" y1="71.20" x2="263.50" y2="71.20" style="stroke:#15803d"/>
+<line class="d" x1="262.00" y1="71.20" x2="262.00" y2="88.00" style="stroke:#15803d"/>
+<polygon class="ar" points="262.00,71.20 262.70,73.60 261.30,73.60" style="fill:#15803d"/>
+<polygon class="ar" points="262.00,88.00 261.30,85.60 262.70,85.60" style="fill:#15803d"/>
+<circle class="bd" cx="266.50" cy="68.00" r="2.30" style="stroke:#15803d;fill:#fff"/>
+<text x="266.50" y="68.95" text-anchor="middle" style="font-size:2.6px;fill:#15803d;font-weight:bold">15</text>
+<text x="269.60" y="69.00" text-anchor="start" style="font-size:2.8px;fill:#15803d">H_Boden</text>
+<line class="e" x1="215.10" y1="81.70" x2="275.50" y2="81.70" style="stroke:#15803d"/>
+<line class="d" x1="274.00" y1="81.70" x2="274.00" y2="88.00" style="stroke:#15803d"/>
+<polygon class="ar" points="274.00,81.70 273.30,79.30 274.70,79.30" style="fill:#15803d"/>
+<polygon class="ar" points="274.00,88.00 274.70,90.40 273.30,90.40" style="fill:#15803d"/>
+<line class="d" x1="274.00" y1="76.70" x2="274.00" y2="81.70" style="stroke:#15803d"/>
+<line class="d" x1="274.00" y1="88.00" x2="274.00" y2="93.00" style="stroke:#15803d"/>
+<circle class="bd" cx="257.05" cy="94.50" r="2.30" style="stroke:#15803d;fill:#fff"/>
+<text x="257.05" y="95.45" text-anchor="middle" style="font-size:2.6px;fill:#15803d;font-weight:bold">16</text>
+<text x="260.15" y="95.50" text-anchor="start" style="font-size:2.8px;fill:#15803d">H_Boden&#x27;</text>
+<text x="271.80" y="99.20" text-anchor="end" style="font-size:2.2px;fill:#15803d">(Fahrwerk voll eingedrückt)</text>
+<text x="189.00" y="27.80" text-anchor="end" style="font-size:2.2px;fill:#15803d">Platte waagerecht auf dem höheren Bügel; Füße gleichen 13v/13h aus und halten ≥ 8 mm Luft zu ⑭</text>
+<line class="d" x1="78.00" y1="104.00" x2="64.00" y2="104.00" style="stroke:#111"/>
+<polygon class="ar" points="64.00,104.00 66.40,103.30 66.40,104.70" style="fill:#111"/>
+<text x="80.00" y="105.00" text-anchor="start" style="font-size:2.5px;fill:#111">vorn</text>
+<text x="8.00" y="110.00" text-anchor="start" style="font-size:3.2px;fill:#111;font-weight:bold">Vorderansicht (Blick von vorn)</text>
+<line class="gr" x1="10.00" y1="182.00" x2="140.00" y2="182.00"/>
+<rect class="w" x="116.16" y="137.90" width="21.00" height="44.10" rx="2.5"/>
+<line class="h" x1="126.66" y1="182.00" x2="126.66" y2="137.90"/>
+<rect class="w" x="12.84" y="137.90" width="21.00" height="44.10" rx="2.5"/>
+<line class="h" x1="23.34" y1="182.00" x2="23.34" y2="137.90"/>
+<rect class="f" x="49.80" y="150.50" width="50.40" height="14.70" rx="0.0"/>
+<rect class="f" x="59.04" y="142.10" width="31.92" height="8.40" rx="0.0"/>
+<rect class="m" x="57.57" y="139.16" width="34.86" height="1.26" rx="0.0"/>
+<rect class="m" x="62.40" y="140.42" width="25.20" height="1.68" rx="0.0"/>
+<rect class="p" x="89.17" y="131.07" width="2.31" height="8.09" rx="0.0"/>
+<circle class="p" cx="90.33" cy="131.07" r="1.16"/>
+<circle class="v" cx="90.33" cy="132.02" r="0.55" style="fill:#fff"/>
+<rect class="g" x="86.55" y="133.28" width="7.56" height="5.88" rx="0.0"/>
+<rect class="p" x="58.52" y="131.07" width="2.31" height="8.09" rx="0.0"/>
+<circle class="p" cx="59.67" cy="131.07" r="1.16"/>
+<circle class="v" cx="59.67" cy="132.02" r="0.55" style="fill:#fff"/>
+<rect class="g" x="55.89" y="133.28" width="7.56" height="5.88" rx="0.0"/>
+<rect class="g" x="53.79" y="131.60" width="42.42" height="1.68" rx="0.0"/>
+<line class="e" x1="23.34" y1="159.95" x2="23.34" y2="193.50" style="stroke:#15803d"/>
+<line class="e" x1="126.66" y1="159.95" x2="126.66" y2="193.50" style="stroke:#15803d"/>
+<line class="d" x1="23.34" y1="192.00" x2="126.66" y2="192.00" style="stroke:#15803d"/>
+<polygon class="ar" points="23.34,192.00 25.74,191.30 25.74,192.70" style="fill:#15803d"/>
+<polygon class="ar" points="126.66,192.00 124.26,192.70 124.26,191.30" style="fill:#15803d"/>
+<circle class="bd" cx="55.67" cy="194.70" r="2.30" style="stroke:#15803d;fill:#fff"/>
+<text x="55.67" y="195.65" text-anchor="middle" style="font-size:2.6px;fill:#15803d;font-weight:bold">11</text>
+<text x="58.77" y="195.70" text-anchor="start" style="font-size:2.8px;fill:#15803d">track  (Radmitte–Radmitte)</text>
+<line class="e" x1="116.16" y1="137.90" x2="116.16" y2="130.50" style="stroke:#15803d"/>
+<line class="e" x1="137.16" y1="137.90" x2="137.16" y2="130.50" style="stroke:#15803d"/>
+<line class="d" x1="116.16" y1="132.00" x2="137.16" y2="132.00" style="stroke:#15803d"/>
+<polygon class="ar" points="116.16,132.00 118.56,131.30 118.56,132.70" style="fill:#15803d"/>
+<polygon class="ar" points="137.16,132.00 134.76,132.70 134.76,131.30" style="fill:#15803d"/>
+<circle class="bd" cx="117.52" cy="129.40" r="2.30" style="stroke:#15803d;fill:#fff"/>
+<text x="117.52" y="130.35" text-anchor="middle" style="font-size:2.6px;fill:#15803d;font-weight:bold">10</text>
+<text x="120.62" y="130.40" text-anchor="start" style="font-size:2.8px;fill:#15803d">wheel_w = 50</text>
+<line class="e" x1="59.67" y1="129.92" x2="59.67" y2="115.50" style="stroke:#1d4ed8"/>
+<line class="e" x1="90.33" y1="129.92" x2="90.33" y2="115.50" style="stroke:#1d4ed8"/>
+<line class="d" x1="59.67" y1="117.00" x2="90.33" y2="117.00" style="stroke:#1d4ed8"/>
+<polygon class="ar" points="59.67,117.00 62.07,116.30 62.07,117.70" style="fill:#1d4ed8"/>
+<polygon class="ar" points="90.33,117.00 87.93,117.70 87.93,116.30" style="fill:#1d4ed8"/>
+<circle class="bd" cx="53.49" cy="114.40" r="2.30" style="stroke:#1d4ed8;fill:#fff"/>
+<text x="53.49" y="115.35" text-anchor="middle" style="font-size:2.6px;fill:#1d4ed8;font-weight:bold">1</text>
+<text x="56.59" y="115.40" text-anchor="start" style="font-size:2.8px;fill:#1d4ed8">front_span = 73 (wie Blatt 1)</text>
+<line class="e" x1="49.80" y1="165.20" x2="49.80" y2="188.00" style="stroke:#15803d"/>
+<line class="e" x1="100.20" y1="165.20" x2="100.20" y2="188.00" style="stroke:#15803d"/>
+<line class="d" x1="49.80" y1="186.50" x2="100.20" y2="186.50" style="stroke:#15803d"/>
+<polygon class="ar" points="49.80,186.50 52.20,185.80 52.20,187.20" style="fill:#15803d"/>
+<polygon class="ar" points="100.20,186.50 97.80,187.20 97.80,185.80" style="fill:#15803d"/>
+<circle class="bd" cx="68.78" cy="189.20" r="2.30" style="stroke:#15803d;fill:#fff"/>
+<text x="68.78" y="190.15" text-anchor="middle" style="font-size:2.6px;fill:#15803d;font-weight:bold">5</text>
+<text x="71.88" y="190.20" text-anchor="start" style="font-size:2.8px;fill:#15803d">B (opt.)</text>
+<text x="160.00" y="110.00" text-anchor="start" style="font-size:3.2px;fill:#111;font-weight:bold">Stift-Detail</text>
+<text x="160.00" y="114.00" text-anchor="start" style="font-size:2.3px;fill:#444">Schnitt durch die Stiftmitte: Bügelende, Stift mit Querloch, Platte, Buchse, Clip</text>
+<rect class="m" x="196.40" y="195.20" width="51.20" height="4.80" rx="0.0"/>
+<rect class="m" x="207.60" y="190.40" width="28.80" height="4.80" rx="0.0"/>
+<text x="250.80" y="196.10" text-anchor="start" style="font-size:2.1px;fill:#555">Bügelende (Auflage)</text>
+<rect class="p" x="217.60" y="159.60" width="8.80" height="30.80" rx="0.0"/>
+<circle class="p" cx="222.00" cy="159.60" r="4.40"/>
+<circle class="v" cx="222.00" cy="163.20" r="1.60" style="fill:#fff"/>
+<rect class="g" x="207.60" y="168.00" width="28.80" height="22.40" rx="0.0"/>
+<rect class="g" x="180.40" y="161.60" width="83.20" height="6.40" rx="0.0"/>
+<rect class="g" x="211.20" y="161.60" width="21.60" height="3.20" rx="0.0"/>
+<line class="v" x1="209.20" y1="163.20" x2="234.80" y2="163.20" style="stroke-width:0.7"/>
+<circle class="v" cx="238.32" cy="163.20" r="1.60"/>
+<line class="e" x1="217.60" y1="159.60" x2="217.60" y2="147.30" style="stroke:#1d4ed8"/>
+<line class="e" x1="226.40" y1="159.60" x2="226.40" y2="147.30" style="stroke:#1d4ed8"/>
+<line class="d" x1="217.60" y1="148.80" x2="226.40" y2="148.80" style="stroke:#1d4ed8"/>
+<polygon class="ar" points="217.60,148.80 215.20,149.50 215.20,148.10" style="fill:#1d4ed8"/>
+<polygon class="ar" points="226.40,148.80 228.80,148.10 228.80,149.50" style="fill:#1d4ed8"/>
+<line class="d" x1="212.60" y1="148.80" x2="217.60" y2="148.80" style="stroke:#1d4ed8"/>
+<line class="d" x1="226.40" y1="148.80" x2="231.40" y2="148.80" style="stroke:#1d4ed8"/>
+<circle class="bd" cx="216.50" cy="146.20" r="2.30" style="stroke:#1d4ed8;fill:#fff"/>
+<text x="216.50" y="147.15" text-anchor="middle" style="font-size:2.6px;fill:#1d4ed8;font-weight:bold">4</text>
+<text x="219.60" y="147.20" text-anchor="start" style="font-size:2.8px;fill:#1d4ed8">Stift-Ø</text>
+<line class="e" x1="226.40" y1="190.40" x2="245.50" y2="190.40" style="stroke:#6b7280"/>
+<line class="e" x1="223.60" y1="163.20" x2="245.50" y2="163.20" style="stroke:#6b7280"/>
+<line class="d" x1="244.00" y1="163.20" x2="244.00" y2="190.40" style="stroke:#6b7280"/>
+<polygon class="ar" points="244.00,163.20 244.70,165.60 243.30,165.60" style="fill:#6b7280"/>
+<polygon class="ar" points="244.00,190.40 243.30,188.00 244.70,188.00" style="fill:#6b7280"/>
+<circle class="bd" cx="248.50" cy="163.20" r="2.30" style="stroke:#6b7280;fill:#fff"/>
+<text x="248.50" y="164.15" text-anchor="middle" style="font-size:2.6px;fill:#6b7280;font-weight:bold">4a</text>
+<text x="251.60" y="164.20" text-anchor="start" style="font-size:2.8px;fill:#6b7280">Querloch über Bügel</text>
+<line class="e" x1="222.00" y1="155.20" x2="255.50" y2="155.20" style="stroke:#6b7280"/>
+<line class="d" x1="254.00" y1="155.20" x2="254.00" y2="190.40" style="stroke:#6b7280"/>
+<polygon class="ar" points="254.00,155.20 254.70,157.60 253.30,157.60" style="fill:#6b7280"/>
+<polygon class="ar" points="254.00,190.40 253.30,188.00 254.70,188.00" style="fill:#6b7280"/>
+<circle class="bd" cx="258.50" cy="153.20" r="2.30" style="stroke:#6b7280;fill:#fff"/>
+<text x="258.50" y="154.15" text-anchor="middle" style="font-size:2.6px;fill:#6b7280;font-weight:bold">4b</text>
+<text x="261.60" y="154.20" text-anchor="start" style="font-size:2.8px;fill:#6b7280">Stifthöhe</text>
+<line class="e" x1="209.20" y1="163.20" x2="186.00" y2="141.00" style="stroke:#111"/>
+<circle class="bd" cx="209.20" cy="163.20" r="0.50" style="stroke:#111;fill:#111"/>
+<text x="185.00" y="141.80" text-anchor="end" style="font-size:2.2px;fill:#111">Original-Clip im Querloch, liegt auf der Buchse</text>
+<line class="e" x1="211.20" y1="163.20" x2="186.00" y2="150.00" style="stroke:#6b7280"/>
+<circle class="bd" cx="211.20" cy="163.20" r="0.50" style="stroke:#6b7280;fill:#6b7280"/>
+<text x="185.00" y="150.80" text-anchor="end" style="font-size:2.2px;fill:#6b7280">Buchse (Adapter): bis 1 mm unter das Querloch</text>
+<line class="e" x1="180.40" y1="164.80" x2="186.00" y2="159.00" style="stroke:#6b7280"/>
+<circle class="bd" cx="180.40" cy="164.80" r="0.50" style="stroke:#6b7280;fill:#6b7280"/>
+<text x="185.00" y="159.80" text-anchor="end" style="font-size:2.2px;fill:#6b7280">Adapterplatte 4 mm, Loch = ④ + 0,5</text>
+<line class="e" x1="207.60" y1="179.20" x2="186.00" y2="168.00" style="stroke:#6b7280"/>
+<circle class="bd" cx="207.60" cy="179.20" r="0.50" style="stroke:#6b7280;fill:#6b7280"/>
+<text x="185.00" y="168.80" text-anchor="end" style="font-size:2.2px;fill:#6b7280">Fuß: gleicht 13v/13h aus, hält Luft zu ⑭</text>
+<line class="e" x1="207.60" y1="192.80" x2="186.00" y2="177.00" style="stroke:#15803d"/>
+<circle class="bd" cx="207.60" cy="192.80" r="0.50" style="stroke:#15803d;fill:#15803d"/>
+<circle class="bd" cx="120.90" cy="176.80" r="2.30" style="stroke:#15803d;fill:#fff"/>
+<text x="120.90" y="177.75" text-anchor="middle" style="font-size:2.6px;fill:#15803d;font-weight:bold">13</text>
+<text x="124.00" y="177.80" text-anchor="start" style="font-size:2.3px;fill:#15803d">Bügel-Oberkante → H_Bügel über Tisch (vorn, hinten)</text>
+<line class="e" x1="217.60" y1="185.60" x2="186.00" y2="186.00" style="stroke:#111"/>
+<circle class="bd" cx="217.60" cy="185.60" r="0.50" style="stroke:#111;fill:#111"/>
+<text x="185.00" y="186.80" text-anchor="end" style="font-size:2.2px;fill:#111">Karosserie-Stift mit Kugelkopf (einer von vier)</text>
+</svg>

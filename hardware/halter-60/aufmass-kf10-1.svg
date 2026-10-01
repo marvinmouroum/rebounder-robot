@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297.0mm" height="210.0mm" viewBox="0 0 297.0 210.0">
+<style>
+text{font-family:Helvetica,Arial,"Liberation Sans",sans-serif;fill:#111}
+.fr{fill:#fff;stroke:#222;stroke-width:0.4}
+.v{fill:none;stroke:#111;stroke-width:0.35;stroke-linejoin:round}
+.f{fill:#f3f3f3;stroke:#111;stroke-width:0.35;stroke-linejoin:round}
+.m{fill:#e2e2e2;stroke:#111;stroke-width:0.35;stroke-linejoin:round}
+.p{fill:#3a3a3a;stroke:#111;stroke-width:0.3}
+.w{fill:#d6d6d6;stroke:#111;stroke-width:0.35}
+.w2{fill:#d6d6d6;fill-opacity:0.5;stroke:#111;stroke-width:0.35}
+.i{fill:none;stroke:#555;stroke-width:0.25}
+.h{fill:none;stroke:#333;stroke-width:0.25;stroke-dasharray:1.6 1}
+.g{fill:none;stroke:#8a8a8a;stroke-width:0.3;stroke-dasharray:1.4 0.9}
+.e{fill:none;stroke-width:0.18}
+.d{fill:none;stroke-width:0.32}
+.ar{stroke:none}
+.bd{stroke-width:0.4}
+.tb{fill:none;stroke:#333;stroke-width:0.25}
+.th{fill:#e9eef7;stroke:#333;stroke-width:0.25}
+.ts{fill:#f4f4f4;stroke:#333;stroke-width:0.25}
+.gr{fill:none;stroke:#333;stroke-width:0.5}
+</style>
+<rect class="fr" x="5.00" y="5.00" width="287.00" height="200.00" rx="0.0"/>
+<text x="8.00" y="10.20" text-anchor="start" style="font-size:4.2px;fill:#111;font-weight:bold">Blatt 1 — Draufsicht (vorn links, Fahrzeug-links unten)</text>
+<text x="8.00" y="14.60" text-anchor="start" style="font-size:2.6px;fill:#444">Auto auf ebenem Tisch, Normallage, Akku eingelegt, Karosserie ab. Alle Maße Stiftmitte–Stiftmitte in mm. Ansatzpunkte für die Fangkorb-Streben hier einzeichnen (Kontrolle C).</text>
+<text x="289.00" y="10.20" text-anchor="end" style="font-size:3.0px;fill:#111">KF10 MAX · Aufmaß Adapterplatte · Blatt 1/4</text>
+<text x="289.00" y="14.60" text-anchor="end" style="font-size:2.4px;fill:#444">RB3-HW-003 Rev B · 2026-09-10 · nicht maßstäblich</text>
+<rect class="bd" x="8.00" y="198.40" width="5.00" height="3.00" rx="0.0" style="stroke:#1d4ed8;fill:#1d4ed8"/>
+<text x="15.00" y="201.10" text-anchor="start" style="font-size:2.5px;fill:#333">POSTS (Stifte → Adapterplatte)</text>
+<rect class="bd" x="74.00" y="198.40" width="5.00" height="3.00" rx="0.0" style="stroke:#15803d;fill:#15803d"/>
+<text x="81.00" y="201.10" text-anchor="start" style="font-size:2.5px;fill:#333">CHASSIS (Hüllkörper, Freigang)</text>
+<rect class="bd" x="140.00" y="198.40" width="5.00" height="3.00" rx="0.0" style="stroke:#6b7280;fill:#6b7280"/>
+<text x="147.00" y="201.10" text-anchor="start" style="font-size:2.5px;fill:#333">Wahl / Info</text>
+<rect class="w" x="55.00" y="157.00" width="52.50" height="25.00" rx="2.5"/>
+<rect class="w" x="55.00" y="34.00" width="52.50" height="25.00" rx="2.5"/>
+<line class="h" x1="81.25" y1="46.50" x2="81.25" y2="169.50"/>
+<rect class="w" x="192.50" y="157.00" width="52.50" height="25.00" rx="2.5"/>
+<rect class="w" x="192.50" y="34.00" width="52.50" height="25.00" rx="2.5"/>
+<line class="h" x1="218.75" y1="46.50" x2="218.75" y2="169.50"/>
+<rect class="f" x="90.00" y="78.00" width="135.00" height="60.00" rx="3"/>
+<rect class="i" x="77.50" y="89.00" width="30.00" height="38.00" rx="0.0"/>
+<text x="93.30" y="108.00" text-anchor="middle" style="font-size:2.0px;fill:#555" transform="rotate(-90.0 93.30 108.00)">Getriebe + Dämpferturm</text>
+<rect class="i" x="192.50" y="89.00" width="30.00" height="38.00" rx="0.0"/>
+<text x="208.30" y="108.00" text-anchor="middle" style="font-size:2.0px;fill:#555" transform="rotate(-90.0 208.30 108.00)">Getriebe + Dämpferturm</text>
+<rect class="i" x="155.00" y="98.00" width="17.50" height="20.00" rx="0.0"/>
+<text x="163.75" y="108.80" text-anchor="middle" style="font-size:2.1px;fill:#555" transform="rotate(-90.0 163.75 108.80)">Motor</text>
+<rect class="h" x="180.00" y="95.50" width="40.00" height="25.00" rx="0.0"/>
+<text x="200.00" y="108.80" text-anchor="middle" style="font-size:2.1px;fill:#555">Akku</text>
+<rect class="m" x="85.00" y="87.25" width="4.00" height="41.50" rx="1.0"/>
+<rect class="m" x="211.00" y="84.50" width="4.00" height="47.00" rx="1.0"/>
+<rect class="g" x="81.50" y="82.75" width="11.00" height="50.50" rx="0.0"/>
+<rect class="g" x="207.50" y="80.00" width="11.00" height="56.00" rx="0.0"/>
+<rect class="g" x="87.00" y="97.00" width="126.00" height="22.00" rx="0.0"/>
+<rect class="g" x="124.00" y="65.50" width="52.00" height="85.00" rx="0.0"/>
+<text x="150.00" y="63.90" text-anchor="middle" style="font-size:2.2px;fill:#6b7280">Halter-Grundfläche 170 × 104 (Rev B), Adapterplatte grau gestrichelt</text>
+<circle class="p" cx="87.00" cy="126.25" r="2.27"/>
+<circle class="v" cx="87.00" cy="126.25" r="0.60" style="fill:#fff"/>
+<circle class="p" cx="87.00" cy="89.75" r="2.27"/>
+<circle class="v" cx="87.00" cy="89.75" r="0.60" style="fill:#fff"/>
+<circle class="p" cx="213.00" cy="129.00" r="2.27"/>
+<circle class="v" cx="213.00" cy="129.00" r="0.60" style="fill:#fff"/>
+<circle class="p" cx="213.00" cy="87.00" r="2.27"/>
+<circle class="v" cx="213.00" cy="87.00" r="0.60" style="fill:#fff"/>
+<line class="e" x1="87.00" y1="126.25" x2="96.00" y2="143.00" style="stroke:#555"/>
+<circle class="bd" cx="87.00" cy="126.25" r="0.50" style="stroke:#555;fill:#555"/>
+<text x="97.00" y="143.80" text-anchor="start" style="font-size:2.1px;fill:#555">Karosserie-Stift (1 Querloch, Clip)</text>
+<text x="87.00" y="73.00" text-anchor="middle" style="font-size:2.0px;fill:#555">Querbügel</text>
+<circle class="v" cx="150.00" cy="108.00" r="1.00"/>
+<line class="i" x1="146.00" y1="108.00" x2="154.00" y2="108.00"/>
+<line class="i" x1="150.00" y1="104.00" x2="150.00" y2="112.00"/>
+<text x="150.00" y="102.50" text-anchor="middle" style="font-size:2.1px;fill:#555">Stift-Mitte = Ursprung</text>
+<line class="d" x1="150.00" y1="111.50" x2="160.00" y2="111.50" style="stroke:#6b7280"/>
+<polygon class="ar" points="160.00,111.50 157.60,112.20 157.60,110.80" style="fill:#6b7280"/>
+<polygon class="ar" points="150.00,111.50 152.40,110.80 152.40,112.20" style="fill:#6b7280"/>
+<line class="e" x1="155.00" y1="111.50" x2="155.00" y2="153.50" style="stroke:#6b7280"/>
+<circle class="bd" cx="114.50" cy="156.50" r="2.30" style="stroke:#6b7280;fill:#fff"/>
+<text x="114.50" y="157.45" text-anchor="middle" style="font-size:2.6px;fill:#6b7280;font-weight:bold">17</text>
+<text x="117.60" y="157.50" text-anchor="start" style="font-size:2.5px;fill:#6b7280">offset_y: Halterfeld längs verschieben (Wahl, Start 0)</text>
+<line class="e" x1="87.00" y1="89.75" x2="64.50" y2="89.75" style="stroke:#1d4ed8"/>
+<line class="e" x1="87.00" y1="126.25" x2="64.50" y2="126.25" style="stroke:#1d4ed8"/>
+<line class="d" x1="66.00" y1="89.75" x2="66.00" y2="126.25" style="stroke:#1d4ed8"/>
+<polygon class="ar" points="66.00,89.75 66.70,92.15 65.30,92.15" style="fill:#1d4ed8"/>
+<polygon class="ar" points="66.00,126.25 65.30,123.85 66.70,123.85" style="fill:#1d4ed8"/>
+<circle class="bd" cx="38.86" cy="108.00" r="2.30" style="stroke:#1d4ed8;fill:#fff"/>
+<text x="38.86" y="108.95" text-anchor="middle" style="font-size:2.6px;fill:#1d4ed8;font-weight:bold">1</text>
+<text x="41.96" y="109.00" text-anchor="start" style="font-size:2.8px;fill:#1d4ed8">front_span = 73</text>
+<line class="e" x1="213.00" y1="87.00" x2="241.50" y2="87.00" style="stroke:#1d4ed8"/>
+<line class="e" x1="213.00" y1="129.00" x2="241.50" y2="129.00" style="stroke:#1d4ed8"/>
+<line class="d" x1="240.00" y1="87.00" x2="240.00" y2="129.00" style="stroke:#1d4ed8"/>
+<polygon class="ar" points="240.00,87.00 240.70,89.40 239.30,89.40" style="fill:#1d4ed8"/>
+<polygon class="ar" points="240.00,129.00 239.30,126.60 240.70,126.60" style="fill:#1d4ed8"/>
+<circle class="bd" cx="244.50" cy="108.00" r="2.30" style="stroke:#1d4ed8;fill:#fff"/>
+<text x="244.50" y="108.95" text-anchor="middle" style="font-size:2.6px;fill:#1d4ed8;font-weight:bold">2</text>
+<text x="247.60" y="109.00" text-anchor="start" style="font-size:2.8px;fill:#1d4ed8">rear_span = 84</text>
+<line class="e" x1="87.00" y1="89.75" x2="87.00" y2="24.50" style="stroke:#1d4ed8"/>
+<line class="e" x1="213.00" y1="87.00" x2="213.00" y2="24.50" style="stroke:#1d4ed8"/>
+<line class="d" x1="87.00" y1="26.00" x2="213.00" y2="26.00" style="stroke:#1d4ed8"/>
+<polygon class="ar" points="87.00,26.00 89.40,25.30 89.40,26.70" style="fill:#1d4ed8"/>
+<polygon class="ar" points="213.00,26.00 210.60,26.70 210.60,25.30" style="fill:#1d4ed8"/>
+<circle class="bd" cx="140.14" cy="23.40" r="2.30" style="stroke:#1d4ed8;fill:#fff"/>
+<text x="140.14" y="24.35" text-anchor="middle" style="font-size:2.6px;fill:#1d4ed8;font-weight:bold">3</text>
+<text x="143.24" y="24.40" text-anchor="start" style="font-size:2.8px;fill:#1d4ed8">pitch_y = 252</text>
+<line class="e" x1="90.00" y1="78.00" x2="52.50" y2="78.00" style="stroke:#15803d"/>
+<line class="e" x1="90.00" y1="138.00" x2="52.50" y2="138.00" style="stroke:#15803d"/>
+<line class="d" x1="54.00" y1="78.00" x2="54.00" y2="138.00" style="stroke:#15803d"/>
+<polygon class="ar" points="54.00,78.00 54.70,80.40 53.30,80.40" style="fill:#15803d"/>
+<polygon class="ar" points="54.00,138.00 53.30,135.60 54.70,135.60" style="fill:#15803d"/>
+<circle class="bd" cx="29.77" cy="96.00" r="2.30" style="stroke:#15803d;fill:#fff"/>
+<text x="29.77" y="96.95" text-anchor="middle" style="font-size:2.6px;fill:#15803d;font-weight:bold">5</text>
+<text x="32.87" y="97.00" text-anchor="start" style="font-size:2.8px;fill:#15803d">B  (optional)</text>
+<line class="e" x1="90.00" y1="78.00" x2="90.00" y2="68.50" style="stroke:#15803d"/>
+<line class="e" x1="87.00" y1="89.75" x2="87.00" y2="68.50" style="stroke:#15803d"/>
+<line class="d" x1="87.00" y1="70.00" x2="90.00" y2="70.00" style="stroke:#15803d"/>
+<polygon class="ar" points="87.00,70.00 84.60,70.70 84.60,69.30" style="fill:#15803d"/>
+<polygon class="ar" points="90.00,70.00 92.40,69.30 92.40,70.70" style="fill:#15803d"/>
+<line class="d" x1="82.00" y1="70.00" x2="87.00" y2="70.00" style="stroke:#15803d"/>
+<line class="d" x1="90.00" y1="70.00" x2="95.00" y2="70.00" style="stroke:#15803d"/>
+<circle class="bd" cx="80.82" cy="67.40" r="2.30" style="stroke:#15803d;fill:#fff"/>
+<text x="80.82" y="68.35" text-anchor="middle" style="font-size:2.6px;fill:#15803d;font-weight:bold">6</text>
+<text x="83.92" y="68.40" text-anchor="start" style="font-size:2.8px;fill:#15803d">d_f (opt.)</text>
+<line class="e" x1="213.00" y1="87.00" x2="213.00" y2="68.50" style="stroke:#15803d"/>
+<line class="e" x1="225.00" y1="78.00" x2="225.00" y2="68.50" style="stroke:#15803d"/>
+<line class="d" x1="213.00" y1="70.00" x2="225.00" y2="70.00" style="stroke:#15803d"/>
+<polygon class="ar" points="213.00,70.00 215.40,69.30 215.40,70.70" style="fill:#15803d"/>
+<polygon class="ar" points="225.00,70.00 222.60,70.70 222.60,69.30" style="fill:#15803d"/>
+<circle class="bd" cx="211.32" cy="67.40" r="2.30" style="stroke:#15803d;fill:#fff"/>
+<text x="211.32" y="68.35" text-anchor="middle" style="font-size:2.6px;fill:#15803d;font-weight:bold">7</text>
+<text x="214.42" y="68.40" text-anchor="start" style="font-size:2.8px;fill:#15803d">d_r (opt.)</text>
+<line class="e" x1="245.00" y1="34.00" x2="253.50" y2="34.00" style="stroke:#15803d"/>
+<line class="e" x1="245.00" y1="59.00" x2="253.50" y2="59.00" style="stroke:#15803d"/>
+<line class="d" x1="252.00" y1="34.00" x2="252.00" y2="59.00" style="stroke:#15803d"/>
+<polygon class="ar" points="252.00,34.00 252.70,36.40 251.30,36.40" style="fill:#15803d"/>
+<polygon class="ar" points="252.00,59.00 251.30,56.60 252.70,56.60" style="fill:#15803d"/>
+<circle class="bd" cx="256.50" cy="46.50" r="2.30" style="stroke:#15803d;fill:#fff"/>
+<text x="256.50" y="47.45" text-anchor="middle" style="font-size:2.6px;fill:#15803d;font-weight:bold">10</text>
+<text x="259.60" y="47.50" text-anchor="start" style="font-size:2.8px;fill:#15803d">wheel_w = 50</text>
+<line class="d" x1="60.00" y1="190.00" x2="40.00" y2="190.00" style="stroke:#111"/>
+<polygon class="ar" points="40.00,190.00 42.40,189.30 42.40,190.70" style="fill:#111"/>
+<text x="62.00" y="191.00" text-anchor="start" style="font-size:2.6px;fill:#111">vorn (+Y)</text>
+<line class="d" x1="30.00" y1="170.00" x2="30.00" y2="184.00" style="stroke:#111"/>
+<polygon class="ar" points="30.00,184.00 29.30,181.60 30.70,181.60" style="fill:#111"/>
+<text x="32.00" y="179.00" text-anchor="start" style="font-size:2.4px;fill:#333">+X Fahrzeug-links (Kameraseite)</text>
+<text x="289.00" y="191.00" text-anchor="end" style="font-size:2.5px;fill:#6b7280">C: Ansatzpunkte der Fangkorb-Streben hier markieren</text>
+</svg>

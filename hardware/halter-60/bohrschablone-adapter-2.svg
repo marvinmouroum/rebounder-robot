@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297.0mm" height="210.0mm" viewBox="0 0 297.0 210.0">
+<style>
+text{font-family:Helvetica,Arial,"Liberation Sans",sans-serif;fill:#111}
+.fr{fill:#fff;stroke:#222;stroke-width:0.4}
+.v{fill:none;stroke:#111;stroke-width:0.35;stroke-linejoin:round}
+.o{fill:none;stroke:#111;stroke-width:0.5;stroke-linejoin:round}
+.g{fill:none;stroke:#8a8a8a;stroke-width:0.3;stroke-dasharray:2 1.2}
+.c{fill:none;stroke:#555;stroke-width:0.22;stroke-dasharray:6 1.2 1.2 1.2}
+.x{fill:none;stroke:#111;stroke-width:0.22}
+.e{fill:none;stroke-width:0.18}
+.d{fill:none;stroke-width:0.32}
+.ar{stroke:none}
+.bd{stroke-width:0.4}
+.tb{fill:none;stroke:#333;stroke-width:0.25}
+.th{fill:#e9eef7;stroke:#333;stroke-width:0.25}
+.ts{fill:#f4f4f4;stroke:#333;stroke-width:0.25}
+.k{fill:none;stroke:#111;stroke-width:0.5}
+</style>
+<rect class="fr" x="5.000" y="5.000" width="287.000" height="200.000" rx="0.0"/>
+<text x="8.000" y="10.200" text-anchor="start" style="font-size:4.2px;fill:#111;font-weight:bold">Blatt 2 — Maße, Koordinaten, Bohranleitung</text>
+<text x="8.000" y="14.600" text-anchor="start" style="font-size:2.5px;fill:#444">Zeichnung nicht maßstäblich (Blatt 1 ist die Schablone). Koordinaten: X quer (+X Fahrzeug-links), Y nach vorn, Ursprung Mitte Stiftbild; „vom Rand“ = Rechteck-Brett 170 × 276, linke vordere Ecke.</text>
+<text x="289.000" y="10.200" text-anchor="end" style="font-size:3.0px;fill:#111">KF10 MAX · Adapterplatte · Blatt 2/2</text>
+<text x="289.000" y="14.600" text-anchor="end" style="font-size:2.4px;fill:#444">RB3-HW-003 Rev B · 2026-09-10</text>
+<polygon class="o" points="83.210,52.040 40.790,52.040 40.790,62.120 52.760,62.120 52.760,88.160 26.300,88.160 26.300,131.840 52.760,131.840 52.760,157.880 38.480,157.880 38.480,167.960 85.520,167.960 85.520,157.880 71.240,157.880 71.240,131.840 97.700,131.840 97.700,88.160 71.240,88.160 71.240,62.120 83.210,62.120"/>
+<rect class="g" x="26.300" y="52.040" width="71.400" height="115.920" rx="1.5"/>
+<line class="c" x1="22.100" y1="110.000" x2="101.900" y2="110.000"/>
+<line class="c" x1="62.000" y1="48.680" x2="62.000" y2="171.320"/>
+<circle class="v" cx="46.670" cy="57.080" r="1.600" style="stroke:#1d4ed8"/>
+<circle class="v" cx="46.670" cy="57.080" r="0.300" style="fill:#111"/>
+<circle class="v" cx="77.330" cy="57.080" r="1.600" style="stroke:#1d4ed8"/>
+<circle class="v" cx="77.330" cy="57.080" r="0.300" style="fill:#111"/>
+<circle class="v" cx="44.360" cy="162.920" r="1.600" style="stroke:#1d4ed8"/>
+<circle class="v" cx="44.360" cy="162.920" r="0.300" style="fill:#111"/>
+<circle class="v" cx="79.640" cy="162.920" r="1.600" style="stroke:#1d4ed8"/>
+<circle class="v" cx="79.640" cy="162.920" r="0.300" style="fill:#111"/>
+<circle class="v" cx="29.240" cy="90.680" r="1.200" style="stroke:#15803d"/>
+<circle class="v" cx="29.240" cy="90.680" r="0.300" style="fill:#111"/>
+<circle class="v" cx="94.760" cy="90.680" r="1.200" style="stroke:#15803d"/>
+<circle class="v" cx="94.760" cy="90.680" r="0.300" style="fill:#111"/>
+<circle class="v" cx="29.240" cy="129.320" r="1.200" style="stroke:#15803d"/>
+<circle class="v" cx="29.240" cy="129.320" r="0.300" style="fill:#111"/>
+<circle class="v" cx="94.760" cy="129.320" r="1.200" style="stroke:#15803d"/>
+<circle class="v" cx="94.760" cy="129.320" r="0.300" style="fill:#111"/>
+<line class="e" x1="46.670" y1="57.080" x2="46.670" y2="46.580" style="stroke:#1d4ed8"/>
+<line class="e" x1="77.330" y1="57.080" x2="77.330" y2="46.580" style="stroke:#1d4ed8"/>
+<line class="d" x1="46.670" y1="48.080" x2="77.330" y2="48.080" style="stroke:#1d4ed8"/>
+<polygon class="ar" points="46.670,48.080 49.070,47.380 49.070,48.780" style="fill:#1d4ed8"/>
+<polygon class="ar" points="77.330,48.080 74.930,48.780 74.930,47.380" style="fill:#1d4ed8"/>
+<text x="62.000" y="46.680" text-anchor="middle" style="font-size:2.6px;fill:#1d4ed8;font-weight:bold">① 73</text>
+<line class="e" x1="44.360" y1="162.920" x2="44.360" y2="173.420" style="stroke:#1d4ed8"/>
+<line class="e" x1="79.640" y1="162.920" x2="79.640" y2="173.420" style="stroke:#1d4ed8"/>
+<line class="d" x1="44.360" y1="171.920" x2="79.640" y2="171.920" style="stroke:#1d4ed8"/>
+<polygon class="ar" points="44.360,171.920 46.760,171.220 46.760,172.620" style="fill:#1d4ed8"/>
+<polygon class="ar" points="79.640,171.920 77.240,172.620 77.240,171.220" style="fill:#1d4ed8"/>
+<text x="62.000" y="175.520" text-anchor="middle" style="font-size:2.6px;fill:#1d4ed8;font-weight:bold">② 84</text>
+<line class="e" x1="77.330" y1="57.080" x2="106.200" y2="57.080" style="stroke:#1d4ed8"/>
+<line class="e" x1="79.640" y1="162.920" x2="106.200" y2="162.920" style="stroke:#1d4ed8"/>
+<line class="d" x1="104.700" y1="57.080" x2="104.700" y2="162.920" style="stroke:#1d4ed8"/>
+<polygon class="ar" points="104.700,57.080 105.400,59.480 104.000,59.480" style="fill:#1d4ed8"/>
+<polygon class="ar" points="104.700,162.920 104.000,160.520 105.400,160.520" style="fill:#1d4ed8"/>
+<text x="106.100" y="110.000" text-anchor="middle" style="font-size:2.6px;fill:#1d4ed8;font-weight:bold" transform="rotate(-90.0 106.100 110.000)">③ 252</text>
+<line class="e" x1="29.240" y1="90.680" x2="29.240" y2="84.680" style="stroke:#15803d"/>
+<line class="e" x1="94.760" y1="90.680" x2="94.760" y2="84.680" style="stroke:#15803d"/>
+<line class="d" x1="29.240" y1="86.180" x2="94.760" y2="86.180" style="stroke:#15803d"/>
+<polygon class="ar" points="29.240,86.180 31.640,85.480 31.640,86.880" style="fill:#15803d"/>
+<polygon class="ar" points="94.760,86.180 92.360,86.880 92.360,85.480" style="fill:#15803d"/>
+<text x="62.000" y="84.780" text-anchor="middle" style="font-size:2.4px;fill:#15803d;font-weight:bold">156</text>
+<line class="e" x1="29.240" y1="90.680" x2="17.800" y2="90.680" style="stroke:#15803d"/>
+<line class="e" x1="29.240" y1="129.320" x2="17.800" y2="129.320" style="stroke:#15803d"/>
+<line class="d" x1="19.300" y1="90.680" x2="19.300" y2="129.320" style="stroke:#15803d"/>
+<polygon class="ar" points="19.300,90.680 20.000,93.080 18.600,93.080" style="fill:#15803d"/>
+<polygon class="ar" points="19.300,129.320 18.600,126.920 20.000,126.920" style="fill:#15803d"/>
+<text x="17.900" y="110.000" text-anchor="middle" style="font-size:2.4px;fill:#15803d;font-weight:bold" transform="rotate(-90.0 17.900 110.000)">92</text>
+<line class="e" x1="26.300" y1="52.040" x2="26.300" y2="35.040" style="stroke:#6b7280"/>
+<line class="e" x1="97.700" y1="52.040" x2="97.700" y2="35.040" style="stroke:#6b7280"/>
+<line class="d" x1="26.300" y1="36.540" x2="97.700" y2="36.540" style="stroke:#6b7280"/>
+<polygon class="ar" points="26.300,36.540 28.700,35.840 28.700,37.240" style="fill:#6b7280"/>
+<polygon class="ar" points="97.700,36.540 95.300,37.240 95.300,35.840" style="fill:#6b7280"/>
+<text x="62.000" y="35.140" text-anchor="middle" style="font-size:2.4px;fill:#6b7280;font-weight:bold">170 (Brett)</text>
+<line class="e" x1="97.700" y1="52.040" x2="115.200" y2="52.040" style="stroke:#6b7280"/>
+<line class="e" x1="97.700" y1="167.960" x2="115.200" y2="167.960" style="stroke:#6b7280"/>
+<line class="d" x1="113.700" y1="52.040" x2="113.700" y2="167.960" style="stroke:#6b7280"/>
+<polygon class="ar" points="113.700,52.040 114.400,54.440 113.000,54.440" style="fill:#6b7280"/>
+<polygon class="ar" points="113.700,167.960 113.000,165.560 114.400,165.560" style="fill:#6b7280"/>
+<text x="115.100" y="110.000" text-anchor="middle" style="font-size:2.4px;fill:#6b7280;font-weight:bold" transform="rotate(-90.0 115.100 110.000)">276 (Brett)</text>
+<text x="62.000" y="28.040" text-anchor="middle" style="font-size:2.6px;fill:#111;font-weight:bold">vorn ▲</text>
+<text x="24.300" y="140.000" text-anchor="middle" style="font-size:2.1px;fill:#333" transform="rotate(-90.0 24.300 140.000)">Fahrzeug-links (+X)</text>
+<rect class="th" x="122.000" y="20.000" width="167.000" height="5.400" rx="0.0"/>
+<text x="123.200" y="23.900" text-anchor="start" style="font-size:2.4px;fill:#111;font-weight:bold">Loch</text>
+<text x="159.200" y="23.900" text-anchor="start" style="font-size:2.4px;fill:#111;font-weight:bold">X</text>
+<text x="171.200" y="23.900" text-anchor="start" style="font-size:2.4px;fill:#111;font-weight:bold">Y</text>
+<text x="183.200" y="23.900" text-anchor="start" style="font-size:2.4px;fill:#111;font-weight:bold">vom Rand links</text>
+<text x="206.200" y="23.900" text-anchor="start" style="font-size:2.4px;fill:#111;font-weight:bold">vom Rand vorn</text>
+<text x="229.200" y="23.900" text-anchor="start" style="font-size:2.4px;fill:#111;font-weight:bold">Ø bohren</text>
+<rect class="tb" x="122.000" y="25.400" width="167.000" height="5.200" rx="0.0"/>
+<text x="123.200" y="29.100" text-anchor="start" style="font-size:2.3px;fill:#1d4ed8;font-weight:bold">Stift vorn links</text>
+<text x="159.200" y="29.100" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">+36.5</text>
+<text x="171.200" y="29.100" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">+126.0</text>
+<text x="183.200" y="29.100" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">48.5</text>
+<text x="206.200" y="29.100" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">12.0</text>
+<text x="229.200" y="29.100" text-anchor="start" style="font-size:2.1px;fill:#111">④ + 0,5, dann Langloch +2/+2 längs</text>
+<line class="tb" x1="158.000" y1="25.400" x2="158.000" y2="30.600"/>
+<line class="tb" x1="170.000" y1="25.400" x2="170.000" y2="30.600"/>
+<line class="tb" x1="182.000" y1="25.400" x2="182.000" y2="30.600"/>
+<line class="tb" x1="205.000" y1="25.400" x2="205.000" y2="30.600"/>
+<line class="tb" x1="228.000" y1="25.400" x2="228.000" y2="30.600"/>
+<rect class="tb" x="122.000" y="30.600" width="167.000" height="5.200" rx="0.0"/>
+<text x="123.200" y="34.300" text-anchor="start" style="font-size:2.3px;fill:#1d4ed8;font-weight:bold">Stift vorn rechts</text>
+<text x="159.200" y="34.300" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">-36.5</text>
+<text x="171.200" y="34.300" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">+126.0</text>
+<text x="183.200" y="34.300" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">121.5</text>
+<text x="206.200" y="34.300" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">12.0</text>
+<text x="229.200" y="34.300" text-anchor="start" style="font-size:2.1px;fill:#111">④ + 0,5, dann Langloch +2/+2 längs</text>
+<line class="tb" x1="158.000" y1="30.600" x2="158.000" y2="35.800"/>
+<line class="tb" x1="170.000" y1="30.600" x2="170.000" y2="35.800"/>
+<line class="tb" x1="182.000" y1="30.600" x2="182.000" y2="35.800"/>
+<line class="tb" x1="205.000" y1="30.600" x2="205.000" y2="35.800"/>
+<line class="tb" x1="228.000" y1="30.600" x2="228.000" y2="35.800"/>
+<rect class="tb" x="122.000" y="35.800" width="167.000" height="5.200" rx="0.0"/>
+<text x="123.200" y="39.500" text-anchor="start" style="font-size:2.3px;fill:#1d4ed8;font-weight:bold">Stift hinten links</text>
+<text x="159.200" y="39.500" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">+42.0</text>
+<text x="171.200" y="39.500" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">-126.0</text>
+<text x="183.200" y="39.500" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">43.0</text>
+<text x="206.200" y="39.500" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">264.0</text>
+<text x="229.200" y="39.500" text-anchor="start" style="font-size:2.1px;fill:#111">④ + 0,5, dann Langloch +2/+2 längs</text>
+<line class="tb" x1="158.000" y1="35.800" x2="158.000" y2="41.000"/>
+<line class="tb" x1="170.000" y1="35.800" x2="170.000" y2="41.000"/>
+<line class="tb" x1="182.000" y1="35.800" x2="182.000" y2="41.000"/>
+<line class="tb" x1="205.000" y1="35.800" x2="205.000" y2="41.000"/>
+<line class="tb" x1="228.000" y1="35.800" x2="228.000" y2="41.000"/>
+<rect class="tb" x="122.000" y="41.000" width="167.000" height="5.200" rx="0.0"/>
+<text x="123.200" y="44.700" text-anchor="start" style="font-size:2.3px;fill:#1d4ed8;font-weight:bold">Stift hinten rechts</text>
+<text x="159.200" y="44.700" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">-42.0</text>
+<text x="171.200" y="44.700" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">-126.0</text>
+<text x="183.200" y="44.700" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">127.0</text>
+<text x="206.200" y="44.700" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">264.0</text>
+<text x="229.200" y="44.700" text-anchor="start" style="font-size:2.1px;fill:#111">④ + 0,5, dann Langloch +2/+2 längs</text>
+<line class="tb" x1="158.000" y1="41.000" x2="158.000" y2="46.200"/>
+<line class="tb" x1="170.000" y1="41.000" x2="170.000" y2="46.200"/>
+<line class="tb" x1="182.000" y1="41.000" x2="182.000" y2="46.200"/>
+<line class="tb" x1="205.000" y1="41.000" x2="205.000" y2="46.200"/>
+<line class="tb" x1="228.000" y1="41.000" x2="228.000" y2="46.200"/>
+<rect class="tb" x="122.000" y="46.200" width="167.000" height="5.200" rx="0.0"/>
+<text x="123.200" y="49.900" text-anchor="start" style="font-size:2.3px;fill:#15803d;font-weight:bold">M4 vorn links</text>
+<text x="159.200" y="49.900" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">+78.0</text>
+<text x="171.200" y="49.900" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">+46.0</text>
+<text x="183.200" y="49.900" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">7.0</text>
+<text x="206.200" y="49.900" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">92.0</text>
+<text x="229.200" y="49.900" text-anchor="start" style="font-size:2.1px;fill:#111">4,5 (M4 Durchgang)</text>
+<line class="tb" x1="158.000" y1="46.200" x2="158.000" y2="51.400"/>
+<line class="tb" x1="170.000" y1="46.200" x2="170.000" y2="51.400"/>
+<line class="tb" x1="182.000" y1="46.200" x2="182.000" y2="51.400"/>
+<line class="tb" x1="205.000" y1="46.200" x2="205.000" y2="51.400"/>
+<line class="tb" x1="228.000" y1="46.200" x2="228.000" y2="51.400"/>
+<rect class="tb" x="122.000" y="51.400" width="167.000" height="5.200" rx="0.0"/>
+<text x="123.200" y="55.100" text-anchor="start" style="font-size:2.3px;fill:#15803d;font-weight:bold">M4 vorn rechts</text>
+<text x="159.200" y="55.100" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">-78.0</text>
+<text x="171.200" y="55.100" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">+46.0</text>
+<text x="183.200" y="55.100" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">163.0</text>
+<text x="206.200" y="55.100" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">92.0</text>
+<text x="229.200" y="55.100" text-anchor="start" style="font-size:2.1px;fill:#111">4,5 (M4 Durchgang)</text>
+<line class="tb" x1="158.000" y1="51.400" x2="158.000" y2="56.600"/>
+<line class="tb" x1="170.000" y1="51.400" x2="170.000" y2="56.600"/>
+<line class="tb" x1="182.000" y1="51.400" x2="182.000" y2="56.600"/>
+<line class="tb" x1="205.000" y1="51.400" x2="205.000" y2="56.600"/>
+<line class="tb" x1="228.000" y1="51.400" x2="228.000" y2="56.600"/>
+<rect class="tb" x="122.000" y="56.600" width="167.000" height="5.200" rx="0.0"/>
+<text x="123.200" y="60.300" text-anchor="start" style="font-size:2.3px;fill:#15803d;font-weight:bold">M4 hinten links</text>
+<text x="159.200" y="60.300" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">+78.0</text>
+<text x="171.200" y="60.300" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">-46.0</text>
+<text x="183.200" y="60.300" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">7.0</text>
+<text x="206.200" y="60.300" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">184.0</text>
+<text x="229.200" y="60.300" text-anchor="start" style="font-size:2.1px;fill:#111">4,5 (M4 Durchgang)</text>
+<line class="tb" x1="158.000" y1="56.600" x2="158.000" y2="61.800"/>
+<line class="tb" x1="170.000" y1="56.600" x2="170.000" y2="61.800"/>
+<line class="tb" x1="182.000" y1="56.600" x2="182.000" y2="61.800"/>
+<line class="tb" x1="205.000" y1="56.600" x2="205.000" y2="61.800"/>
+<line class="tb" x1="228.000" y1="56.600" x2="228.000" y2="61.800"/>
+<rect class="tb" x="122.000" y="61.800" width="167.000" height="5.200" rx="0.0"/>
+<text x="123.200" y="65.500" text-anchor="start" style="font-size:2.3px;fill:#15803d;font-weight:bold">M4 hinten rechts</text>
+<text x="159.200" y="65.500" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">-78.0</text>
+<text x="171.200" y="65.500" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">-46.0</text>
+<text x="183.200" y="65.500" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">163.0</text>
+<text x="206.200" y="65.500" text-anchor="start" style="font-size:2.3px;fill:#111;font-family:Menlo,Consolas,monospace">184.0</text>
+<text x="229.200" y="65.500" text-anchor="start" style="font-size:2.1px;fill:#111">4,5 (M4 Durchgang)</text>
+<line class="tb" x1="158.000" y1="61.800" x2="158.000" y2="67.000"/>
+<line class="tb" x1="170.000" y1="61.800" x2="170.000" y2="67.000"/>
+<line class="tb" x1="182.000" y1="61.800" x2="182.000" y2="67.000"/>
+<line class="tb" x1="205.000" y1="61.800" x2="205.000" y2="67.000"/>
+<line class="tb" x1="228.000" y1="61.800" x2="228.000" y2="67.000"/>
+<line class="tb" x1="158.000" y1="20.000" x2="158.000" y2="25.400"/>
+<line class="tb" x1="170.000" y1="20.000" x2="170.000" y2="25.400"/>
+<line class="tb" x1="182.000" y1="20.000" x2="182.000" y2="25.400"/>
+<line class="tb" x1="205.000" y1="20.000" x2="205.000" y2="25.400"/>
+<line class="tb" x1="228.000" y1="20.000" x2="228.000" y2="25.400"/>
+<text x="122.000" y="71.900" text-anchor="start" style="font-size:2.2px;fill:#444">Kontrolle: Diagonalen des Stiftbilds vorn-links→hinten-rechts und vorn-rechts→hinten-links je 263.9 mm; M4-Diagonalen je 181.1 mm.</text>
+<text x="122.000" y="79.100" text-anchor="start" style="font-size:3.2px;fill:#111;font-weight:bold">So bohren</text>
+<circle class="bd" cx="124.400" cy="83.800" r="2.200" style="stroke:#6b7280;fill:#fff"/>
+<text x="124.400" y="84.750" text-anchor="middle" style="font-size:2.6px;fill:#6b7280;font-weight:bold">1</text>
+<text x="128.500" y="84.800" text-anchor="start" style="font-size:2.25px;fill:#111">Blatt 1 in tatsächlicher Größe drucken (100 %, keine Seitenanpassung); beide Kontrollstrecken mit Messschieber</text>
+<text x="128.500" y="88.100" text-anchor="start" style="font-size:2.25px;fill:#111">oder Maßband prüfen: 100,0 und 200,0 mm (±0,3). Sonst neu drucken.</text>
+<circle class="bd" cx="124.400" cy="92.000" r="2.200" style="stroke:#6b7280;fill:#fff"/>
+<text x="124.400" y="92.950" text-anchor="middle" style="font-size:2.6px;fill:#6b7280;font-weight:bold">2</text>
+<text x="128.500" y="93.000" text-anchor="start" style="font-size:2.25px;fill:#111">Brett zuschneiden: Rechteck 170 × 276 (4 mm Sperrholz oder Alu) oder I-Form wie das Druckteil. Blatt mit Krepp</text>
+<text x="128.500" y="96.300" text-anchor="start" style="font-size:2.25px;fill:#111">aufkleben, Mittellinien auf die Brettmitte ausrichten (Rechteck: 85 mm von links, 138 mm von vorn).</text>
+<circle class="bd" cx="124.400" cy="100.200" r="2.200" style="stroke:#6b7280;fill:#fff"/>
+<text x="124.400" y="101.150" text-anchor="middle" style="font-size:2.6px;fill:#6b7280;font-weight:bold">3</text>
+<text x="128.500" y="101.200" text-anchor="start" style="font-size:2.25px;fill:#111">Alle acht Mittelpunkte durch das Papier ankörnen (Körner oder Nagel), Blatt abnehmen, Punkte nachprüfen:</text>
+<text x="128.500" y="104.500" text-anchor="start" style="font-size:2.25px;fill:#111">Stifte vorn 73 / hinten 84 quer, 252 längs, Diagonalen 263.9; M4 156 × 92.</text>
+<circle class="bd" cx="124.400" cy="108.400" r="2.200" style="stroke:#6b7280;fill:#fff"/>
+<text x="124.400" y="109.350" text-anchor="middle" style="font-size:2.6px;fill:#6b7280;font-weight:bold">4</text>
+<text x="128.500" y="109.400" text-anchor="start" style="font-size:2.25px;fill:#111">M4-Löcher: 2 mm vorbohren, dann Ø 4,5. Der Halter hat darüber Langlöcher (±2 mm längs), etwas Spiel ist unkritisch.</text>
+<circle class="bd" cx="124.400" cy="113.300" r="2.200" style="stroke:#6b7280;fill:#fff"/>
+<text x="124.400" y="114.250" text-anchor="middle" style="font-size:2.6px;fill:#6b7280;font-weight:bold">5</text>
+<text x="128.500" y="114.300" text-anchor="start" style="font-size:2.25px;fill:#111">Stiftlöcher: ERST ④ (Stift-Ø am Schaft) messen, dann 2 mm vorbohren und Ø = ④ + 0,5 bohren; anschließend je 2 mm</text>
+<text x="128.500" y="117.600" text-anchor="start" style="font-size:2.25px;fill:#111">nach vorn und hinten zum Langloch feilen (Aufmaß-Toleranz längs, quer bleibt eng). Platte probeweise aufstecken.</text>
+<circle class="bd" cx="124.400" cy="121.500" r="2.200" style="stroke:#6b7280;fill:#fff"/>
+<text x="124.400" y="122.450" text-anchor="middle" style="font-size:2.6px;fill:#6b7280;font-weight:bold">6</text>
+<text x="128.500" y="122.500" text-anchor="start" style="font-size:2.25px;fill:#111">Höhe: die Platte liegt auf den Bügelenden, der Clip kommt ins Querloch (4a über dem Bügel). Zwischen Platte (4 mm)</text>
+<text x="128.500" y="125.800" text-anchor="start" style="font-size:2.25px;fill:#111">und Querloch bleibt 4a − 4 mm Luft — dort je Stift eine Distanzhülse/Buchse (oder Beilagscheiben) bis 1 mm unter</text>
+<text x="128.500" y="129.100" text-anchor="start" style="font-size:2.25px;fill:#111">das Querloch, sonst klemmt der Clip nicht. Sind 13v und 13h ungleich: Fuß unter der niedrigeren Seite.</text>
+<circle class="bd" cx="124.400" cy="133.000" r="2.200" style="stroke:#6b7280;fill:#fff"/>
+<text x="124.400" y="133.950" text-anchor="middle" style="font-size:2.6px;fill:#6b7280;font-weight:bold">7</text>
+<text x="128.500" y="134.000" text-anchor="start" style="font-size:2.25px;fill:#111">Halter mit 4 × M4 (Senkkopf von unten oder Mutter) auf die Platte, Telefon-Kameraseite nach Fahrzeug-links.</text>
+<text x="122.000" y="140.700" text-anchor="start" style="font-size:3.0px;fill:#111;font-weight:bold">Noch zu messen (für Buchsen, Füße und das Druckteil)</text>
+<circle class="bd" cx="124.400" cy="144.900" r="2.200" style="stroke:#1d4ed8;fill:#fff"/>
+<text x="124.400" y="145.850" text-anchor="middle" style="font-size:2.6px;fill:#1d4ed8;font-weight:bold">4</text>
+<text x="128.500" y="145.900" text-anchor="start" style="font-size:2.25px;fill:#111">Stift-Ø am Schaft → Bohr-Ø der Stiftlöcher = ④ + 0,5</text>
+<circle class="bd" cx="124.400" cy="149.300" r="2.200" style="stroke:#1d4ed8;fill:#fff"/>
+<text x="124.400" y="150.250" text-anchor="middle" style="font-size:2.6px;fill:#1d4ed8;font-weight:bold">4a</text>
+<text x="128.500" y="150.300" text-anchor="start" style="font-size:2.25px;fill:#111">Querloch-Mitte über Bügel-Oberkante → Buchsenhöhe = 4a − 1 − 4 − Fuß</text>
+<circle class="bd" cx="124.400" cy="153.700" r="2.200" style="stroke:#1d4ed8;fill:#fff"/>
+<text x="124.400" y="154.650" text-anchor="middle" style="font-size:2.6px;fill:#1d4ed8;font-weight:bold">4b</text>
+<text x="128.500" y="154.700" text-anchor="start" style="font-size:2.25px;fill:#111">Stifthöhe über Bügel → Kontrolle: ≈ 3 mm Stift über der Buchse für den Clip</text>
+<circle class="bd" cx="124.400" cy="158.100" r="2.200" style="stroke:#15803d;fill:#fff"/>
+<text x="124.400" y="159.050" text-anchor="middle" style="font-size:2.1px;fill:#15803d;font-weight:bold">13v</text>
+<text x="128.500" y="159.100" text-anchor="start" style="font-size:2.25px;fill:#111">Bügel-Oberkante vorn über Tisch</text>
+<circle class="bd" cx="124.400" cy="162.500" r="2.200" style="stroke:#15803d;fill:#fff"/>
+<text x="124.400" y="163.450" text-anchor="middle" style="font-size:2.1px;fill:#15803d;font-weight:bold">13h</text>
+<text x="128.500" y="163.500" text-anchor="start" style="font-size:2.25px;fill:#111">Bügel-Oberkante hinten über Tisch → Differenz = Fuß</text>
+<circle class="bd" cx="124.400" cy="166.900" r="2.200" style="stroke:#15803d;fill:#fff"/>
+<text x="124.400" y="167.850" text-anchor="middle" style="font-size:2.6px;fill:#15803d;font-weight:bold">14</text>
+<text x="128.500" y="167.900" text-anchor="start" style="font-size:2.25px;fill:#111">höchster Punkt zwischen den Bügeln (±85 quer) → Platte ≥ ⑭ + 8 mm</text>
+<text x="8.000" y="201.500" text-anchor="start" style="font-size:2.3px;fill:#444">Gemessen: ① 73, ② 84, ⑩ 50 (2026-09-07), ③ 252 (2026-09-10). Werte gehen als POSTS in halter60_freecad.py; das Skript rechnet Buchsen, Füße und die STL, sobald ④ 4a 4b 13v 13h ⑭ da sind.</text>
+</svg>
