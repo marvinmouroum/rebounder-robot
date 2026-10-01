@@ -52,6 +52,24 @@ camera ──► ball detection ──► trajectory estimation ──► catch-
 | `firmware/esp32-bridge/` | ESP32 radio bridge (Arduino): WiFi-AP + UDP → 2× 50 Hz RC-PWM, arming + failsafe |
 | `hardware/halter-60/` | 📐 Full engineering documentation of a camera-phone mount: FreeCAD parametric script (`halter60_freecad.py`) + native CAD file (`.FCStd`) + **print-ready STLs** (holder 170×104×44 mm, stop ×4) + **dimensioned A3 technical drawing** (`halter-60.pdf`, 1:1 scale, ISO projection) + isometric view + 1:1 drilling template (`bohrschablone-adapter.pdf`) + measurement sheet for the RC chassis (`aufmass-kf10.pdf`) — sketches and construction done with **LLM-assisted design**, verified and printed |
 
+
+## The hardware part — sketch to print
+
+The phone mount for the on-board camera was designed with **LLM-assisted sketches,
+then properly constructed in FreeCAD** — parametric, dimensioned, and printed:
+
+| Technical drawing (A3, 1:1) | Isometric assembly |
+|:---:|:---:|
+| ![Dimensioned drawing of the 60° phone holder](hardware/halter-60/halter-60.svg) | ![Isometric view of the assembly](hardware/halter-60/halter-60-iso.svg) |
+
+| 1:1 drilling template | Chassis measurement sheet |
+|:---:|:---:|
+| ![Drilling template for the adapter plate](hardware/halter-60/bohrschablone-adapter-1.svg) | ![Measurement sheet of the RC chassis](hardware/halter-60/aufmass-kf10-1.svg) |
+
+**Print files:** [`halter-60-holder.stl`](hardware/halter-60/halter-60-holder.stl) (170 × 104 × 44 mm, watertight-checked) · [`halter-60-stop.stl`](hardware/halter-60/halter-60-stop.stl) (×4) · native CAD: [`halter-60.FCStd`](hardware/halter-60/halter-60.FCStd)
+
+Full documentation in [`hardware/halter-60/`](hardware/halter-60/) — generators included, everything reproducible from one shared parameter block.
+
 Not public (yet): detector training, labeled datasets, app internals, build logs.
 
 ## Run it
